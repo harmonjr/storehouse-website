@@ -1,0 +1,31 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import MobileNav from '../components/MobileNav.astro'
+import StoryHeroSection from '../components/sections/our-story/HeroSection.astro'
+import TheSetupSection from '../components/sections/our-story/TheSetupSection.astro'
+import TheAdviceSection from '../components/sections/our-story/TheAdviceSection.astro'
+import TheCrashSection from '../components/sections/our-story/TheCrashSection.astro'
+import TheLessonSection from '../components/sections/our-story/TheLessonSection.astro'
+import WhyNowSection from '../components/sections/our-story/WhyNowSection.astro'
+import AboutRandySection from '../components/sections/our-story/AboutRandySection.astro'
+---
+
+<PageLayout
+  title="Our Story | Storehouse"
+  description="The true story behind Storehouse — how a real estate agent named Bob changed my life and why margin matters more than maximization."
+>
+  <Header slot="header" />
+  <MobileNav />
+
+  <StoryHeroSection />
+  <TheSetupSection />
+  <TheAdviceSection />
+  <TheCrashSection />
+  <TheLessonSection />
+  <WhyNowSection />
+  <AboutRandySection />
+
+  <Footer slot="footer" />
+</PageLayout>

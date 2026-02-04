@@ -1,0 +1,73 @@
+---
+import Button from '../../Button.astro'
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+    <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center">
+      A bit about me.
+    </h2>
+
+    <div class="mt-12 flex flex-col md:flex-row gap-10 items-start">
+      <!-- Photo placeholder -->
+      <div class="flex-shrink-0 mx-auto md:mx-0">
+        <div class="w-40 h-40 rounded-full bg-gradient-to-br from-storehouse-200 to-emerald-200 flex items-center justify-center overflow-hidden">
+          <!-- Placeholder for photo - shows initials as fallback -->
+          <span class="font-display text-4xl text-storehouse-700">RH</span>
+        </div>
+        <p class="mt-3 text-center text-sm text-slate-500">Randy Harmon</p>
+      </div>
+
+      <!-- Bio content -->
+      <div class="space-y-6 text-lg text-slate-600 leading-relaxed">
+        <p>
+          I've spent 20+ years in real estate — as an agent, sales manager, and broker. I've seen what happens when people buy too much house.
+        </p>
+
+        <p>
+          But I've also seen the freedom that comes from leaving margin.
+        </p>
+
+        <p>
+          I'm a husband, a dad, and a person of faith. I believe money should serve life, not the other way around.
+        </p>
+
+        <div class="pt-4">
+          <h3 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-3">
+            Other projects:
+          </h3>
+          <ul class="space-y-2 text-base">
+            <li>
+              <span class="text-slate-700">The Candid Agent</span>
+              <span class="text-slate-400"> — Honest real estate guidance</span>
+            </li>
+            <li>
+              <span class="text-slate-700">Good News Garden</span>
+              <span class="text-slate-400"> — Faith, family, and flourishing</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign off -->
+    <div class="mt-12 text-center">
+      <p class="text-xl text-slate-700 italic">
+        Thanks for being here.
+      </p>
+      <p class="mt-2 text-lg text-slate-600">
+        — Randy
+      </p>
+    </div>
+
+    <!-- CTAs -->
+    <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+      <Button href="/waitlist" variant="primary" size="lg">
+        Join the Waitlist
+      </Button>
+      <Button href="/philosophy" variant="secondary" size="lg">
+        Read Our Philosophy
+      </Button>
+    </div>
+  </div>
+</section>

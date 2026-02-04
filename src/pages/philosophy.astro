@@ -1,0 +1,51 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import MobileNav from '../components/MobileNav.astro'
+import Footer from '../components/Footer.astro'
+import HeroSection from '../components/sections/philosophy/HeroSection.astro'
+import OptimizationSection from '../components/sections/philosophy/OptimizationSection.astro'
+import MarginSection from '../components/sections/philosophy/MarginSection.astro'
+import GiveFirstSection from '../components/sections/philosophy/GiveFirstSection.astro'
+import JosephSection from '../components/sections/philosophy/JosephSection.astro'
+import WorshipSection from '../components/sections/philosophy/WorshipSection.astro'
+import MetaphorSection from '../components/sections/philosophy/MetaphorSection.astro'
+import NotProsperitySection from '../components/sections/philosophy/NotProsperitySection.astro'
+import InvitationSection from '../components/sections/philosophy/InvitationSection.astro'
+
+const description = "Storehouse is built on a different way of thinking about money. Give first. Save second. Build margin. Here's the philosophy behind the product."
+---
+
+<PageLayout title="Philosophy | Storehouse" description={description}>
+  <Header slot="header" />
+  <MobileNav />
+
+  <!-- Section 1: Hero -->
+  <HeroSection />
+
+  <!-- Section 2: The Problem with Optimization -->
+  <OptimizationSection />
+
+  <!-- Section 3: What is Margin? -->
+  <MarginSection />
+
+  <!-- Section 4: Give-First Principle -->
+  <GiveFirstSection />
+
+  <!-- Section 5: The Joseph Principle -->
+  <JosephSection />
+
+  <!-- Section 6: Margin as Worship -->
+  <WorshipSection />
+
+  <!-- Section 7: The Storehouse Metaphor -->
+  <MetaphorSection />
+
+  <!-- Section 8: Not Prosperity Gospel -->
+  <NotProsperitySection />
+
+  <!-- Section 9: The Invitation -->
+  <InvitationSection />
+
+  <Footer slot="footer" />
+</PageLayout>

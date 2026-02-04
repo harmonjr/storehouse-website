@@ -5,6 +5,10 @@ interface Props {
 
 const { class: className = '' } = Astro.props;
 
+// Pass Supabase config to client-side script
+const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL || '';
+const supabaseAnonKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY || '';
+
 const frustrationOptions = [
   { value: '', label: "What's your biggest money frustration?" },
   { value: 'too-many-categories', label: 'Too many categories to track' },
@@ -15,7 +19,12 @@ const frustrationOptions = [
 ];
 ---
 
-<form id="waitlist-form" class:list={['flex flex-col gap-4', className]}>
+<form
+  id="waitlist-form"
+  class:list={['flex flex-col gap-4', className]}
+  data-supabase-url={supabaseUrl}
+  data-supabase-key={supabaseAnonKey}
+>
   <div class="flex flex-col sm:flex-row gap-3">
     <label for="email" class="sr-only">Email address</label>
     <input
@@ -62,12 +71,23 @@ const frustrationOptions = [
 </form>
 
 <script>
+  import { createClient } from '@supabase/supabase-js';
+
   const form = document.getElementById('waitlist-form') as HTMLFormElement;
   const submitButton = form?.querySelector('button[type="submit"]');
   const buttonText = submitButton?.querySelector('.button-text');
   const buttonLoading = submitButton?.querySelector('.button-loading');
   const successMessage = document.getElementById('form-success');
   const errorMessage = document.getElementById('form-error');
+
+  // Get Supabase config from data attributes
+  const supabaseUrl = form?.dataset.supabaseUrl || '';
+  const supabaseKey = form?.dataset.supabaseKey || '';
+
+  // Create Supabase client if configured
+  const supabase = supabaseUrl && supabaseKey
+    ? createClient(supabaseUrl, supabaseKey)
+    : null;
 
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -83,14 +103,32 @@ const frustrationOptions = [
 
     const formData = new FormData(form);
     const email = formData.get('email') as string;
-    const frustration = formData.get('frustration') as string;
+    const frustration = formData.get('frustration') as string || null;
 
     try {
-      // Supabase integration will be configured via env vars later
-      // For now, simulate success after a brief delay
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      if (supabase) {
+        // Submit to Supabase
+        const { error } = await supabase
+          .from('waitlist')
+          .insert([{ email, frustration }]);
 
-      console.log('Waitlist signup:', { email, frustration });
+        if (error) {
+          // Handle duplicate email gracefully
+          if (error.code === '23505') {
+            // Unique violation - email already exists
+            successMessage?.classList.remove('hidden');
+            const successText = successMessage?.querySelector('p');
+            if (successText) successText.textContent = "You're already on the list!";
+            form.reset();
+            return;
+          }
+          throw error;
+        }
+      } else {
+        // Supabase not configured - log for development
+        console.log('Waitlist signup (Supabase not configured):', { email, frustration });
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
 
       // Show success state
       successMessage?.classList.remove('hidden');

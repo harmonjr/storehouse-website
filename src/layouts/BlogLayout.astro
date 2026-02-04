@@ -1,0 +1,108 @@
+---
+import PageLayout from './PageLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileNav from '../components/MobileNav.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  publishDate: Date;
+  author: string;
+  category: string;
+}
+
+const { title, description, publishDate, author, category } = Astro.props;
+
+const categoryColors: Record<string, { bg: string; text: string }> = {
+  'margin-peace': { bg: 'bg-storehouse-100', text: 'text-storehouse-700' },
+  'practical-money': { bg: 'bg-blue-100', text: 'text-blue-700' },
+  'faith-stewardship': { bg: 'bg-purple-100', text: 'text-purple-700' },
+  'variable-income': { bg: 'bg-cyan-100', text: 'text-cyan-700' },
+  'stories': { bg: 'bg-amber-100', text: 'text-amber-700' },
+};
+
+const categoryLabels: Record<string, string> = {
+  'margin-peace': 'Margin & Peace',
+  'practical-money': 'Practical Money',
+  'faith-stewardship': 'Faith & Stewardship',
+  'variable-income': 'Variable Income',
+  'stories': 'Stories',
+};
+
+const colors = categoryColors[category] || categoryColors['stories'];
+const label = categoryLabels[category] || category;
+
+const formattedDate = publishDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<PageLayout title={`${title} | Storehouse Blog`} description={description}>
+  <Header slot="header" />
+  <MobileNav />
+
+  <article class="pt-24 pb-16">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6">
+      <!-- Article Header -->
+      <header class="mb-12 text-center">
+        <span class:list={[
+          'inline-block px-3 py-1 text-xs font-medium rounded-full mb-4',
+          colors.bg,
+          colors.text,
+        ]}>
+          {label}
+        </span>
+
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
+          {title}
+        </h1>
+
+        <p class="text-xl text-slate-600 mb-6">
+          {description}
+        </p>
+
+        <div class="flex items-center justify-center gap-4 text-sm text-slate-500">
+          <span>{author}</span>
+          <span>&middot;</span>
+          <time datetime={publishDate.toISOString()}>{formattedDate}</time>
+        </div>
+      </header>
+
+      <!-- Article Content -->
+      <div class="prose prose-lg prose-slate max-w-none prose-headings:font-display prose-headings:text-slate-900 prose-a:text-storehouse-600 prose-a:no-underline hover:prose-a:underline">
+        <slot />
+      </div>
+
+      <!-- CTA Section -->
+      <div class="mt-16 p-8 bg-storehouse-50 rounded-2xl text-center">
+        <h3 class="font-display text-2xl font-bold text-slate-900 mb-3">
+          Ready to try a simpler approach?
+        </h3>
+        <p class="text-slate-600 mb-6">
+          Join the waitlist for early access to Storehouse.
+        </p>
+        <a
+          href="/waitlist"
+          class="inline-flex items-center justify-center rounded-full bg-storehouse-500 px-6 py-3 text-base font-semibold text-white hover:bg-storehouse-600 transition-colors"
+        >
+          Join the Waitlist
+        </a>
+      </div>
+
+      <!-- Back to Blog -->
+      <div class="mt-12 text-center">
+        <a
+          href="/blog"
+          class="text-storehouse-600 hover:text-storehouse-700 font-medium transition-colors"
+        >
+          &larr; Back to all articles
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <Footer slot="footer" />
+</PageLayout>

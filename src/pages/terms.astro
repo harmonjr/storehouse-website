@@ -1,0 +1,335 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import MobileNav from '../components/MobileNav.astro'
+
+const effectiveDate = '[Effective Date: TBD]'
+const contactEmail = '[Contact Email: TBD]'
+
+const sections = [
+  { id: 'acceptance', title: 'Acceptance of Terms' },
+  { id: 'description', title: 'Description of Service' },
+  { id: 'registration', title: 'Account Registration' },
+  { id: 'responsibilities', title: 'User Responsibilities' },
+  { id: 'prohibited-uses', title: 'Prohibited Uses' },
+  { id: 'intellectual-property', title: 'Intellectual Property' },
+  { id: 'disclaimers', title: 'Disclaimers' },
+  { id: 'limitation-of-liability', title: 'Limitation of Liability' },
+  { id: 'termination', title: 'Termination' },
+  { id: 'governing-law', title: 'Governing Law' },
+  { id: 'changes', title: 'Changes to Terms' },
+  { id: 'contact', title: 'Contact Information' },
+]
+---
+
+<PageLayout
+  title="Terms of Service | Storehouse"
+  description="Terms of Service for using Storehouse personal finance application."
+>
+  <Header slot="header" />
+  <MobileNav />
+
+  <article class="pt-24 pb-16 lg:pt-32 lg:pb-24">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <header class="mb-12">
+        <h1 class="font-display text-4xl lg:text-5xl text-slate-900 mb-4">
+          Terms of Service
+        </h1>
+        <p class="text-slate-600">
+          {effectiveDate}
+        </p>
+      </header>
+
+      <!-- Table of Contents -->
+      <nav class="mb-12 p-6 bg-slate-50 rounded-xl" aria-label="Table of contents">
+        <h2 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-4">
+          Contents
+        </h2>
+        <ol class="space-y-2">
+          {sections.map((section, index) => (
+            <li>
+              <a
+                href={`#${section.id}`}
+                class="text-storehouse-600 hover:text-storehouse-700 transition-colors"
+              >
+                {index + 1}. {section.title}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
+      <!-- Content -->
+      <div class="prose prose-slate max-w-none">
+        <section id="acceptance" class="scroll-mt-24">
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing or using Storehouse, you agree to be bound by these Terms of
+            Service and our Privacy Policy. If you do not agree to these terms, please
+            do not use our service.
+          </p>
+          <p>
+            These terms constitute a legally binding agreement between you and Storehouse.
+            Please read them carefully before using our service.
+          </p>
+        </section>
+
+        <section id="description" class="scroll-mt-24 mt-12">
+          <h2>2. Description of Service</h2>
+          <p>
+            Storehouse is a personal finance application designed to help you understand
+            your spending capacity. Our service:
+          </p>
+          <ul>
+            <li>Connects to your bank accounts (via Plaid) to read transaction and balance data</li>
+            <li>Calculates your "safe to spend" amount based on your priorities and obligations</li>
+            <li>Tracks recurring expenses and subscriptions</li>
+            <li>Provides a clear view of your financial margin</li>
+          </ul>
+          <p>
+            Storehouse is a financial awareness tool. We help you see your money clearly,
+            but we do not provide financial advice, investment recommendations, or tax guidance.
+          </p>
+        </section>
+
+        <section id="registration" class="scroll-mt-24 mt-12">
+          <h2>3. Account Registration</h2>
+          <p>
+            To use Storehouse, you must create an account. When registering, you agree to:
+          </p>
+          <ul>
+            <li>Provide accurate and complete information</li>
+            <li>Keep your account information up to date</li>
+            <li>Maintain the security of your login credentials</li>
+            <li>Notify us immediately of any unauthorized access</li>
+            <li>Accept responsibility for all activity under your account</li>
+          </ul>
+          <p>
+            You must be at least 18 years old to create an account and use Storehouse.
+          </p>
+        </section>
+
+        <section id="responsibilities" class="scroll-mt-24 mt-12">
+          <h2>4. User Responsibilities</h2>
+          <p>As a user of Storehouse, you are responsible for:</p>
+          <ul>
+            <li>
+              <strong>Accurate Information:</strong> Ensuring any manual entries or
+              configurations you make are accurate.
+            </li>
+            <li>
+              <strong>Account Security:</strong> Keeping your login credentials secure
+              and not sharing them with others.
+            </li>
+            <li>
+              <strong>Bank Account Access:</strong> Ensuring you have the authority to
+              connect any bank accounts you link to Storehouse.
+            </li>
+            <li>
+              <strong>Appropriate Use:</strong> Using the service only for its intended
+              purpose of personal financial awareness.
+            </li>
+            <li>
+              <strong>Compliance:</strong> Complying with all applicable laws and
+              regulations when using our service.
+            </li>
+          </ul>
+        </section>
+
+        <section id="prohibited-uses" class="scroll-mt-24 mt-12">
+          <h2>5. Prohibited Uses</h2>
+          <p>You may not use Storehouse to:</p>
+          <ul>
+            <li>Violate any applicable law or regulation</li>
+            <li>Access accounts you are not authorized to use</li>
+            <li>Attempt to gain unauthorized access to our systems or other users' accounts</li>
+            <li>Interfere with or disrupt the service or its infrastructure</li>
+            <li>Reverse engineer, decompile, or disassemble any part of the service</li>
+            <li>Use automated systems (bots, scrapers) to access the service without permission</li>
+            <li>Transmit malware, viruses, or harmful code</li>
+            <li>Resell or commercially exploit the service without authorization</li>
+            <li>Use the service to engage in any fraudulent activity</li>
+          </ul>
+        </section>
+
+        <section id="intellectual-property" class="scroll-mt-24 mt-12">
+          <h2>6. Intellectual Property</h2>
+
+          <h3>Our Content</h3>
+          <p>
+            The Storehouse name, logo, and all related content, features, and functionality
+            are owned by Storehouse and are protected by copyright, trademark, and other
+            intellectual property laws.
+          </p>
+
+          <h3>Your Content</h3>
+          <p>
+            You retain ownership of any information you provide to Storehouse. By using
+            our service, you grant us a limited license to use this information solely
+            to provide and improve the service.
+          </p>
+
+          <h3>Feedback</h3>
+          <p>
+            If you provide suggestions, ideas, or other feedback about Storehouse, you
+            grant us the right to use this feedback without any obligation to compensate
+            you.
+          </p>
+        </section>
+
+        <section id="disclaimers" class="scroll-mt-24 mt-12">
+          <h2>7. Disclaimers</h2>
+          <p class="font-semibold">
+            IMPORTANT: Please read this section carefully.
+          </p>
+
+          <h3>Not Financial Advice</h3>
+          <p>
+            Storehouse is an information and awareness tool only. Nothing in our service
+            constitutes financial, investment, tax, or legal advice. The "safe to spend"
+            calculation and other features are based on the information you provide and
+            general assumptions. They may not account for your complete financial situation.
+          </p>
+          <p>
+            You should consult qualified professionals for financial, investment, tax,
+            or legal advice specific to your circumstances.
+          </p>
+
+          <h3>No Guarantees</h3>
+          <p>
+            We strive to provide accurate calculations and reliable service, but we
+            cannot guarantee that:
+          </p>
+          <ul>
+            <li>Bank data will always be current or accurate</li>
+            <li>Our calculations will account for every financial factor</li>
+            <li>The service will be uninterrupted or error-free</li>
+            <li>Using Storehouse will improve your financial situation</li>
+          </ul>
+
+          <h3>Use at Your Own Risk</h3>
+          <p>
+            You use Storehouse at your own risk. Financial decisions you make based on
+            information from our service are your responsibility. We recommend verifying
+            important information with your bank directly.
+          </p>
+        </section>
+
+        <section id="limitation-of-liability" class="scroll-mt-24 mt-12">
+          <h2>8. Limitation of Liability</h2>
+          <p>
+            To the maximum extent permitted by law:
+          </p>
+          <ul>
+            <li>
+              Storehouse shall not be liable for any indirect, incidental, special,
+              consequential, or punitive damages arising from your use of the service.
+            </li>
+            <li>
+              Our total liability for any claims arising from your use of the service
+              shall not exceed the amount you paid to Storehouse in the twelve months
+              preceding the claim.
+            </li>
+            <li>
+              We are not liable for any loss, damage, or inconvenience resulting from
+              your inability to access or use the service.
+            </li>
+          </ul>
+          <p>
+            Some jurisdictions do not allow limitations on implied warranties or
+            liability, so these limitations may not apply to you.
+          </p>
+        </section>
+
+        <section id="termination" class="scroll-mt-24 mt-12">
+          <h2>9. Termination</h2>
+
+          <h3>By You</h3>
+          <p>
+            You may close your account at any time by contacting us or using the
+            account deletion feature in the app. Upon deletion, we will remove your
+            personal data in accordance with our Privacy Policy.
+          </p>
+
+          <h3>By Us</h3>
+          <p>
+            We may suspend or terminate your account if:
+          </p>
+          <ul>
+            <li>You violate these Terms of Service</li>
+            <li>You engage in fraudulent or illegal activity</li>
+            <li>Your use poses a security risk to us or other users</li>
+            <li>We are required to do so by law</li>
+            <li>We discontinue the service (with reasonable notice)</li>
+          </ul>
+
+          <h3>Effect of Termination</h3>
+          <p>
+            Upon termination, your right to use Storehouse will cease immediately.
+            Provisions that by their nature should survive termination will remain
+            in effect, including intellectual property, disclaimers, and limitation
+            of liability.
+          </p>
+        </section>
+
+        <section id="governing-law" class="scroll-mt-24 mt-12">
+          <h2>10. Governing Law</h2>
+          <p>
+            These Terms of Service shall be governed by and construed in accordance
+            with the laws of the State of [State TBD], without regard to its conflict
+            of law provisions.
+          </p>
+          <p>
+            Any disputes arising from these terms or your use of Storehouse shall be
+            resolved in the courts located in [Jurisdiction TBD].
+          </p>
+        </section>
+
+        <section id="changes" class="scroll-mt-24 mt-12">
+          <h2>11. Changes to Terms</h2>
+          <p>
+            We reserve the right to modify these Terms of Service at any time. When
+            we make material changes:
+          </p>
+          <ul>
+            <li>We will update the "Effective Date" at the top of this page</li>
+            <li>We will notify you via email or a prominent notice in the app</li>
+            <li>We will give you reasonable time to review the changes</li>
+          </ul>
+          <p>
+            Your continued use of Storehouse after changes take effect constitutes
+            acceptance of the new terms. If you do not agree to the updated terms,
+            you should stop using the service.
+          </p>
+        </section>
+
+        <section id="contact" class="scroll-mt-24 mt-12">
+          <h2>12. Contact Information</h2>
+          <p>
+            If you have questions about these Terms of Service, please contact us:
+          </p>
+          <p>
+            <strong>Email:</strong> {contactEmail}
+          </p>
+          <p>
+            We welcome your feedback and will do our best to address any concerns
+            about these terms.
+          </p>
+        </section>
+      </div>
+
+      <!-- Back to top -->
+      <div class="mt-12 pt-8 border-t border-slate-200">
+        <a
+          href="#"
+          class="text-storehouse-600 hover:text-storehouse-700 transition-colors text-sm"
+        >
+          Back to top
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <Footer slot="footer" />
+</PageLayout>
