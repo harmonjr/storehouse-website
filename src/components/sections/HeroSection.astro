@@ -1,0 +1,52 @@
+---
+import Button from '../Button.astro';
+import { Image } from 'astro:assets';
+import dashboardImage from '../../assets/images/dashboard-screenshot.png';
+---
+
+<section class="relative min-h-screen pt-16 flex items-center overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Content -->
+      <div class="text-center lg:text-left">
+        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
+          Know exactly what you can spend.
+        </h1>
+        <p class="mt-2 font-display text-2xl sm:text-3xl lg:text-4xl font-semibold text-storehouse-600">
+          No guilt. No guessing.
+        </p>
+        <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0">
+          Storehouse shows you one number — what's truly safe to spend after your priorities are handled. That's it. That's the whole idea.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <Button href="#how-it-works" variant="primary" size="lg">
+            See How It Works
+          </Button>
+          <Button href="/waitlist" variant="secondary" size="lg">
+            Join Waitlist
+          </Button>
+        </div>
+
+        <p class="mt-4 text-sm text-slate-500">
+          Free to start. No credit card required.
+        </p>
+      </div>
+
+      <!-- Dashboard Screenshot -->
+      <div class="relative">
+        <div class="relative rounded-2xl shadow-2xl overflow-hidden border border-slate-200/50">
+          <Image
+            src={dashboardImage}
+            alt="Storehouse dashboard showing Safe to Spend amount"
+            class="w-full h-auto"
+            loading="eager"
+          />
+        </div>
+        <!-- Decorative elements -->
+        <div class="absolute -z-10 -top-4 -right-4 w-72 h-72 bg-storehouse-200 rounded-full blur-3xl opacity-40"></div>
+        <div class="absolute -z-10 -bottom-8 -left-8 w-64 h-64 bg-emerald-200 rounded-full blur-3xl opacity-30"></div>
+      </div>
+    </div>
+  </div>
+</section>

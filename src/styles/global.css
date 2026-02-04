@@ -1,0 +1,39 @@
+/* Google Fonts - must be first */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Primary colors from Storehouse app */
+  --color-storehouse-50: #f0fdf4;
+  --color-storehouse-100: #dcfce7;
+  --color-storehouse-200: #bbf7d0;
+  --color-storehouse-300: #86efac;
+  --color-storehouse-400: #4ade80;
+  --color-storehouse-500: #22c55e;
+  --color-storehouse-600: #16a34a;
+  --color-storehouse-700: #15803d;
+  --color-storehouse-800: #166534;
+  --color-storehouse-900: #14532d;
+
+  /* Semantic colors */
+  --color-positive: #16a34a;
+  --color-warning: #ea580c;
+  --color-primary: #2563eb;
+  --color-giving: #7c3aed;
+  --color-saving: #0891b2;
+
+  /* Gold accent */
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+
+  /* Fonts */
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,49 @@
+---
+import Card from '../Card.astro';
+
+const painPoints = [
+  {
+    emoji: '😩',
+    title: 'Too many categories',
+    description: "Traditional budgets make you track 47 things. Then you feel guilty when coffee breaks the system.",
+  },
+  {
+    emoji: '📉',
+    title: 'Leftovers for what matters',
+    description: "Most apps treat giving and saving as afterthoughts — whatever's left at the end (which is usually nothing).",
+  },
+  {
+    emoji: '🎢',
+    title: "Income that won't sit still",
+    description: "Commission. Freelance. Seasonal. 'Normal' budgets weren't built for your reality.",
+  },
+];
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        Budgeting shouldn't feel like punishment.
+      </h2>
+    </div>
+
+    <div class="mt-12 grid md:grid-cols-3 gap-6 lg:gap-8">
+      {painPoints.map((point) => (
+        <Card class="text-center">
+          <div class="text-4xl mb-4">{point.emoji}</div>
+          <h3 class="font-display text-xl font-semibold text-slate-900 mb-2">
+            {point.title}
+          </h3>
+          <p class="text-slate-600">
+            {point.description}
+          </p>
+        </Card>
+      ))}
+    </div>
+
+    <p class="mt-12 text-center text-lg text-slate-600 italic">
+      What if there was a simpler way?
+    </p>
+  </div>
+</section>

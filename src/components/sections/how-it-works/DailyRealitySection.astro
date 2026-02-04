@@ -1,0 +1,66 @@
+---
+const statusColors = [
+  {
+    color: 'bg-storehouse-500',
+    label: 'Looking good',
+    description: 'Spend freely within your number',
+  },
+  {
+    color: 'bg-gold-500',
+    label: 'Heads up',
+    description: "You're getting close to your limit",
+  },
+  {
+    color: 'bg-warning',
+    label: 'Pause',
+    description: 'Time to slow down until next income',
+  },
+]
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center">
+        <p class="text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
+          Step 3
+        </p>
+        <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold text-slate-900">
+          Live your life.
+        </h2>
+      </div>
+
+      <div class="mt-10 max-w-2xl mx-auto">
+        <p class="text-lg text-slate-600 text-center">
+          Once you're set up, your daily experience is simple:
+        </p>
+
+        <div class="mt-8 text-center">
+          <p class="text-2xl font-semibold text-slate-900">
+            Open the app. See your number.
+          </p>
+          <p class="mt-4 text-lg text-slate-600">
+            That's your <span class="font-semibold text-storehouse-600">Safe to Spend</span> — what's actually available after your priorities are handled.
+          </p>
+        </div>
+
+        <!-- Status Colors -->
+        <div class="mt-12 space-y-4">
+          {statusColors.map((status) => (
+            <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-200">
+              <div class={`w-4 h-4 rounded-full flex-shrink-0 ${status.color}`}></div>
+              <div>
+                <span class="font-semibold text-slate-900">{status.label}</span>
+                <span class="text-slate-600 ml-2">— {status.description}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p class="mt-10 text-xl text-center text-slate-900 font-medium">
+          No categories to check. No receipts to enter. No guilt.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

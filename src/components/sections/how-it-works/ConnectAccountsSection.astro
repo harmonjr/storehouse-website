@@ -1,0 +1,69 @@
+---
+const features = [
+  "What's coming in — paychecks, deposits, transfers",
+  "What's going out — purchases, bills, subscriptions",
+  "What's sitting there — your actual balances",
+]
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center">
+        <p class="text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
+          Step 2
+        </p>
+        <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold text-slate-900">
+          Connect your accounts.
+        </h2>
+      </div>
+
+      <div class="mt-10 max-w-2xl mx-auto">
+        <p class="text-lg text-slate-600 text-center">
+          Link your bank accounts, credit cards, and other financial accounts. Storehouse sees your complete picture:
+        </p>
+
+        <ul class="mt-8 space-y-4">
+          {features.map((feature) => (
+            <li class="flex items-start gap-3">
+              <svg
+                class="h-6 w-6 text-storehouse-500 flex-shrink-0 mt-0.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <span class="text-slate-700 text-lg">{feature}</span>
+            </li>
+          ))}
+        </ul>
+
+        <div class="mt-10 p-6 bg-slate-50 rounded-xl border border-slate-200">
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0">
+              <svg
+                class="h-6 w-6 text-storehouse-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                />
+              </svg>
+            </div>
+            <p class="text-slate-600">
+              <span class="font-semibold text-slate-900">Your data is encrypted and protected.</span>{' '}
+              We use bank-level security and never store your login credentials.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

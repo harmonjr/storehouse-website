@@ -1,0 +1,25 @@
+---
+import BaseLayout from './BaseLayout.astro'
+
+interface Props {
+  title: string
+  description?: string
+}
+
+const defaultDescription =
+  "Know exactly what you can spend. Storehouse shows you one number — what's truly safe to spend after your priorities are handled."
+
+const { title, description = defaultDescription } = Astro.props
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="flex min-h-screen flex-col">
+    <slot name="header" />
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <slot name="footer" />
+  </div>
+</BaseLayout>

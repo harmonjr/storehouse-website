@@ -1,0 +1,114 @@
+---
+interface Props {
+  transparent?: boolean
+}
+
+const { transparent = false } = Astro.props
+
+const navLinks = [
+  { href: '/how-it-works', label: 'How It Works' },
+  { href: '/philosophy', label: 'Philosophy' },
+  { href: '/our-story', label: 'Our Story' },
+  { href: '/blog', label: 'Blog' },
+]
+---
+
+<header
+  id="site-header"
+  class:list={[
+    'fixed top-0 left-0 right-0 z-50 transition-all duration-200',
+    transparent ? 'bg-transparent' : 'bg-white/95 backdrop-blur-sm shadow-sm',
+  ]}
+>
+  <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+    <div class="flex h-16 items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="font-display text-2xl text-slate-900 hover:text-storehouse-600 transition-colors">
+        Storehouse
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex md:items-center md:gap-8">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="text-slate-600 hover:text-slate-900 transition-colors duration-200 text-sm font-medium"
+          >
+            {link.label}
+          </a>
+        ))}
+        <a
+          href="/waitlist"
+          class="inline-flex items-center justify-center rounded-full bg-storehouse-500 px-5 py-2 text-sm font-semibold text-white hover:bg-storehouse-600 transition-colors duration-200"
+        >
+          Join Waitlist
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-button"
+        type="button"
+        class="md:hidden inline-flex items-center justify-center rounded-lg p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        aria-label="Open main menu"
+      >
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<script>
+  function initHeader() {
+    const header = document.getElementById('site-header')
+    const menuButton = document.getElementById('mobile-menu-button')
+    const mobileNav = document.getElementById('mobile-nav')
+
+    // Handle scroll for transparent headers
+    if (header?.classList.contains('bg-transparent')) {
+      const handleScroll = () => {
+        if (window.scrollY > 50) {
+          header.classList.remove('bg-transparent')
+          header.classList.add('bg-white/95', 'backdrop-blur-sm', 'shadow-sm')
+        } else {
+          header.classList.add('bg-transparent')
+          header.classList.remove('bg-white/95', 'backdrop-blur-sm', 'shadow-sm')
+        }
+      }
+      window.addEventListener('scroll', handleScroll, { passive: true })
+    }
+
+    // Toggle mobile menu
+    menuButton?.addEventListener('click', () => {
+      const isOpen = mobileNav?.classList.contains('translate-x-0')
+      if (isOpen) {
+        mobileNav?.classList.remove('translate-x-0')
+        mobileNav?.classList.add('translate-x-full')
+        menuButton.setAttribute('aria-expanded', 'false')
+      } else {
+        mobileNav?.classList.remove('translate-x-full')
+        mobileNav?.classList.add('translate-x-0')
+        menuButton.setAttribute('aria-expanded', 'true')
+      }
+    })
+  }
+
+  // Initialize on page load and after Astro navigation
+  initHeader()
+  document.addEventListener('astro:after-swap', initHeader)
+</script>

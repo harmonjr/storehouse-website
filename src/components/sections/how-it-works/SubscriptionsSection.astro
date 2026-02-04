@@ -1,0 +1,48 @@
+---
+const trackingFeatures = [
+  'How many active subscriptions you have',
+  'Monthly cost at a glance',
+  'Annual cost (often the real wake-up call)',
+  'Potential savings if you cancel unused services',
+]
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center">
+        Find the leaks.
+      </h2>
+
+      <div class="mt-10 max-w-2xl mx-auto space-y-6 text-lg text-slate-600">
+        <p class="text-center">
+          The average American spends over <span class="font-semibold text-slate-900">$200/month on subscriptions</span> — and most don't realize it.
+        </p>
+        <p class="text-center">
+          Storehouse automatically detects your recurring charges and shows you:
+        </p>
+      </div>
+
+      <ul class="mt-8 max-w-lg mx-auto space-y-4">
+        {trackingFeatures.map((feature) => (
+          <li class="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-200">
+            <svg
+              class="h-6 w-6 text-storehouse-500 flex-shrink-0 mt-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+            <span class="text-slate-700">{feature}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p class="mt-10 text-xl text-center text-slate-900 font-medium">
+        Small leaks sink big ships. We help you spot them.
+      </p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,73 @@
+---
+const dashboardFeatures = [
+  'How many months of expenses you have saved',
+  'Whether your margin is growing or shrinking',
+  'Your Emergency Fund vs. Storehouse breakdown',
+]
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center">
+        Built for income that changes.
+      </h2>
+
+      <div class="mt-10 max-w-2xl mx-auto space-y-6 text-lg text-slate-600">
+        <p>
+          Commission. Freelance. Seasonal business. Side hustles. If your income varies, traditional budgets break immediately.
+        </p>
+        <p>
+          Storehouse uses what we call the <span class="font-semibold text-slate-900">margin method</span>:
+        </p>
+      </div>
+
+      <!-- Plenty/Lean Months -->
+      <div class="mt-10 grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div class="p-6 bg-storehouse-50 rounded-xl border border-storehouse-200">
+          <h3 class="font-display text-lg font-semibold text-storehouse-700">
+            In plenty months
+          </h3>
+          <p class="mt-3 text-slate-600">
+            When you earn more than usual, Storehouse automatically identifies the surplus and helps you store it in your margin reserve.
+          </p>
+        </div>
+        <div class="p-6 bg-slate-50 rounded-xl border border-slate-200">
+          <h3 class="font-display text-lg font-semibold text-slate-700">
+            In lean months
+          </h3>
+          <p class="mt-3 text-slate-600">
+            When income is lower, you draw from your reserve without guilt or panic. That's what it's there for.
+          </p>
+        </div>
+      </div>
+
+      <!-- Dashboard Features -->
+      <div class="mt-12 max-w-2xl mx-auto">
+        <p class="text-lg text-slate-600 text-center">
+          The dashboard shows your margin health:
+        </p>
+        <ul class="mt-6 space-y-3">
+          {dashboardFeatures.map((feature) => (
+            <li class="flex items-center gap-3">
+              <svg
+                class="h-5 w-5 text-storehouse-500 flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <span class="text-slate-700">{feature}</span>
+            </li>
+          ))}
+        </ul>
+
+        <p class="mt-10 text-xl text-center text-slate-900 font-medium">
+          This isn't about predicting the future. It's about being ready for it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

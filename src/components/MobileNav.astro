@@ -1,0 +1,142 @@
+---
+interface Props {
+  isOpen?: boolean
+}
+
+const { isOpen = false } = Astro.props
+
+const navLinks = [
+  { href: '/how-it-works', label: 'How It Works' },
+  { href: '/philosophy', label: 'Philosophy' },
+  { href: '/our-story', label: 'Our Story' },
+  { href: '/blog', label: 'Blog' },
+]
+---
+
+<div
+  id="mobile-nav"
+  class:list={[
+    'fixed inset-0 z-50 md:hidden',
+    isOpen ? 'translate-x-0' : 'translate-x-full',
+  ]}
+  aria-hidden={!isOpen}
+>
+  <!-- Backdrop -->
+  <div
+    id="mobile-nav-backdrop"
+    class="absolute inset-0 bg-slate-900/50 backdrop-blur-sm transition-opacity duration-300"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Panel -->
+  <div
+    class="absolute inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl transform transition-transform duration-300 ease-out"
+  >
+    <!-- Header -->
+    <div class="flex items-center justify-between px-4 h-16 border-b border-slate-200">
+      <a href="/" class="font-display text-2xl text-slate-900">
+        Storehouse
+      </a>
+      <button
+        id="mobile-nav-close"
+        type="button"
+        class="inline-flex items-center justify-center rounded-lg p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors"
+        aria-label="Close menu"
+      >
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          aria-hidden="true"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="px-4 py-6" aria-label="Mobile navigation">
+      <ul class="space-y-1" role="list">
+        {navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="block rounded-lg px-4 py-3 text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors duration-200"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <!-- CTA Button -->
+      <div class="mt-6 px-4">
+        <a
+          href="/waitlist"
+          class="flex w-full items-center justify-center rounded-full bg-storehouse-500 px-6 py-3 text-base font-semibold text-white hover:bg-storehouse-600 transition-colors duration-200"
+        >
+          Join Waitlist
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<script>
+  function initMobileNav() {
+    const mobileNav = document.getElementById('mobile-nav')
+    const closeButton = document.getElementById('mobile-nav-close')
+    const backdrop = document.getElementById('mobile-nav-backdrop')
+    const menuButton = document.getElementById('mobile-menu-button')
+
+    const closeMenu = () => {
+      mobileNav?.classList.remove('translate-x-0')
+      mobileNav?.classList.add('translate-x-full')
+      mobileNav?.setAttribute('aria-hidden', 'true')
+      menuButton?.setAttribute('aria-expanded', 'false')
+    }
+
+    // Close on close button click
+    closeButton?.addEventListener('click', closeMenu)
+
+    // Close on backdrop click
+    backdrop?.addEventListener('click', closeMenu)
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileNav?.classList.contains('translate-x-0')) {
+        closeMenu()
+      }
+    })
+
+    // Close menu on link click (for SPA-like behavior)
+    mobileNav?.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', closeMenu)
+    })
+  }
+
+  // Initialize on page load and after Astro navigation
+  initMobileNav()
+  document.addEventListener('astro:after-swap', initMobileNav)
+</script>
+
+<style>
+  /* Slide-in animation */
+  #mobile-nav {
+    transition: transform 0.3s ease-out;
+  }
+
+  #mobile-nav[aria-hidden='true'] {
+    pointer-events: none;
+  }
+
+  #mobile-nav[aria-hidden='true'] #mobile-nav-backdrop {
+    opacity: 0;
+  }
+
+  #mobile-nav[aria-hidden='false'] #mobile-nav-backdrop {
+    opacity: 1;
+  }
+</style>

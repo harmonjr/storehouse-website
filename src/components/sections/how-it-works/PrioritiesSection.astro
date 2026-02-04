@@ -1,0 +1,53 @@
+---
+import Card from '../../Card.astro'
+
+const priorities = [
+  {
+    emoji: '🙏',
+    title: 'Giving',
+    description:
+      "Whether it's tithing, charitable donations, or supporting causes you care about — set your giving goals and Storehouse tracks them automatically. You decide the amount. We just make sure it's accounted for first.",
+  },
+  {
+    emoji: '💰',
+    title: 'Saving',
+    description:
+      "Build your emergency fund. Create a margin reserve for lean months. Save for specific goals. Storehouse helps you store today so you can thrive tomorrow. Your savings aren't leftovers. They're priorities.",
+  },
+  {
+    emoji: '📋',
+    title: 'Bills',
+    description:
+      "Rent. Utilities. Insurance. Subscriptions. The non-negotiables that happen every month. Storehouse tracks what's due and what's paid. No more wondering if you can afford that coffee — your bills are already covered.",
+  },
+]
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center">
+        <p class="text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
+          Step 1
+        </p>
+        <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold text-slate-900">
+          Tell us what matters.
+        </h2>
+      </div>
+
+      <div class="mt-12 grid md:grid-cols-3 gap-6 lg:gap-8">
+        {priorities.map((priority) => (
+          <Card class="text-center">
+            <div class="text-4xl mb-4">{priority.emoji}</div>
+            <h3 class="font-display text-xl font-semibold text-slate-900 mb-3">
+              {priority.title}
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              {priority.description}
+            </p>
+          </Card>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

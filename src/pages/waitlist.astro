@@ -1,0 +1,123 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import MobileNav from '../components/MobileNav.astro'
+import WaitlistForm from '../components/WaitlistForm.astro'
+
+const benefits = [
+  {
+    title: 'Early access',
+    description: 'Be among the first to use Storehouse when we launch.',
+  },
+  {
+    title: 'Founding member pricing',
+    description: 'Lock in special rates as a thank-you for believing in us early.',
+  },
+  {
+    title: 'Development updates',
+    description: "Follow along as we build. No spam, we promise.",
+  },
+]
+---
+
+<PageLayout
+  title="Join the Waitlist | Storehouse"
+  description="Be the first to experience Storehouse. Join the waitlist for early access and updates on our budgeting app that shows you what's truly safe to spend."
+>
+  <Header slot="header" />
+  <MobileNav />
+
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-16 overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
+          Be the first to find financial peace.
+        </h1>
+        <p class="mt-6 text-lg sm:text-xl text-slate-600">
+          Storehouse is launching soon. Join the waitlist for early access and updates.
+        </p>
+      </div>
+    </div>
+
+    <!-- Decorative elements -->
+    <div class="absolute -z-10 top-20 right-1/4 w-72 h-72 bg-storehouse-200 rounded-full blur-3xl opacity-30"></div>
+    <div class="absolute -z-10 bottom-0 left-1/4 w-64 h-64 bg-emerald-200 rounded-full blur-3xl opacity-25"></div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="py-16 bg-white">
+    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
+      <WaitlistForm class="w-full" />
+    </div>
+  </section>
+
+  <!-- What You'll Get Section -->
+  <section class="py-20 bg-slate-50">
+    <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
+      <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900 text-center">
+        What you'll get:
+      </h2>
+
+      <div class="mt-12 space-y-8">
+        {benefits.map((benefit, index) => (
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-storehouse-100 flex items-center justify-center">
+              <span class="text-storehouse-600 font-semibold text-sm">{index + 1}</span>
+            </div>
+            <div>
+              <h3 class="font-semibold text-slate-900">{benefit.title}</h3>
+              <p class="mt-1 text-slate-600">{benefit.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What is Storehouse Section -->
+  <section class="py-20 bg-white">
+    <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
+      <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900 text-center">
+        What is Storehouse?
+      </h2>
+
+      <div class="mt-8 space-y-6 text-center">
+        <p class="text-lg text-slate-600">
+          Storehouse is a budgeting app built on a simple idea: give first, save second, spend what's left.
+        </p>
+        <p class="text-slate-600">
+          Instead of tracking 47 categories and feeling guilty about coffee, you see one number — your Safe to Spend. That's what's truly available after your priorities are handled.
+        </p>
+        <p class="text-slate-700 font-medium italic">
+          Built for real life. Built for peace.
+        </p>
+
+        <a
+          href="/how-it-works"
+          class="inline-flex items-center text-storehouse-600 hover:text-storehouse-700 font-medium transition-colors"
+        >
+          Learn more about how it works
+          <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof Section (Placeholder) -->
+  <section class="py-16 bg-gradient-to-br from-storehouse-50 to-emerald-50">
+    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-lg text-slate-700">
+        <span class="font-semibold" id="waitlist-count">Join others</span> on the waitlist.
+      </p>
+      <p class="mt-2 text-sm text-slate-500">
+        Be part of something new.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</PageLayout>

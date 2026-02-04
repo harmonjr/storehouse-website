@@ -1,0 +1,52 @@
+---
+const comparisons = [
+  { other: 'Track every category', storehouse: 'Track one number' },
+  { other: 'Giving is optional', storehouse: 'Giving comes first' },
+  { other: 'Built for steady paychecks', storehouse: 'Built for real life' },
+  { other: 'Restriction mindset', storehouse: 'Freedom through clarity' },
+  { other: 'You failed the budget', storehouse: 'The budget serves you' },
+];
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        This isn't another budget app.
+      </h2>
+    </div>
+
+    <div class="mt-12 max-w-3xl mx-auto">
+      <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
+        <table class="w-full">
+          <thead>
+            <tr class="bg-slate-50">
+              <th class="px-6 py-4 text-left text-sm font-semibold text-slate-500 uppercase tracking-wider">
+                Other Apps
+              </th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
+                Storehouse
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100">
+            {comparisons.map((row) => (
+              <tr class="bg-white">
+                <td class="px-6 py-4 text-slate-500">
+                  {row.other}
+                </td>
+                <td class="px-6 py-4 text-slate-900 font-medium">
+                  {row.storehouse}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p class="mt-10 text-center text-lg text-slate-600 max-w-2xl mx-auto">
+      We're not here to optimize every dollar. We're here to give you peace.
+    </p>
+  </div>
+</section>

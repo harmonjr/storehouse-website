@@ -1,0 +1,56 @@
+---
+import { Image } from 'astro:assets';
+import dashboardImage from '../../assets/images/dashboard-screenshot.png';
+
+const steps = [
+  'Set your priorities first — giving, saving, bills',
+  'We handle the math',
+  'You see one number: Safe to Spend',
+];
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Content -->
+      <div>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+          One number. Total clarity.
+        </h2>
+        <p class="mt-4 text-lg text-slate-600">
+          Storehouse flips the script:
+        </p>
+
+        <ol class="mt-6 space-y-4">
+          {steps.map((step, index) => (
+            <li class="flex items-start gap-4">
+              <span class="flex-shrink-0 w-8 h-8 rounded-full bg-storehouse-500 text-white font-semibold flex items-center justify-center text-sm">
+                {index + 1}
+              </span>
+              <span class="text-lg text-slate-700 pt-1">{step}</span>
+            </li>
+          ))}
+        </ol>
+
+        <p class="mt-8 text-lg text-slate-600">
+          Spend freely within it. No categories to track. No guilt when you buy coffee.
+        </p>
+
+        <blockquote class="mt-8 pl-4 border-l-4 border-storehouse-500 italic text-slate-700">
+          "Available after giving & saving" — that's not restriction. That's freedom.
+        </blockquote>
+      </div>
+
+      <!-- Dashboard Screenshot -->
+      <div class="relative">
+        <div class="rounded-2xl shadow-xl overflow-hidden border border-slate-200/50">
+          <Image
+            src={dashboardImage}
+            alt="Storehouse dashboard showing Safe to Spend calculation"
+            class="w-full h-auto"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

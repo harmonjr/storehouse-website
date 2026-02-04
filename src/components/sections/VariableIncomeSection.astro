@@ -1,0 +1,40 @@
+---
+const benefits = [
+  'In good months, Storehouse helps you store the surplus automatically',
+  'In lean months, you draw from your reserves without guilt',
+];
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        Finally, a budget that gets irregular income.
+      </h2>
+
+      <p class="mt-6 text-lg text-slate-600">
+        If your income changes month to month — commission, freelance, business ownership — traditional budgets break immediately.
+      </p>
+
+      <div class="mt-10 bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
+        <h3 class="font-display text-xl font-semibold text-storehouse-700 mb-6">
+          The Margin Method
+        </h3>
+        <ul class="space-y-4">
+          {benefits.map((benefit) => (
+            <li class="flex items-start gap-3 text-left">
+              <svg class="flex-shrink-0 w-6 h-6 text-storehouse-500 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="text-lg text-slate-700">{benefit}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p class="mt-10 font-display text-2xl font-semibold text-storehouse-600 italic">
+        Store today. Thrive tomorrow.
+      </p>
+    </div>
+  </div>
+</section>

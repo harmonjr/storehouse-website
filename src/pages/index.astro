@@ -1,0 +1,74 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileNav from '../components/MobileNav.astro';
+import HeroSection from '../components/sections/HeroSection.astro';
+import ProblemSection from '../components/sections/ProblemSection.astro';
+import SolutionSection from '../components/sections/SolutionSection.astro';
+import HowItWorksSection from '../components/sections/HowItWorksSection.astro';
+import VariableIncomeSection from '../components/sections/VariableIncomeSection.astro';
+import ComparisonSection from '../components/sections/ComparisonSection.astro';
+import PhilosophySection from '../components/sections/PhilosophySection.astro';
+import SubscriptionsSection from '../components/sections/SubscriptionsSection.astro';
+import TestimonialsSection from '../components/sections/TestimonialsSection.astro';
+import FinalCtaSection from '../components/sections/FinalCtaSection.astro';
+
+const description = "Know exactly what you can spend. Storehouse shows you one number — what's truly safe to spend after your priorities are handled. No guilt. No guessing.";
+---
+
+<PageLayout title="Know What You Can Spend | Storehouse" description={description}>
+  <Header slot="header" transparent />
+  <MobileNav />
+
+  <!-- Section 1: Hero -->
+  <HeroSection />
+
+  <!-- Section 2: Problem (Empathy) -->
+  <ProblemSection />
+
+  <!-- Section 3: Solution -->
+  <SolutionSection />
+
+  <!-- Section 4: How It Works -->
+  <HowItWorksSection />
+
+  <!-- Section 5: Variable Income -->
+  <VariableIncomeSection />
+
+  <!-- Section 6: Comparison -->
+  <ComparisonSection />
+
+  <!-- Section 7: Philosophy Teaser -->
+  <PhilosophySection />
+
+  <!-- Section 8: Subscriptions -->
+  <SubscriptionsSection />
+
+  <!-- Section 9: Testimonials -->
+  <TestimonialsSection />
+
+  <!-- Section 10: Final CTA -->
+  <FinalCtaSection />
+
+  <Footer slot="footer" />
+</PageLayout>
+
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      if (targetId && targetId !== '#') {
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }
+    });
+  });
+</script>

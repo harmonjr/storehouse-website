@@ -1,0 +1,33 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import MobileNav from '../components/MobileNav.astro'
+import Footer from '../components/Footer.astro'
+import Button from '../components/Button.astro'
+import HowItWorksHero from '../components/sections/how-it-works/HeroSection.astro'
+import CoreFormulaSection from '../components/sections/how-it-works/CoreFormulaSection.astro'
+import PrioritiesSection from '../components/sections/how-it-works/PrioritiesSection.astro'
+import ConnectAccountsSection from '../components/sections/how-it-works/ConnectAccountsSection.astro'
+import DailyRealitySection from '../components/sections/how-it-works/DailyRealitySection.astro'
+import MarginMethodSection from '../components/sections/how-it-works/MarginMethodSection.astro'
+import SubscriptionsSection from '../components/sections/how-it-works/SubscriptionsSection.astro'
+import WhatWeDoNotDoSection from '../components/sections/how-it-works/WhatWeDoNotDoSection.astro'
+import FinalCtaSection from '../components/sections/how-it-works/FinalCtaSection.astro'
+---
+
+<PageLayout title="How It Works | Storehouse" description="Learn exactly how Storehouse uses a simple formula to show you what's truly safe to spend.">
+  <Header slot="header" />
+  <MobileNav />
+
+  <HowItWorksHero />
+  <CoreFormulaSection />
+  <PrioritiesSection />
+  <ConnectAccountsSection />
+  <DailyRealitySection />
+  <MarginMethodSection />
+  <SubscriptionsSection />
+  <WhatWeDoNotDoSection />
+  <FinalCtaSection />
+
+  <Footer slot="footer" />
+</PageLayout>

@@ -1,0 +1,54 @@
+---
+const steps = [
+  {
+    icon: '🎯',
+    title: 'Set Your Priorities',
+    description: "Tell Storehouse what matters most — your giving commitments, savings goals, and recurring bills. These come off the top, not from leftovers.",
+  },
+  {
+    icon: '🔗',
+    title: 'Connect Your Accounts',
+    description: "Link your bank accounts and cards. Storehouse sees your full picture and does the math automatically.",
+  },
+  {
+    icon: '✨',
+    title: 'Live Your Life',
+    description: "Check your Safe to Spend number. That's what's actually available. Spend it freely, without tracking every purchase.",
+  },
+];
+---
+
+<section id="how-it-works" class="py-16 md:py-24 bg-white scroll-mt-16">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        Simple by design.
+      </h2>
+    </div>
+
+    <div class="mt-12 grid md:grid-cols-3 gap-8 lg:gap-12">
+      {steps.map((step, index) => (
+        <div class="text-center">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-storehouse-100 text-3xl mb-6">
+            {step.icon}
+          </div>
+          <div class="flex items-center justify-center gap-2 mb-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-storehouse-500 text-white text-sm font-semibold flex items-center justify-center">
+              {index + 1}
+            </span>
+            <h3 class="font-display text-xl font-semibold text-slate-900">
+              {step.title}
+            </h3>
+          </div>
+          <p class="text-slate-600">
+            {step.description}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <p class="mt-12 text-center text-lg text-slate-600 font-medium">
+      No spreadsheets. No 47 categories. Just clarity.
+    </p>
+  </div>
+</section>
