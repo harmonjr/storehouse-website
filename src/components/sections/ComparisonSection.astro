@@ -31,12 +31,22 @@ const comparisons = [
           </thead>
           <tbody class="divide-y divide-slate-100">
             {comparisons.map((row) => (
-              <tr class="bg-white">
+              <tr class="bg-white hover:bg-slate-50 transition-colors">
                 <td class="px-6 py-4 text-slate-500">
-                  {row.other}
+                  <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-slate-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    {row.other}
+                  </span>
                 </td>
                 <td class="px-6 py-4 text-slate-900 font-medium">
-                  {row.storehouse}
+                  <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-storehouse-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                    </svg>
+                    {row.storehouse}
+                  </span>
                 </td>
               </tr>
             ))}

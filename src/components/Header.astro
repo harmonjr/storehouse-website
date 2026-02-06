@@ -99,10 +99,12 @@ const navLinks = [
       if (isOpen) {
         mobileNav?.classList.remove('translate-x-0')
         mobileNav?.classList.add('translate-x-full')
+        mobileNav?.setAttribute('aria-hidden', 'true')
         menuButton.setAttribute('aria-expanded', 'false')
       } else {
         mobileNav?.classList.remove('translate-x-full')
         mobileNav?.classList.add('translate-x-0')
+        mobileNav?.setAttribute('aria-hidden', 'false')
         menuButton.setAttribute('aria-expanded', 'true')
       }
     })
