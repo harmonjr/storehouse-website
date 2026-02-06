@@ -7,7 +7,7 @@ const blogCollection = defineCollection({
     title: z.string(),
     description: z.string(),
     publishDate: z.coerce.date(),
-    author: z.string().default('Randy Harmon'),
+    author: z.string().default('JR'),
     category: z.enum([
       'margin-peace',
       'practical-money',
