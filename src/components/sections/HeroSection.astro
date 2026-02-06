@@ -4,11 +4,11 @@ import { Image } from 'astro:assets';
 import dashboardImage from '../../assets/images/dashboard-screenshot.png';
 ---
 
-<section class="relative min-h-screen pt-16 flex items-center overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
+<section class="relative min-h-screen pt-16 flex items-center overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50 grain-overlay">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
     <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
       <!-- Content -->
-      <div class="text-center lg:text-left">
+      <div class="text-center lg:text-left hero-content">
         <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
           Know exactly what you can spend.
         </h1>
@@ -34,14 +34,17 @@ import dashboardImage from '../../assets/images/dashboard-screenshot.png';
       </div>
 
       <!-- Dashboard Screenshot -->
-      <div class="relative">
-        <div class="relative rounded-2xl shadow-2xl overflow-hidden border border-slate-200/50">
-          <Image
-            src={dashboardImage}
-            alt="Storehouse dashboard showing Safe to Spend amount"
-            class="w-full h-auto"
-            loading="eager"
-          />
+      <div class="relative screenshot-container">
+        <div class="absolute -z-10 inset-0 bg-storehouse-400/20 rounded-3xl blur-3xl"></div>
+        <div class="relative transform rotate-2 hover:rotate-0 transition-transform duration-500">
+          <div class="rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)] overflow-hidden border border-slate-200/50">
+            <Image
+              src={dashboardImage}
+              alt="Storehouse dashboard showing Safe to Spend amount"
+              class="w-full h-auto"
+              loading="eager"
+            />
+          </div>
         </div>
         <!-- Decorative elements -->
         <div class="absolute -z-10 -top-4 -right-4 w-72 h-72 bg-storehouse-200 rounded-full blur-3xl opacity-40"></div>
@@ -50,3 +53,47 @@ import dashboardImage from '../../assets/images/dashboard-screenshot.png';
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-content > :global(*) {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .hero-content > :global(*:nth-child(1)) {
+    animation-delay: 0.1s;
+  }
+
+  .hero-content > :global(*:nth-child(2)) {
+    animation-delay: 0.2s;
+  }
+
+  .hero-content > :global(*:nth-child(3)) {
+    animation-delay: 0.3s;
+  }
+
+  .hero-content > :global(*:nth-child(4)) {
+    animation-delay: 0.4s;
+  }
+
+  .hero-content > :global(*:nth-child(5)) {
+    animation-delay: 0.5s;
+  }
+
+  .screenshot-container {
+    animation: fadeInUp 0.6s ease-out forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+  }
+</style>
