@@ -30,8 +30,8 @@ const comparisons = [
             </tr>
           </thead>
           <tbody class="divide-y divide-slate-100">
-            {comparisons.map((row) => (
-              <tr class="bg-white hover:bg-slate-50 transition-colors">
+            {comparisons.map((row, index) => (
+              <tr class="bg-white hover:bg-slate-50 transition-colors comparison-row" style={`--row-index: ${index}`}>
                 <td class="px-6 py-4 text-slate-500">
                   <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-slate-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
@@ -60,3 +60,22 @@ const comparisons = [
     </p>
   </div>
 </section>
+
+<style>
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .comparison-row {
+    animation: fadeInUp 0.4s ease-out forwards;
+    animation-delay: calc(var(--row-index, 0) * 0.1s);
+    opacity: 0;
+  }
+</style>
