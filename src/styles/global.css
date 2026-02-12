@@ -34,6 +34,20 @@
   --color-warm-white: #FAFAF9;
   --color-warm-gray-50: #F5F5F4;
 
+  /* Pillar colors */
+  --color-pillar-clarity: #2563eb;
+  --color-pillar-clarity-light: #eff6ff;
+  --color-pillar-clarity-border: #3b82f6;
+  --color-pillar-order: #7c3aed;
+  --color-pillar-order-light: #f5f3ff;
+  --color-pillar-order-border: #8b5cf6;
+  --color-pillar-margin: var(--color-storehouse-600);
+  --color-pillar-margin-light: var(--color-storehouse-50);
+  --color-pillar-margin-border: var(--color-storehouse-500);
+  --color-pillar-peace: #0891b2;
+  --color-pillar-peace-light: #ecfeff;
+  --color-pillar-peace-border: #06b6d4;
+
   /* Fonts */
   --font-display: "DM Serif Display", Georgia, serif;
   --font-sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;

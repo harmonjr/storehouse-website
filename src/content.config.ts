@@ -20,4 +20,22 @@ const blogCollection = defineCollection({
   }),
 });
 
-export const collections = { blog: blogCollection };
+const foundationsCollection = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/foundations' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    publishDate: z.coerce.date(),
+    author: z.string().default('JR'),
+    pillar: z.enum(['clarity', 'order', 'margin', 'peace']),
+    tier: z.number().min(1).max(4),
+    articleNumber: z.number().min(1).max(12),
+    featured: z.boolean().default(false),
+    status: z.enum(['published', 'coming-soon']).default('published'),
+  }),
+});
+
+export const collections = {
+  blog: blogCollection,
+  foundations: foundationsCollection,
+};
