@@ -52,7 +52,7 @@ A subscription audit catches the charges you forgot about. Lifestyle creep is ha
 
 ## The Hierarchy as a Circuit Breaker
 
-This is where the Storehouse hierarchy earns its keep for people who've been practicing it for a while.
+This is where the Storehouse hierarchy earns its keep -- and where the stewardship principle behind it becomes most practical.
 
 When your income increases, most financial systems silently pass the increase through to spending. Your paycheck goes up, your available balance goes up, and spending expands to fill the space. The system doesn't ask you what you want to do with the new money. It just makes it available.
 
@@ -66,7 +66,7 @@ A $500 monthly raise becomes a question with real answers:
 - $100 more in giving -- you move from 3% to 5%, and generosity grows with your income
 - $200 more in Safe-to-Spend -- you genuinely enjoy a higher standard of living, chosen on purpose
 
-That's a different outcome than $500 more in spending that happened by accident. The same money. A completely different result. Not because you denied yourself -- you gave yourself $200 more to spend freely. But you also directed $300 toward the things that build margin and meaning. That split doesn't happen without a moment of conscious choice.
+That's a different outcome than $500 more in spending that happened by accident. The same money. A completely different result. Not because you denied yourself -- you gave yourself $200 more to spend freely. But you also directed $300 toward the things that build margin -- giving and saving, the first two priorities the Bible puts ahead of spending. That split doesn't happen without a moment of conscious choice.
 
 ## A Raise Is a Margin Opportunity
 

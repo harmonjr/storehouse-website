@@ -76,7 +76,7 @@ You saved this week. It's right there, moving from "intention" to "fact."
 
 Your bills are covered. Your Safe-to-Spend reflects reality.
 
-That weekly confirmation is what turns stewardship from something you believe in to something you do. The gap between values and behavior closes in those ten minutes. Not through willpower. Through visibility.
+That weekly confirmation is what turns biblical stewardship -- the conviction that what you have is God's, and your job is to manage it faithfully -- from something you believe in to something you do. The gap between values and behavior closes in those ten minutes. Not through willpower. Through visibility.
 
 ## The Surprising Part
 

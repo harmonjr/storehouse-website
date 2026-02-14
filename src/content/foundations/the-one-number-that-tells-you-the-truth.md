@@ -28,6 +28,8 @@ Here's the formula:
 
 Notice the order. It follows the hierarchy from "Give First, Save Second, Spend What Remains" -- giving comes out first, saving comes second, bills come third. What remains is yours. That's Safe-to-Spend.
 
+The idea isn't new. The Bible calls it firstfruits -- honor God with the first of what you earn, not the leftovers (Proverbs 3:9). We just turned it into a formula.
+
 It's not what's left over. It's what remains after you've taken care of what matters most.
 
 ## Why One Number Changes Everything

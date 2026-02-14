@@ -62,7 +62,7 @@ Here's the reframe: a windfall isn't free money. It's a stewardship test with hi
 
 Regular income gives you practice -- every month, you run the hierarchy, and if you miss a month, the next one comes around. Windfalls don't work that way. The bonus arrives once. The tax refund comes once a year. The freelance check clears and that project is over. There's no next month to try again with that specific money.
 
-That's not pressure. It's clarity. When the opportunity is singular, the intentionality matters more. Not because you'll be judged for how you handle a bonus, but because the habits you practice with irregular income reveal the habits you're building overall.
+That's not pressure. It's clarity. The Bible calls this stewardship -- faithfully managing what God has entrusted to you, whether the amount is expected or not. When the opportunity is singular, the intentionality matters more. Not because you'll be judged for how you handle a bonus, but because the habits you practice with irregular income reveal the habits you're building overall.
 
 The person who runs a $3,000 bonus through the hierarchy isn't just managing one check. They're proving to themselves that the hierarchy isn't just for easy months. It works everywhere.
 

@@ -48,7 +48,7 @@ This is the question that trips people up. If you're in debt, shouldn't every sp
 
 The math says yes. The math is right as far as it goes. A dollar toward debt saves you future interest. A dollar toward giving doesn't reduce your balance.
 
-But generosity isn't only a math equation. It's a practice. And practices that stop are hard to restart.
+But generosity isn't only a math equation. It's a practice -- and a biblical one. The principle behind the hierarchy comes from Proverbs: honor God with the first of what you earn, not the leftovers. That principle doesn't pause when the balance sheet is hard. And practices that stop are hard to restart.
 
 We've seen it happen. Someone decides to pause giving until the debt is gone. Two years later, the debt is paid off, and the giving never resumes. Not because they stopped caring -- because the habit dissolved. The muscle atrophied. The $0 line became the new normal, and starting from zero again felt just as hard as it did the first time.
 

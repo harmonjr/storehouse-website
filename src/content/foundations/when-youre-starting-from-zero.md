@@ -30,7 +30,7 @@ You're not behind some universal schedule. You're standing at the beginning of s
 
 We said in "Give First, Save Second, Spend What Remains" that starting at 1% isn't failing at 10% -- it's choosing to begin. That was a sentence. This is the full truth behind it.
 
-Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Stewardship isn't about the size of the number. It's about the direction you're facing.
+Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Biblical stewardship -- managing well what you've been given -- isn't about the size of the number. It's about the direction you're facing.
 
 And the direction is what the hierarchy gives you.
 
@@ -80,7 +80,7 @@ Here's the thing nobody says at the financial seminar: your bank balance is not 
 
 People start from zero for a thousand reasons. A medical crisis. A job loss. A divorce. A late start. A season of mistakes. An economy that didn't cooperate. None of those reasons make you less capable of stewarding what you have now.
 
-Stewardship doesn't require abundance. God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
+Stewardship doesn't require abundance. In Genesis 41, God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
 
 The hierarchy doesn't ask how you got here. It asks what you want to do next.
 

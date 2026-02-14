@@ -72,6 +72,8 @@ When both partners know the hierarchy is handled -- when they can see that givin
 
 The money conversation is never just about money. It's about trust. It's about shared values. It's about two people trying to build a life together without a common language for one of the most practical parts of that life.
 
+The Bible has a word for this: stewardship. The idea that what you have isn't yours to consume -- it's yours to manage faithfully, together. The hierarchy isn't a budgeting trick. It's that conviction turned into a weekly practice.
+
 Most couples share everything -- a home, children, dreams, a future. But they carry separate, unspoken financial realities in their heads. He thinks they're doing fine. She thinks they're falling behind. Or the reverse. The gap between those realities creates a low-grade tension that shows up everywhere: in the sighs at the store, in the silence after the credit card statement, in the careful way they avoid saying what they're actually thinking.
 
 Safe-to-Spend doesn't fix everything. It doesn't resolve differences in values or spending personalities or the deeper questions about what you're building together. But it removes the most common accelerant. When the facts are shared, the fight loses its fuel.

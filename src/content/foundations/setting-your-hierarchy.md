@@ -106,7 +106,7 @@ The hierarchy still works.
 
 It works because the hierarchy is a direction, not a destination. It puts giving first even when giving is zero -- which means when you get a raise, when the car is paid off, when things loosen up, giving is already in position. You don't have to restructure your finances to start. You just increase a number.
 
-There is no hierarchy configuration that's too small to start with. The person who sets giving at $10 and saving at $25 and follows through is practicing stewardship more faithfully than the person who plans to give 10% and save 20% and never gets around to setting it up.
+There is a principle in Scripture -- that God asks us to manage faithfully what we've been given, not to wait until we have more of it (Matthew 25:14-30). The servant who invested two talents wasn't judged against the servant who had five. He was judged by what he did with what he had. That is what the hierarchy is asking of you. The person who sets giving at $10 and saving at $25 and follows through is practicing stewardship more faithfully than the person who plans to give 10% and save 20% and never gets around to setting it up.
 
 Start where you are. Not where you think you should be.
 
