@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+
+const allFoundations = await getCollection('foundations');
+const featured = allFoundations.find((f) => f.data.articleNumber === 1);
+---
+
+{featured && (
+  <section class="py-16 bg-storehouse-50 grain-overlay">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 relative z-10">
+      <p class="mb-4 text-xs font-semibold uppercase tracking-widest text-storehouse-600">
+        The Foundation
+      </p>
+      <a
+        href={`/foundations/${featured.id}`}
+        class="group block border-t-2 border-storehouse-500 bg-white rounded-2xl p-8 shadow-sm transition-all duration-200 hover:shadow-md"
+      >
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold text-slate-900 transition-colors group-hover:text-storehouse-600">
+          {featured.data.title}
+        </h2>
+        <p class="mt-2 text-slate-600 leading-relaxed">
+          {featured.data.description}
+        </p>
+        <span class="mt-4 inline-flex items-center text-sm font-medium text-storehouse-600">
+          Read the manifesto &rarr;
+        </span>
+      </a>
+    </div>
+  </section>
+)}

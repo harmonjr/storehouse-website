@@ -1,0 +1,88 @@
+---
+import { getCollection } from 'astro:content';
+import { PILLARS, type PillarKey } from '../../../lib/pillars';
+
+interface Props {
+  pillar: PillarKey;
+  alternate?: boolean;
+}
+
+const { pillar, alternate = false } = Astro.props;
+const config = PILLARS[pillar];
+
+const allFoundations = await getCollection('foundations');
+const articles = allFoundations
+  .filter((a) => a.data.pillar === pillar)
+  .sort((a, b) => a.data.articleNumber - b.data.articleNumber);
+
+const pillarIcons: Record<PillarKey, string> = {
+  clarity: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>`,
+  order: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>`,
+  margin: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  peace: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>`,
+};
+
+const accentColors: Record<PillarKey, { icon: string; border: string; hover: string; quote: string }> = {
+  clarity: { icon: 'text-blue-600', border: 'border-blue-500', hover: 'group-hover:text-blue-600', quote: 'text-slate-500' },
+  order: { icon: 'text-purple-600', border: 'border-purple-500', hover: 'group-hover:text-purple-600', quote: 'text-slate-500' },
+  margin: { icon: 'text-storehouse-600', border: 'border-storehouse-500', hover: 'group-hover:text-storehouse-600', quote: 'text-slate-500' },
+  peace: { icon: 'text-cyan-600', border: 'border-cyan-500', hover: 'group-hover:text-cyan-600', quote: 'text-slate-500' },
+};
+
+const colors = accentColors[pillar];
+const bgClass = alternate ? 'bg-slate-50' : 'bg-white';
+---
+
+<section class:list={['py-16 md:py-20', bgClass]}>
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+    <div class="mb-2 flex items-center gap-3">
+      <span class:list={['w-6 h-6', colors.icon]} set:html={pillarIcons[pillar]} />
+      <h2 class="font-display text-2xl sm:text-3xl font-semibold text-slate-900">
+        {config.name}
+      </h2>
+    </div>
+
+    <blockquote class:list={[
+      'mt-2 mb-8 pl-4 border-l-2 font-quote text-lg italic',
+      colors.border,
+      colors.quote,
+    ]}>
+      &ldquo;{config.quote}&rdquo;
+    </blockquote>
+
+    <ul class="list-none p-0">
+      {articles.map((article) => {
+        const isPublished = article.data.status === 'published';
+        return (
+          <li class:list={[
+            'border-t last:border-b',
+            isPublished ? 'border-slate-200' : 'border-dashed border-slate-200',
+          ]}>
+            {isPublished ? (
+              <a
+                href={`/foundations/${article.id}`}
+                class="group flex items-center justify-between py-5 transition-all duration-200 hover:pl-2"
+              >
+                <span class:list={['text-base text-slate-800 transition-colors', colors.hover]}>
+                  {article.data.title}
+                </span>
+                <span class="ml-4 text-slate-400 transition-transform duration-200 group-hover:translate-x-1">
+                  &rarr;
+                </span>
+              </a>
+            ) : (
+              <div class="flex items-center justify-between py-5">
+                <span class="text-base text-slate-400">
+                  {article.data.title}
+                </span>
+                <span class="ml-4 text-xs text-slate-400 bg-slate-100 rounded-full px-2 py-0.5">
+                  Coming soon
+                </span>
+              </div>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</section>

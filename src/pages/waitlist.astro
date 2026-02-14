@@ -107,11 +107,16 @@ const benefits = [
     </div>
   </section>
 
-  <!-- Social Proof Section (Placeholder) -->
-  <section class="py-16 bg-gradient-to-br from-storehouse-50 to-emerald-50">
+  <!-- Social Proof Section -->
+  <section
+    id="social-proof-section"
+    class="py-16 bg-gradient-to-br from-storehouse-50 to-emerald-50"
+    data-supabase-url={import.meta.env.PUBLIC_SUPABASE_URL || ''}
+    data-supabase-key={import.meta.env.PUBLIC_SUPABASE_ANON_KEY || ''}
+  >
     <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 text-center">
       <p class="text-lg text-slate-700">
-        <span class="font-semibold" id="waitlist-count">Join others</span> on the waitlist.
+        <span class="font-semibold" id="waitlist-count">Join the early adopters</span>
       </p>
       <p class="mt-2 text-sm text-slate-500">
         Be part of something new.
@@ -121,3 +126,33 @@ const benefits = [
 
   <Footer slot="footer" />
 </PageLayout>
+
+<script>
+  import { createClient } from '@supabase/supabase-js';
+
+  async function loadWaitlistCount() {
+    const section = document.getElementById('social-proof-section');
+    const countEl = document.getElementById('waitlist-count');
+
+    const supabaseUrl = section?.dataset.supabaseUrl || '';
+    const supabaseKey = section?.dataset.supabaseKey || '';
+
+    if (!supabaseUrl || !supabaseKey || !countEl) return;
+
+    try {
+      const supabase = createClient(supabaseUrl, supabaseKey);
+      const { count, error } = await supabase
+        .from('waitlist')
+        .select('*', { count: 'exact', head: true });
+
+      if (!error && count !== null && count > 0) {
+        countEl.textContent = `Join ${count.toLocaleString()}+ others`;
+      }
+    } catch (e) {
+      // Silently fail - keep default text
+      console.log('Could not fetch waitlist count');
+    }
+  }
+
+  loadWaitlistCount();
+</script>

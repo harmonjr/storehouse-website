@@ -4,13 +4,13 @@ import Card from '../Card.astro';
 const testimonials = [
   {
     quote: "For the first time, I actually know what I can spend without doing mental math or feeling guilty.",
-    name: '[Name]',
+    name: 'Stacy',
     role: 'freelance designer',
   },
   {
     quote: "We've tried every budget app. This is the first one that stuck — because it's actually simple.",
-    name: '[Name]',
-    role: 'working mom of 3',
+    name: 'Robert',
+    role: 'father of 3',
   },
   {
     quote: "The Safe to Spend is a great feature. You should call it the 'eliminate arguments' feature.",
@@ -29,20 +29,49 @@ const testimonials = [
     </div>
 
     <div class="mt-12 grid md:grid-cols-3 gap-6 lg:gap-8">
-      {testimonials.map((testimonial) => (
-        <Card class="flex flex-col">
-          <svg class="w-8 h-8 text-storehouse-300 mb-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-          </svg>
-          <p class="text-slate-700 flex-1 italic">
-            "{testimonial.quote}"
-          </p>
-          <div class="mt-6 pt-4 border-t border-slate-100">
-            <p class="font-medium text-slate-900">{testimonial.name}</p>
-            <p class="text-sm text-slate-500">{testimonial.role}</p>
+      {testimonials.map((testimonial, index) => (
+        <div
+          class:list={[
+            "relative p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md hover:border-slate-200 transition-all testimonial-card",
+            index === 0 && "bg-gradient-to-br from-white to-storehouse-50/50",
+            index === 1 && "bg-gradient-to-br from-white to-slate-50/50",
+            index === 2 && "bg-gradient-to-br from-white to-emerald-50/50",
+          ]}
+          style={`--card-index: ${index}`}
+        >
+          <span class="absolute top-4 left-4 text-7xl text-gold-400/50 leading-none select-none pointer-events-none font-quote" aria-hidden="true">
+            "
+          </span>
+          <div class="relative z-10 flex flex-col h-full">
+            <p class="text-slate-700 flex-1 text-lg leading-relaxed pt-6">
+              {testimonial.quote}
+            </p>
+            <div class="mt-6 pt-4 border-t border-slate-200/60">
+              <p class="font-semibold text-slate-900">{testimonial.name}</p>
+              <p class="text-sm text-slate-500">{testimonial.role}</p>
+            </div>
           </div>
-        </Card>
+        </div>
       ))}
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .testimonial-card {
+    animation: fadeInUp 0.5s ease-out forwards;
+    animation-delay: calc(var(--card-index, 0) * 0.15s);
+    opacity: 0;
+  }
+</style>

@@ -1,5 +1,7 @@
 /* Google Fonts - must be first */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
@@ -28,13 +30,50 @@
   --color-gold-400: #fbbf24;
   --color-gold-500: #f59e0b;
 
+  /* Warm colors */
+  --color-warm-white: #FAFAF9;
+  --color-warm-gray-50: #F5F5F4;
+
+  /* Pillar colors */
+  --color-pillar-clarity: #2563eb;
+  --color-pillar-clarity-light: #eff6ff;
+  --color-pillar-clarity-border: #3b82f6;
+  --color-pillar-order: #7c3aed;
+  --color-pillar-order-light: #f5f3ff;
+  --color-pillar-order-border: #8b5cf6;
+  --color-pillar-margin: var(--color-storehouse-600);
+  --color-pillar-margin-light: var(--color-storehouse-50);
+  --color-pillar-margin-border: var(--color-storehouse-500);
+  --color-pillar-peace: #0891b2;
+  --color-pillar-peace-light: #ecfeff;
+  --color-pillar-peace-border: #06b6d4;
+
   /* Fonts */
   --font-display: "DM Serif Display", Georgia, serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Grain texture overlay */
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 1;
 }
 
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.font-quote {
+  font-family: "Cormorant Garamond", Georgia, serif;
 }

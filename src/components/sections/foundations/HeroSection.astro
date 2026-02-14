@@ -1,0 +1,39 @@
+---
+import { PILLARS, PILLAR_ORDER } from '../../../lib/pillars';
+
+const pillarBadgeColors: Record<string, { bg: string; text: string }> = {
+  clarity: { bg: 'bg-blue-50', text: 'text-blue-700' },
+  order: { bg: 'bg-purple-50', text: 'text-purple-700' },
+  margin: { bg: 'bg-storehouse-50', text: 'text-storehouse-700' },
+  peace: { bg: 'bg-cyan-50', text: 'text-cyan-700' },
+};
+---
+
+<section class="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-storehouse-50 to-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900">
+        Everything we believe about money.
+      </h1>
+      <p class="mt-6 text-xl sm:text-2xl text-slate-600 leading-relaxed">
+        In twelve articles organized around four pillars &mdash; Clarity, Order, Margin, and Peace.
+      </p>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-3">
+        {PILLAR_ORDER.map((key) => {
+          const pillar = PILLARS[key];
+          const colors = pillarBadgeColors[key];
+          return (
+            <span class:list={[
+              'inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium',
+              colors.bg,
+              colors.text,
+            ]}>
+              {pillar.name}
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+</section>

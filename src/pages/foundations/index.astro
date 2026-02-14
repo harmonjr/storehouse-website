@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Header from '../../components/Header.astro';
+import MobileNav from '../../components/MobileNav.astro';
+import Footer from '../../components/Footer.astro';
+import HeroSection from '../../components/sections/foundations/HeroSection.astro';
+import FeaturedFoundation from '../../components/sections/foundations/FeaturedFoundation.astro';
+import PillarSection from '../../components/sections/foundations/PillarSection.astro';
+import BlogPreviewSection from '../../components/sections/foundations/BlogPreviewSection.astro';
+import CtaSection from '../../components/sections/foundations/CtaSection.astro';
+
+const description = "Everything we believe about money. Twelve articles organized around four pillars: Clarity, Order, Margin, and Peace.";
+---
+
+<PageLayout title="Foundations | Storehouse" description={description}>
+  <Header slot="header" />
+  <MobileNav />
+
+  <HeroSection />
+  <FeaturedFoundation />
+
+  <PillarSection pillar="clarity" />
+  <PillarSection pillar="order" alternate />
+  <PillarSection pillar="margin" />
+  <PillarSection pillar="peace" alternate />
+
+  <BlogPreviewSection />
+  <CtaSection />
+
+  <Footer slot="footer" />
+</PageLayout>

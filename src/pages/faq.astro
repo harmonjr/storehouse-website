@@ -1,0 +1,494 @@
+---
+import PageLayout from '../layouts/PageLayout.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import MobileNav from '../components/MobileNav.astro'
+import Button from '../components/Button.astro'
+
+const categories = [
+  { id: 'getting-started', label: 'Getting Started' },
+  { id: 'how-it-works', label: 'How It Works' },
+  { id: 'pricing', label: 'Pricing & Billing' },
+  { id: 'security', label: 'Security' },
+  { id: 'philosophy', label: 'Philosophy' },
+]
+
+const description = "Everything you need to know about Storehouse. Find answers to common questions about getting started, how it works, pricing, security, and our philosophy."
+---
+
+<PageLayout title="FAQ | Storehouse" description={description}>
+  <Header slot="header" />
+  <MobileNav />
+
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-12 overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
+          Frequently Asked Questions
+        </h1>
+        <p class="mt-6 text-lg sm:text-xl text-slate-600">
+          Everything you need to know about Storehouse. Can't find your answer?{' '}
+          <a href="mailto:hello@storehouse.app" class="text-storehouse-600 hover:text-storehouse-700 underline underline-offset-2">
+            Contact us
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Decorative elements -->
+    <div class="absolute -z-10 top-20 right-1/4 w-72 h-72 bg-storehouse-200 rounded-full blur-3xl opacity-30"></div>
+    <div class="absolute -z-10 bottom-0 left-1/4 w-64 h-64 bg-emerald-200 rounded-full blur-3xl opacity-25"></div>
+  </section>
+
+  <!-- Category Navigation -->
+  <nav class="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-slate-100 py-4">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      <ul class="flex flex-wrap justify-center gap-2 sm:gap-4">
+        {categories.map((category) => (
+          <li>
+            <a
+              href={`#${category.id}`}
+              class="inline-block px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-storehouse-600 hover:bg-storehouse-50 rounded-full transition-colors"
+            >
+              {category.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+
+  <!-- FAQ Content -->
+  <section class="py-16 bg-white">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+
+      <!-- Getting Started -->
+      <div id="getting-started" class="scroll-mt-20">
+        <h2 class="font-display text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+          Getting Started
+        </h2>
+        <div class="space-y-4">
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What is Storehouse?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse is a budgeting app built on a simple idea: give first, save second, spend what's left. Instead of tracking dozens of spending categories, you see one number -- your Safe to Spend -- which tells you exactly what's available after your priorities are handled.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>How is Storehouse different from other budgeting apps?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Most budgeting apps focus on tracking where your money went. Storehouse focuses on where your money goes <em>first</em> -- your giving, saving, and bills. Once those priorities are set, everything else is Safe to Spend. No guilt. No category tracking. Just clarity.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Who is Storehouse for?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse is for anyone who wants financial peace without the complexity of traditional budgeting. It's especially helpful for:</p>
+              <ul>
+                <li>People who want to prioritize giving but struggle to make it happen</li>
+                <li>Those with variable or irregular income (commission, freelance, seasonal)</li>
+                <li>Anyone exhausted by category-based budgets that feel like restriction</li>
+                <li>Families wanting a simple system everyone can understand</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Is Storehouse a religious app?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse is built on principles of stewardship and generosity that have roots in faith traditions, but you don't need to be religious to use it. The "give first" philosophy works whether your giving goes to a church, charity, or causes you care about. The app itself doesn't require any religious commitment -- just a desire for financial peace.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- How It Works -->
+      <div id="how-it-works" class="mt-16 scroll-mt-20">
+        <h2 class="font-display text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+          How It Works
+        </h2>
+        <div class="space-y-4">
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What is "Safe to Spend"?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Safe to Spend is the single number at the heart of Storehouse. It shows you exactly what's available to spend after your giving, saving, and bills are accounted for. If you're within your Safe to Spend, you're good -- no need to check categories or do mental math.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>How does the "Give First" system work?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>When you set up Storehouse, you define your giving priorities -- whether that's tithing, charitable donations, or supporting causes you care about. These amounts are automatically accounted for at the beginning of each pay period, not treated as leftovers at the end.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What is the Margin feature?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Margin is the financial cushion between your income and your spending. Storehouse tracks your margin health by showing how many months of expenses you have saved. The goal is to build margin so you can weather lean times without stress.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What is the "Joseph Principle"?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>The Joseph Principle comes from the biblical story of Joseph, who stored grain during seven years of plenty to survive seven years of famine. In Storehouse, this means automatically setting aside surplus during good income months so you're prepared for leaner times. It's especially valuable for anyone with variable income.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>How does the Subscription Tracker work?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse automatically detects recurring charges in your connected accounts and shows you how many active subscriptions you have, your total monthly and annual cost, and potential savings if you cancel unused services.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Can I use Storehouse if my income is irregular?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes -- Storehouse was designed with variable income in mind. Traditional budgets assume steady paychecks, which doesn't work for commission salespeople, freelancers, or business owners. Storehouse uses the Joseph Principle to help you smooth out the highs and lows.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- Pricing & Billing -->
+      <div id="pricing" class="mt-16 scroll-mt-20">
+        <h2 class="font-display text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+          Pricing & Billing
+        </h2>
+        <div class="space-y-4">
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>How much does Storehouse cost?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse is $4.99/month or $49/year (save 2 months) for founding members. This price is locked in for life, even when regular pricing increases.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Is there a free trial?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Every new account starts with a 14-day free trial. No credit card required to start. You can explore everything Storehouse offers before deciding.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Can I cancel anytime?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Absolutely. There are no contracts or cancellation fees. If Storehouse isn't right for you, you can cancel with one click in your account settings.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What happens to my data if I cancel?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Your data remains available for 30 days after cancellation in case you change your mind. After that, it's permanently deleted from our servers. You can also export your data anytime before canceling.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Do you offer refunds?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>If you're not satisfied within the first 30 days, contact us and we'll refund your payment. No questions asked.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- Security & Privacy -->
+      <div id="security" class="mt-16 scroll-mt-20">
+        <h2 class="font-display text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+          Security & Privacy
+        </h2>
+        <div class="space-y-4">
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Is my financial data secure?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Security is our top priority. We use 256-bit encryption for all data in transit and at rest, bank-level security protocols, and we never store your bank login credentials. Connection to banks is via Plaid, the same service used by Venmo, Chime, and other major financial apps.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Do you sell my data?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Never. Your financial data is yours. We don't sell it, share it with advertisers, or use it for anything other than providing you the Storehouse service.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What information do you collect?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>We collect only what's necessary to provide the service: account balances and transactions from connected accounts, your priority settings (giving, saving, bills), and email address for account access. We don't collect or store your bank login credentials -- that's handled securely by Plaid.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Can I delete my data?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. You can request complete deletion of your account and all associated data at any time. Contact support or use the "Delete Account" option in settings.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <!-- Philosophy & Approach -->
+      <div id="philosophy" class="mt-16 scroll-mt-20">
+        <h2 class="font-display text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+          Philosophy & Approach
+        </h2>
+        <div class="space-y-4">
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Why "give first"? Shouldn't I save first?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Most financial advice says "pay yourself first" -- save before you spend. That's not wrong. But we believe the order matters. When giving comes from leftovers, it feels like sacrifice. When giving comes first, it becomes foundation. It's a statement of priorities and, for many of us, an act of trust. Storehouse puts giving first, then saving, then bills -- and shows you what's left. This order reflects values, not just math.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>What if I can't afford to give right now?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>That's okay. Storehouse doesn't require you to give anything. You set your own priorities. If giving isn't possible right now, set it to zero and focus on building margin. The app works either way. The "give first" philosophy is an invitation, not a requirement.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Where does the name "Storehouse" come from?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>The name comes from the biblical concept of the storehouse -- a place where provision was kept for the community, especially for times of need. We chose it because Storehouse is about storing margin, building reserves, and creating financial peace for whatever comes next.</p>
+            </div>
+          </details>
+
+          <details class="faq-item group">
+            <summary class="faq-summary">
+              <span>Who created Storehouse?</span>
+              <svg class="faq-chevron" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>Storehouse was created by JR, a real estate professional with 20+ years of experience helping people make their biggest financial decision -- buying a home. The same philosophy of margin (don't buy the most house you can afford) applies to daily finances: don't spend everything you make. Leave room to breathe.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact CTA Section -->
+  <section class="py-16 bg-gradient-to-br from-storehouse-50 to-emerald-50">
+    <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900">
+        Still have questions?
+      </h2>
+      <p class="mt-4 text-lg text-slate-600">
+        Can't find what you're looking for?
+      </p>
+      <div class="mt-8">
+        <Button href="mailto:hello@storehouse.app" variant="primary" size="lg">
+          Contact Us
+          <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </Button>
+      </div>
+      <p class="mt-4 text-sm text-slate-500">
+        We typically respond within 24 hours.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</PageLayout>
+
+<style>
+  .faq-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .faq-item[open] {
+    border-color: #bbf7d0;
+    background-color: rgba(240, 253, 244, 0.3);
+  }
+
+  .faq-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 500;
+    color: #0f172a;
+    list-style: none;
+    transition: background-color 0.15s;
+  }
+
+  .faq-summary:hover {
+    background-color: #f8fafc;
+  }
+
+  .faq-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-chevron {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #94a3b8;
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] .faq-chevron {
+    transform: rotate(180deg);
+    color: #22c55e;
+  }
+
+  .faq-answer {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    color: #475569;
+    line-height: 1.625;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-answer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .faq-answer ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 0.25rem;
+  }
+
+  .faq-answer ul li {
+    margin-bottom: 0.25rem;
+    color: #475569;
+  }
+
+  .faq-answer em {
+    font-style: normal;
+    font-weight: 500;
+  }
+</style>
