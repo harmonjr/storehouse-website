@@ -9,7 +9,7 @@ import PillarSection from '../../components/sections/foundations/PillarSection.a
 import BlogPreviewSection from '../../components/sections/foundations/BlogPreviewSection.astro';
 import CtaSection from '../../components/sections/foundations/CtaSection.astro';
 
-const description = "Everything we believe about money. Twelve articles organized around four pillars: Clarity, Order, Margin, and Peace.";
+const description = "Everything we believe about money. Twelve articles organized around four pillars: Margin, Clarity, Order, and Peace.";
 ---
 
 <PageLayout title="Foundations | Storehouse" description={description}>
@@ -19,9 +19,9 @@ const description = "Everything we believe about money. Twelve articles organize
   <HeroSection />
   <FeaturedFoundation />
 
-  <PillarSection pillar="clarity" />
-  <PillarSection pillar="order" alternate />
   <PillarSection pillar="margin" />
+  <PillarSection pillar="clarity" alternate />
+  <PillarSection pillar="order" />
   <PillarSection pillar="peace" alternate />
 
   <BlogPreviewSection />

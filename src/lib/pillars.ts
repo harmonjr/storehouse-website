@@ -26,4 +26,4 @@ export const PILLARS = {
 } as const;
 
 export type PillarKey = keyof typeof PILLARS;
-export const PILLAR_ORDER: PillarKey[] = ['clarity', 'order', 'margin', 'peace'];
+export const PILLAR_ORDER: PillarKey[] = ['margin', 'clarity', 'order', 'peace'];
