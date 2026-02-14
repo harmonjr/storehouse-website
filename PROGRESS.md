@@ -1,6 +1,6 @@
 # Storehouse Website - Progress
 
-## Current Sprint: Content Canon (Foundations)
+## Current Sprint: Content Canon (Foundations) -- COMPLETE
 
 ### Completed
 - [x] Content Integrity System (`docs/storehouse-content-integrity-system.md`)
@@ -10,23 +10,25 @@
 - [x] Foundations article layout with pillar theming and same-pillar navigation
 - [x] Navigation updates (header, mobile nav, footer, blog cross-link)
 - [x] Content review of 3 existing blog posts (all evaluated)
-- [x] Tier 1 Article #1: "Give First, Save Second, Spend What Remains" (order manifesto, ~1,039 words)
-- [x] Tier 1 Article #2: "The One Number That Tells You the Truth" (Safe-to-Spend, ~1,026 words)
-- [x] Tier 1 Article #3: "Why Most Budgeting Apps Make You Feel Worse" (differentiator, ~1,110 words)
-- [x] Content review of all 3 new articles (all PUBLISH_READY)
-- [x] Reviewer polish applied (11 edits across 3 articles)
 - [x] 2 superseded blog posts deleted (why-giving-comes-first, the-safe-to-spend-method)
-- [x] Build verified clean (15 pages)
+- [x] Tier 1: "Give First" (~1,039 words), "One Number" (~1,026 words), "Budgeting Apps" (~1,110 words)
+- [x] Tier 2: "Weekly Ritual" (~1,195 words), "Setting Your Hierarchy" (~1,490 words), "Subscription Audit" (~1,340 words)
+- [x] Tier 3: "Money Conversation" (~1,230 words), "Starting From Zero" (~1,310 words), "Lifestyle Creep" (~1,350 words)
+- [x] Tier 4: "Irregular Income" (~1,300 words), "Debt and the Hierarchy" (~1,450 words), "Teaching Your Kids" (~1,480 words)
+- [x] All 12 articles reviewed by content-reviewer (all PUBLISH_READY)
+- [x] Reviewer polish applied to all 4 tiers
+- [x] Build verified clean (24 pages)
 
 ### Not Yet Done
 - [ ] Push to remote and deploy to preview
-- [ ] Visual review on preview (Foundations page, article pages, navigation)
-- [ ] Tier 2 articles (9 remaining: articles #4-12)
+- [ ] Visual review on preview (Foundations page, 12 article pages, navigation)
+- [ ] Merge to main and deploy to production
+- [ ] Move content canon plan to docs/plans/completed/
 - [ ] Candid Agent content canon (separate project)
 
 ## Branch
-- `feat/design-improvements` -- 2 commits ahead of origin
+- `feat/design-improvements` -- all work committed, needs push
 
 ## Session Status
-- Last session: 2026-02-12
-- State: All Foundations infrastructure and Tier 1 content committed, not yet pushed
+- Last session: 2026-02-14
+- State: All 12 Foundations articles written, reviewed, polished, and committed. Ready for push + deploy.
