@@ -3,11 +3,11 @@
 **Source:** `projects/storehouse-website/src/content/foundations/when-youre-starting-from-zero.md`
 **Reviewed:** 2026-02-14
 **Reviewer:** content-reviewer agent
-**Verdict:** PUBLISH_READY with revisions (2 high, 3 medium)
+**Verdict:** Publish-ready with revisions (1 high, 2 medium)
 
 ## Review Summary
 
-This is the most emotionally generous piece in the Foundations canon. It meets a reader at their most vulnerable -- $14 in savings, a credit card balance they try not to think about -- and treats them with genuine dignity. The voice is warm, specific, and never condescending. The hierarchy is shown working at its hardest edge case (zero), which is the strongest possible proof-of-concept. The article earns its closing line. Two high-priority issues need attention: overlapping content with "Setting Your Hierarchy" that borders on redundancy, and a forward reference to a non-existent article ("Debt, Giving, and the Hierarchy") that creates a dead link. Three medium-priority craft changes would tighten an already strong piece. The bones, voice, and heart are right. This is publish-ready with the proposed revisions applied.
+This is the most emotionally generous piece in the Foundations canon. It meets a reader at their most vulnerable -- $14 in savings, a credit card balance they try not to think about -- and treats them with genuine dignity. The five changes from the prior review have all been applied, and the piece is stronger for them. What remains is one high-priority issue: the Joseph reference at line 83 lacks the Genesis 41 citation that the Craft Guide's Biblical Attribution Standard requires and that Article #1 provides for the same reference. Two medium-priority craft issues round out the review: a paragraph in "Small Numbers Are Real Numbers" that could hit harder with tighter rhythm, and a vague-faith phrasing opportunity on line 33 where "stewardship" carries the article's core argument without connecting it to its biblical source for readers who land here directly.
 
 ---
 
@@ -16,10 +16,10 @@ This is the most emotionally generous piece in the Foundations canon. It meets a
 | # | Question | Result |
 |---|----------|--------|
 | 1 | Does this serve stewardship? | PASS -- The entire article reframes stewardship as direction, not balance. Line 33: "Stewardship isn't about the size of the number. It's about the direction you're facing." This directly serves the core filter. |
-| 2 | Which pillar does this serve? | PASS -- Primarily serves **Peace** (tagged correctly in frontmatter). The article reduces financial anxiety for people at the hardest starting point. Also serves **Order** (lines 39-47, the hierarchy at zero), **Margin** (lines 43, 77 -- $25/month as meaningful margin), and **Clarity** (line 47 -- Safe-to-Spend as truth, even when small). |
-| 3 | Does this make the reader feel equipped and hopeful -- or guilty and overwhelmed? | PASS -- This is the article's greatest strength. Lines 13-17 meet the reader mid-shame and say "Stay. This one is for you." Lines 81-83 name the real causes (medical crisis, job loss, divorce, late start) without moralizing. Line 101 gives permission: "You don't need to have it figured out." The reader leaves feeling seen, not scolded. |
-| 4 | Would Joseph recognize this wisdom? | PASS -- Line 85 invokes Joseph directly and does something smart: it extends Joseph from the abundance framing of Article #1 into famine. "Joseph stewarded during famine, not just during plenty." This shows that stewardship is practice-independent of circumstances -- exactly the point the article needs to make for a zero-balance reader. |
-| 5 | Am I being honest -- or performative? | PASS -- The article does not pretend starting from zero is easy. Line 21: "It's not just financial. It's physical." Line 53: "It's the hardest $25 you'll ever set aside." Line 67: "Starting from zero with debt isn't ideal. But it's honest." The honesty is consistent throughout. No toxic positivity. No minimizing. |
+| 2 | Which pillar does this serve? | PASS -- Primarily serves **Peace** (tagged correctly in frontmatter). Also serves **Order** (lines 39-45, the hierarchy at zero), **Margin** (line 43 -- $25/month as meaningful margin), and **Clarity** (line 45 -- Safe-to-Spend as truth, even when small). |
+| 3 | Does this make the reader feel equipped and hopeful -- or guilty and overwhelmed? | PASS -- This is the article's greatest strength. Lines 13-17 meet the reader mid-shame and say "Stay. This one is for you." Lines 80-81 name the real causes (medical crisis, job loss, divorce, late start) without moralizing. Line 99 gives permission: "You don't need to have it figured out." The reader leaves feeling seen, not scolded. |
+| 4 | Would Joseph recognize this wisdom? | PASS -- Line 83 invokes Joseph directly and extends him from the abundance framing of Article #1 into famine: "God gave Joseph wisdom to steward during famine, not just during plenty." This shows that stewardship is practice-independent of circumstances -- exactly the point this article needs to make. The reference would be strengthened by including the Genesis 41 citation (see Change 1). |
+| 5 | Am I being honest -- or performative? | PASS -- The article does not pretend starting from zero is easy. Line 21: "It's not just financial. It's physical." Line 51: "It's the hardest $25 you'll ever set aside." Line 65: "Starting from zero with debt isn't ideal. But it's honest." No toxic positivity. No minimizing. |
 
 ---
 
@@ -28,23 +28,23 @@ This is the most emotionally generous piece in the Foundations canon. It meets a
 ### Hits (strong voice moments)
 
 - **Line 13:** "You're looking at your savings account and the number is $14." -- Immediately specific. Not "little savings" or "almost nothing." Fourteen dollars. The reader who has been there feels a jolt of recognition. This is Storehouse voice at its most intimate.
-- **Line 17:** "Stay. This one is for you." -- Two sentences. Five words. This is the warmth the Content Integrity System calls for: "a friend who believes you can do this." It doesn't plead. It invites.
+- **Line 17:** "Stay. This one is for you." -- Two sentences. Five words. This is the warmth the Content Integrity System calls for: "a friend who believes you can do this."
 - **Line 21:** "It's not just financial. It's physical. A tightness in your chest when an unexpected expense appears." -- Embodied, not abstract. The writing knows what zero feels like because it describes the body's response, not just the bank statement.
-- **Line 33:** "Stewardship isn't about the size of the number. It's about the direction you're facing." -- The core reframe of the piece. Clean, memorable, quotable. This is a founding-truth candidate.
-- **Line 41:** "Not as an accusation. As an invitation." -- Six words that reframe the entire relationship between a zero-balance person and the hierarchy. This is the sentence that makes the hierarchy safe for someone who feels disqualified.
-- **Line 57:** "Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence." -- The best three-sentence sequence in the article. It names what is actually hard (not the money, but the belief) and reframes the act of saving as an act of faith. Deeply Storehouse-voiced.
-- **Line 87:** "The hierarchy doesn't ask how you got here. It asks what you want to do next." -- Clean, non-judgmental, forward-looking. This sentence could appear in onboarding copy.
+- **Line 33:** "Stewardship isn't about the size of the number. It's about the direction you're facing." -- The core reframe of the piece. Clean, memorable, quotable. Founding-truth candidate. (See Change 2 for an attribution consideration.)
+- **Line 41:** "Not as an accusation. As an invitation." -- Six words that reframe the entire relationship between a zero-balance person and the hierarchy.
+- **Line 55:** "Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence." -- The best three-sentence sequence in the article. Names what is actually hard (not the money, but the belief) and reframes saving as an act of faith.
+- **Line 85:** "The hierarchy doesn't ask how you got here. It asks what you want to do next." -- Clean, non-judgmental, forward-looking.
 
-### Deviations (minor)
+### Deviations
 
-- **Lines 22-23:** "A quick, reflexive calculation every time something breaks -- can I absorb this, or does this go on the card? A background hum of anxiety that never fully quiets, even when things are technically fine this week." -- This is excellent writing, but the section runs slightly long at four sentences of similar rhythm. The emotional weight could land harder with slightly tighter construction. See Change 3 below.
-- **Line 39:** "This might be the most counterintuitive thing about the Storehouse approach" -- Slightly promotional in a piece that is otherwise entirely personal and empathetic. "The Storehouse approach" introduces brand language into what has been a human conversation. See Change 2 below.
+- **Line 83:** "God gave Joseph wisdom to steward during famine, not just during plenty." -- Good: directly names God and Joseph. Missing: the Genesis 41 citation. The Craft Guide says to cite when referencing a biblical story directly, and Article #1 cites "Genesis 41" for the same reference. See Change 1.
+- **Line 33:** "Stewardship" carries the argument's entire weight without grounding the concept in its biblical origin. A reader arriving at this article directly (not through Article #1) encounters stewardship as a general concept rather than a specific biblical conviction. See Change 2.
 
 ---
 
 ## Anonymity Check
 
-Not applicable -- Storehouse content does not have anonymity requirements. The author field is "JR" which is consistent with the project's approach.
+Not applicable -- Storehouse content does not have anonymity requirements. Author field is "JR," consistent with the project's approach.
 
 ---
 
@@ -52,38 +52,31 @@ Not applicable -- Storehouse content does not have anonymity requirements. The a
 
 ### Internal consistency: CLEAN
 
-- **Math check:** "$25 a month is $300 in a year" (line 43) -- correct ($25 x 12 = $300).
-- **Math check:** "After a month, you have $25 saved. After three months, $75." (line 77) -- correct.
-- **Hierarchy order:** Give, Save, Bills, Safe-to-Spend (lines 41-47). Matches the canonical order from Article #1.
-- **The "One Step" exercise** (lines 91-99) lists Giving, Saving, Bills, then subtract from take-home pay. Matches the hierarchy and the Safe-to-Spend formula from Article #2.
+- **Math check:** "$25 a month is $300 in a year" (line 43) -- correct.
+- **Math check:** "After a month, you have $25 saved. After three months, $75." (line 75) -- correct.
+- **Hierarchy order:** Give, Save, Bills, Safe-to-Spend (lines 41-45). Matches canonical order from Article #1.
+- **"One Step" exercise** (lines 89-97) lists Giving, Saving, Bills, then subtract from take-home pay. Matches the hierarchy and the Safe-to-Spend formula from Article #2.
 
 ### Cross-content consistency
 
 **With Article #1 ("Give First, Save Second, Spend What Remains"):**
-- CONSISTENT: Line 31 explicitly references Article #1 and quotes the "1% isn't failing at 10%" line from Article #1, line 80. The echo is intentional and clean.
-- CONSISTENT: Line 103 repeats the line: "Starting at 1% isn't failing at 10%." This is a deliberate callback to the founding truth. Appropriate for a Tier 3 article building on Tier 1.
+- CONSISTENT: Line 31 explicitly references Article #1 and quotes the "1% isn't failing at 10%" line. The callback is clean and intentional.
+- CONSISTENT: Line 101 closes with the same line as a capstone. Earned through the article's journey.
+- INCONSISTENCY (minor): Article #1, line 54 references Joseph with "In Genesis 41, God revealed to Joseph..." This article references the same story at line 83 without the Genesis 41 citation. See Change 1.
 
 **With Article #2 ("The One Number That Tells You the Truth"):**
-- CONSISTENT: Safe-to-Spend is described at line 47 as "Your Safe-to-Spend. It might be small. It might be uncomfortably small. But it's true." This aligns with Article #2's framing: "It's not what's left over. It's what remains after you've taken care of what matters most."
-
-**With Article #4 ("The Weekly Ritual"):**
-- CONSISTENT: Line 41 mentions "your weekly review," which aligns with the weekly import ritual described in Article #4.
+- CONSISTENT: Safe-to-Spend described at line 45 as the number that remains after giving, saving, and bills. Aligns with Article #2's formula and framing.
 
 **With Article #5 ("Setting Your Hierarchy"):**
-- OVERLAP CONCERN: This article covers significant ground that "Setting Your Hierarchy" also covers. Both articles discuss giving at zero (this article line 41; Setting Hierarchy line 39/103), saving at $25/month (this article line 43; Setting Hierarchy line 44), and the "set your bills honestly" instruction (this article line 45; Setting Hierarchy lines 65-78). The overlap is not contradictory -- the content is consistent -- but it is repetitive enough that a reader who encounters both articles may feel like they are reading the same advice twice. See Change 1 below.
-- NOTE: Setting Your Hierarchy uses $40/month on $4,000 income as its 1% example. This article uses $25/month as a flat amount, not pegged to an income level. The two are not contradictory (different framing), but they are different enough to potentially confuse a reader who reads both. This is not a factual error -- just a different pedagogical choice.
+- IMPROVED: The prior review's Change 1 was applied. The overlap has been reduced -- this article now uses declarative framing ("Giving at zero doesn't mean...") rather than imperative instructions ("Set giving at $0"). The two articles now complement rather than duplicate.
+- NOTE: Setting Your Hierarchy uses $40/month on $4,000 income (1%). This article uses $25/month as a flat amount. Not contradictory -- different pedagogical frames. Just noting for awareness.
 
-**With Article #7 ("The Money Conversation"):**
-- NO CONFLICT. The Money Conversation is couples-focused; this article is individually-focused. They complement without overlapping.
-
-**With Article #9 ("Lifestyle Creep"):**
-- NO CONFLICT. Lifestyle Creep addresses income growth; this article addresses income scarcity. They bookend the same spectrum.
-
-**Forward reference: "Debt, Giving, and the Hierarchy":**
-- ISSUE: Line 63 references an article called "Debt, Giving, and the Hierarchy" that does not exist in the content directory. This will create a dead cross-reference if published as-is. See Change 4 below.
+**With Article #11 ("Debt and the Hierarchy"):**
+- CONSISTENT: The forward reference at line 61 now matches the actual article title. The debt article exists and is published. The cross-reference is live and accurate.
+- CONSISTENT: Line 61 says "having debt doesn't disqualify you from the hierarchy." The Debt article's description says the same: "Debt complicates the hierarchy. But it doesn't disqualify you from stewardship." Clean echo.
 
 ### Numbers consistency
-- The $25/month savings figure appears 8 times in this article (lines 43, 53, 55, 57, 71, 73, 77, 94). This is not excessive for a piece whose thesis centers on small numbers being meaningful, but it does create a slightly repetitive feel through the middle sections.
+The $25/month figure appears 6 times in the current version (lines 43, 51, 53, 55, 75, 92), down from 8 in the prior version. The prior review's Change 5 was applied. The repetition is now purposeful without becoming monotonous.
 
 ---
 
@@ -91,14 +84,13 @@ Not applicable -- Storehouse content does not have anonymity requirements. The a
 
 | Red Line | Status |
 |----------|--------|
-| Shaming people for their financial situation | CLEAR -- The entire article is constructed to do the opposite. Lines 81-83 explicitly name reasons people start from zero (medical crisis, job loss, divorce, late start) and say "None of those reasons make you less capable of stewarding what you have now." |
-| Prosperity gospel messaging | CLEAR -- No promise of rewards for giving. Line 41 frames giving at zero as honest and invitational. No "give and you'll receive." |
-| Legalistic messaging | CLEAR -- Line 41: "Set giving at $0. That's honest." Line 67: "Starting from zero with debt isn't ideal. But it's honest." No mandatory percentages. |
+| Shaming people for their financial situation | CLEAR -- The entire article is constructed to do the opposite. Lines 80-81 name reasons people start from zero and say "None of those reasons make you less capable of stewarding what you have now." |
+| Prosperity gospel messaging | CLEAR -- No promise of rewards for giving. Line 41 frames giving at zero as honest and invitational. |
+| Legalistic messaging | CLEAR -- No mandatory percentages. Lines 91-92 set giving at "$0 (for now)" and saving at "$25/month." |
 | Attacking competitors by name | CLEAR -- No competitors mentioned. |
-| Implying Storehouse replaces professional financial advice | CLEAR -- The article positions Storehouse as a practice framework, not an advisor. |
-| Fear-based messaging | CLEAR -- No "you'll never retire" or "you're running out of time." The closest is line 22 ("A background hum of anxiety") which is empathetic naming of what the reader already feels, not fear-mongering. |
-| Excluding non-Christians from value proposition | CLEAR -- Joseph is referenced at line 85 as a model of practice, not a religious mandate. The article works fully for a non-Christian reader. |
-| Generic percentage advice without acknowledging starting from zero | EXPLICITLY ADDRESSED -- The Content Integrity System flags "Save 20% of your income" without acknowledging that some families are starting from 0% (line 199 of the integrity system). This article IS the acknowledgment. Line 43: "The emergency fund doesn't start at $1,000. It starts at $25." |
+| Implying Storehouse replaces professional financial advice | CLEAR -- Positions Storehouse as a practice framework, not an advisor. |
+| Fear-based messaging | CLEAR -- No "you'll never retire" or "you're running out of time." Line 21's "background hum of anxiety" is empathetic naming of what the reader already feels, not fear-mongering. |
+| Excluding non-Christians from value proposition | CLEAR -- Joseph is referenced as a model of practice, not a religious mandate. The article works fully for a non-Christian reader. |
 
 No red line violations.
 
@@ -106,130 +98,120 @@ No red line violations.
 
 ## Proposed Changes
 
-### Change 1: Reduce overlap with "Setting Your Hierarchy" in the "Hierarchy Works at Zero" section
+### Change 1: Add Genesis 41 citation to the Joseph reference
 
-**Why:** Cross-content consistency (redundancy concern). Lines 41-47 walk through setting giving at $0, saving at $25, bills honestly, then looking at Safe-to-Spend. This is nearly identical to the instruction in "Setting Your Hierarchy" (lines 39-47, 103-107) and the "One Step" section at the end of this same article (lines 91-99). The middle section should focus on the *emotional* truth of operating the hierarchy at zero -- what it feels like, why it is not disqualifying -- rather than repeating the mechanical steps that Setting Your Hierarchy covers in detail.
+**Why:** Biblical Attribution Standard (Craft Guide) and cross-content consistency with Article #1. The Craft Guide states: "Cite when retelling or referencing a biblical story directly. Joseph and the storehouse (Genesis 41) deserves attribution." Article #1 says "In Genesis 41, God revealed to Joseph..." (line 54). This article references the same story without the citation. The Content Integrity System's voice guidelines require being "Attributive, not vague" and specify that "The Bible teaches..." is better than vague sourcing. The current line is not vague -- it names God and Joseph directly -- but it misses the specific grounding that the Craft Guide calls for and that Article #1 provides.
 
-> **Current (lines 39-47):**
-> This might be the most counterintuitive thing about the Storehouse approach: the hierarchy works even when the numbers are small. Even when some of them are zero.
->
-> Set giving at $0. That's honest, and honest is the only place worth starting. Giving at zero doesn't mean giving doesn't matter. It means giving is in position one -- visible, present, waiting. It's the first field you see during your weekly review. Not as an accusation. As an invitation. When things loosen up, when there's room, the field is there. You won't have to restructure anything. You'll just change a number.
->
-> Set saving at $25 a month. That might feel so small it's not worth doing. It is. Twenty-five dollars a month is $300 in a year. Three hundred dollars is a car repair. It's a doctor's visit. It's the difference between handling a surprise and putting it on a credit card that charges you interest for the next eighteen months. The emergency fund doesn't start at $1,000. It starts at $25.
->
-> Set your bills honestly. Every fixed obligation, every minimum payment. See the full picture.
->
-> Then look at what remains. Your Safe-to-Spend. It might be small. It might be uncomfortably small. But it's true. And a true number -- even a small one -- is something you can work with.
+> **Current (line 83):**
+> Stewardship doesn't require abundance. God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
 
 > **Proposed:**
-> Here is the most counterintuitive part: the hierarchy works even when the numbers are small. Even when some of them are zero.
->
-> Giving at zero doesn't mean giving doesn't matter. It means giving is in position one -- visible, present, waiting. The first field you see during your weekly review. Not as an accusation. As an invitation. When things loosen up, when there's room, the field is there. You won't have to restructure anything. You'll just change a number.
->
-> Saving at $25 a month feels so small it's not worth doing. It is. Twenty-five dollars a month is $300 in a year. Three hundred dollars is a car repair. It's a doctor's visit. It's the difference between handling a surprise and putting it on a credit card that charges you interest for the next eighteen months. The emergency fund doesn't start at $1,000. It starts at $25.
->
-> And Safe-to-Spend -- the number that remains after giving, saving, and bills -- might be uncomfortably small. But it's true. And a true number, even a small one, is something you can work with.
+> Stewardship doesn't require abundance. In Genesis 41, God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
 
-**Priority:** High. The current version uses imperative instructions ("Set giving at $0," "Set saving at $25," "Set your bills honestly") that duplicate Setting Your Hierarchy. The proposed version shifts to declarative framing -- describing the experience rather than issuing steps -- which is more appropriate for a Peace-pillar article. The practical how-to belongs in Setting Your Hierarchy; this article should focus on why it is emotionally safe to begin. The "Set your bills honestly" line is removed because the article's "One Step" section (lines 91-99) already covers the exercise in a more natural location.
+**Priority:** High. This is not just a craft polish -- it's a consistency issue across the canon. A reader who comes from Article #1 will notice the citation there and its absence here. More importantly, the Craft Guide's Biblical Attribution Standard explicitly names the Joseph/Genesis 41 reference as requiring citation. Three words ("In Genesis 41,") fix it without disrupting the sentence's rhythm or warmth.
 
 ---
 
-### Change 2: Remove brand name from counterintuitive claim
+### Change 2: Ground "stewardship" in its biblical source at the article's defining moment
 
-**Why:** Voice alignment. "The Storehouse approach" introduces promotional language into an intimate, personal moment. The article has been speaking directly to a person with $14 in their account. Naming the product here breaks the spell.
+**Why:** Voice alignment (Content Integrity System: "Attributive, not vague") and reader experience for direct-landing visitors. Line 33 is the article's core reframe: "Stewardship isn't about the size of the number. It's about the direction you're facing." This is a founding-truth candidate -- it may be quoted independently, appear in onboarding, or surface in marketing. A reader who arrives at this article directly (not via Article #1) encounters "stewardship" here as the central concept without knowing it is a biblical conviction. Article #1, line 52 establishes stewardship as "a biblical idea -- the conviction that what you have isn't yours to consume, it's yours to manage faithfully (1 Peter 4:10)." This article trusts the reader to carry that context forward. But a Tier 3 article should be accessible without requiring Tier 1 as prerequisite.
 
-> **Current (line 39):**
-> This might be the most counterintuitive thing about the Storehouse approach: the hierarchy works even when the numbers are small.
+This is a judgment call. The fix must be light -- this is a Peace article speaking to someone with $14 in their account, not a theology lesson. The suggestion below adds five words that anchor the concept without breaking the moment.
+
+> **Current (line 33):**
+> Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Stewardship isn't about the size of the number. It's about the direction you're facing.
 
 > **Proposed:**
-> Here is the most counterintuitive part: the hierarchy works even when the numbers are small.
+> Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Biblical stewardship -- managing well what you've been given -- isn't about the size of the number. It's about the direction you're facing.
 
-**Priority:** Medium. The article mentions "Storehouse" nowhere else except line 39. Removing it keeps the piece focused on the reader, not the product. (Note: this change is already incorporated into the Change 1 proposed text above.)
+**Priority:** Medium. The em-dash clause ("managing well what you've been given") serves two purposes: it attributes stewardship to its biblical origin for direct-landing readers, and it briefly defines the term for anyone unfamiliar with it. The wording mirrors the Content Integrity System's summary line: "Stewardship -- managing well what you've been given -- is the path to margin, peace, and generosity." If the addition feels too heavy for this moment, an alternative is to add a lighter touch one sentence earlier: "Stewardship -- the biblical conviction that what you have is yours to manage, not to consume -- isn't about the size of the number." Either way, the goal is to prevent "stewardship" from reading as a generic financial term at the article's most quotable moment.
 
 ---
 
-### Change 3: Tighten the "Weight of Zero" section's second paragraph
+### Change 3: Tighten the "Small Numbers Are Real Numbers" section for rhythm
 
-**Why:** Prose rhythm. The second paragraph of "The Weight of Zero" (lines 22-23) runs four clauses across two long sentences, all at the same emotional register. Each clause describes a comparison scenario. The repetition is intentional but slightly exhausting in a section that already carries heavy emotional weight.
+**Why:** Prose rhythm (Craft Guide). Lines 51-55 run four consecutive paragraphs at similar length and cadence, all making the same argument (small saving matters). The argument is right, but the rhythm flattens through the middle. The section would hit harder if the final paragraph -- the strongest one -- had more contrast with what precedes it.
 
-> **Current (lines 22-23):**
-> And then there's the comparison. Your coworker mentions their vacation fund. A friend casually references their emergency savings. Social media shows you people your age with investment portfolios and paid-off cars and kitchen renovations. You do the math you can't help doing: where should I be by now? And the answer always seems to be somewhere far ahead of where you are.
-
-> **Proposed:**
-> And then there's the comparison. Your coworker mentions their vacation fund. Social media shows you people your age with paid-off cars and kitchen renovations. You do the math you can't help doing: where should I be by now? The answer always seems to be somewhere far ahead of where you are.
-
-**Priority:** Medium. The current version lists four comparison sources (coworker, friend, social media, internal math). Three is sharper -- the "friend" and "coworker" examples serve the same function (in-person comparison), so consolidating to one keeps the list moving. Removing "And" before the final sentence adds more punch.
-
----
-
-### Change 4: Handle the forward reference to "Debt, Giving, and the Hierarchy"
-
-**Why:** Factual consistency. Line 63 references an article that does not exist: "Debt, Giving, and the Hierarchy." If this article publishes before that one is written, readers encounter a dead cross-reference. Two options:
-
-**Option A -- Remove the specific title (recommended if the debt article is not imminent):**
-
-> **Current (line 63):**
-> We're not going to solve the debt equation in this article -- "Debt, Giving, and the Hierarchy" goes deeper into how the hierarchy handles competing obligations.
-
-> **Proposed:**
-> We're not going to solve the debt equation in this article -- the hierarchy handles competing obligations, and we'll go deeper on that elsewhere.
-
-**Option B -- Keep the title (only if the debt article will be written and published before or alongside this piece):**
-
-Leave as-is, but ensure the referenced article exists before this one goes live.
-
-**Priority:** High. A dead cross-reference undermines trust, especially in a piece about starting from zero where the reader may be fragile. If they click a link that goes nowhere, the message becomes "they didn't finish building this either."
-
----
-
-### Change 5: Reduce $25 repetition in middle sections
-
-**Why:** Prose rhythm. The figure "$25" appears 8 times across lines 43-94. In the "Small Numbers Are Real Numbers" section (lines 49-57) and the "What Changes When You Start" section (lines 69-77), $25 appears in nearly every paragraph. The repetition is deliberate -- the article is arguing that $25 matters -- but by the sixth or seventh occurrence, the emphasis flattens into monotony.
-
-> **Current (lines 71-73):**
-> The shift isn't dramatic at first. You won't feel wealthy after your first $25 deposit. You might not feel much of anything except a vague sense of "well, I did it."
+> **Current (lines 51-55):**
+> So when you save $25 a month, it feels like nothing. It's not nothing. It's the hardest $25 you'll ever set aside, because you're building the habit from scratch, with no momentum and no cushion.
 >
-> But something changes under the surface. The background anxiety -- that hum -- starts to quiet. Not because $25 solves anything. Because the act of choosing where your money goes, instead of watching it happen to you, changes your relationship with the whole thing.
+> The person who saves $25 a month for a year has $300 and -- more importantly -- has proven to themselves that they can do this. That proof matters more than the number. It's the foundation that $50 a month will build on next year, and $100 the year after that.
+>
+> We've seen this pattern: the first amount is always the hardest. Not because of the money. Because of the belief. Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence.
 
 > **Proposed:**
-> The shift isn't dramatic at first. You won't feel wealthy after your first deposit. You might not feel much of anything except a vague sense of "well, I did it."
+> So when you save $25 a month, it feels like nothing. It's not nothing. It's the hardest $25 you'll ever set aside, because you're building the habit from scratch, with no momentum and no cushion. But the person who does it for a year has $300 and -- more importantly -- has proven to themselves that they can do this. That proof is the foundation that $50 a month will build on next year, and $100 the year after that.
 >
-> But something changes under the surface. The background anxiety -- that hum -- starts to quiet. Not because the number solves anything. Because the act of choosing where your money goes, instead of watching it happen to you, changes your relationship with the whole thing.
+> We've seen this pattern: the first amount is always the hardest. Not because of the money. Because of the belief. Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence.
 
-**Priority:** Medium. The reader already knows the amount is $25 from the preceding sections. Replacing two instances with "your first deposit" and "the number" keeps the emotional focus on the act of starting rather than the specific dollar figure, while the earlier and later occurrences still anchor the concrete amount.
+**Priority:** Medium. Merging the first two paragraphs into one creates a single building passage that crescendos into proof, then pauses. The final paragraph -- the article's emotional core -- arrives after a visual break and hits with more force. "That proof matters more than the number" is removed because the next sentence ("That proof is the foundation...") makes the same point more concretely. Three paragraphs become two without losing content.
+
+---
+
+## Craft Quality
+
+### AI Tells Found
+
+- **None significant.** The piece is clean of the Craft Guide's watchlist patterns. No hedge phrases, no filler transitions, no symmetrical structure, no neat conclusions. The previous review's changes (removing imperative overlap, tightening the comparison paragraph, varying the $25 repetition) eliminated the patterns that were closest to AI tells.
+- **Minor observation:** Lines 49-50 uses a three-item list ("Savings advice talks in thousands. Retirement calculators start at six figures. Giving conversations assume percentages..."). This is a clean rule-of-three, but it works here because the items are genuinely distinct categories (savings, retirement, giving) rather than three ways of saying the same thing. Not flagged.
+
+### Prose Rhythm: Strong
+
+The piece alternates effectively between long, building sentences (line 21's four-clause description of anxiety) and short, punchy ones ("Stay. This one is for you."). Paragraph length varies throughout. The fragment "Not as an accusation. As an invitation." (line 41) works as a structural break. The main rhythm concern is the middle "Small Numbers" section (lines 51-55), where three consecutive paragraphs run at similar length and pace. Change 3 addresses this. The opening (lines 13-17) is excellent -- it drops you into a specific moment and earns the second paragraph immediately.
+
+### Reframes Found
+
+- **"Zero isn't a grade. It's a location."** (line 33) -- The central reframe. Takes the reader's assumption (zero = failure) and inverts it (zero = starting point). Concise. True. Works.
+- **"Stewardship isn't about the size of the number. It's about the direction you're facing."** (line 33) -- Second reframe in the same paragraph. Moves stewardship from accumulation to orientation. Founding-truth caliber.
+- **"That belief is the actual starting point. The $25 is just the evidence."** (line 55) -- Reframes saving from a financial act to a psychological one. The reader expected the money to be the point; the article shows the belief is.
+- **"The hierarchy doesn't ask how you got here. It asks what you want to do next."** (line 85) -- Reframes the hierarchy from backward-looking judgment to forward-looking agency.
+
+Four reframes in a ~1,300-word piece is generous without being gimmicky. Each appears once.
+
+### Engagement: Pulls forward
+
+The opening (lines 13-17) is the strongest in the canon. "$14 in savings" is so specific it feels like a confession. "Stay. This one is for you." creates a contract with the reader: I see you, and this will be worth your time. Each section creates curiosity for the next -- "The Weight of Zero" builds emotional pressure, "Zero Is a Starting Point" releases it with a reframe, "The Hierarchy Works at Zero" proves the claim practically, "Small Numbers Are Real Numbers" deepens the emotional argument, "The Debt Question" addresses the objection the reader has been holding, "What Changes When You Start" pays off the promise of transformation, and "You Are Not Your Balance" gives the reader permission to be where they are. The piece never loses the reader.
+
+### The "Changed Inside" Test: PASSES
+
+The reader arrives believing zero is a verdict. They leave believing zero is a starting point. The journey earns that shift through specificity (the $14, the tightness in the chest, the $25-a-month math), through reframes (four of them, each earned), and through the Joseph reference that extends stewardship from abundance into famine. The conclusion (lines 101-103) restates the opening's description ("You're not behind") with the weight of everything the article has built. The reader has been changed by the journey, not lectured into agreement.
+
+### Condescension Check: CLEAN
+
+No "simply put," no "let me explain," no "let's break this down." The piece treats the reader as an intelligent adult navigating a hard situation. Line 79 ("Here's the thing nobody says at the financial seminar") positions the reader as someone who has been to the seminar and been failed by it -- not as someone who needs educating. Line 49 ("The financial industry has a way of making small progress feel invisible") blames the system, not the reader.
 
 ---
 
 ## Truths Extracted
 
-- **"Stewardship isn't about the size of the number. It's about the direction you're facing."** (line 33) -- Founding truth candidate. Reframes stewardship from a measure of accumulation to a measure of intent. Works independently of the article. Could appear in onboarding, marketing, or the About page.
+- **"Stewardship isn't about the size of the number. It's about the direction you're facing."** (line 33) -- Founding truth candidate. Reframes stewardship from accumulation to orientation. Works independently. Could appear in onboarding, marketing, or the About page.
 
-- **"Not as an accusation. As an invitation."** (line 41) -- Six words that define Storehouse's relationship with giving for people who have nothing to give. Could be used in UI microcopy for the giving field, especially during onboarding.
+- **"Not as an accusation. As an invitation."** (line 41) -- Six words that define Storehouse's relationship with giving for people who have nothing to give. UI microcopy candidate for the giving field during onboarding.
 
-- **"The emergency fund doesn't start at $1,000. It starts at $25."** (line 43) -- Directly challenges the conventional "$1,000 starter emergency fund" advice (Dave Ramsey's Baby Step 1). Specific, memorable, quotable.
+- **"The emergency fund doesn't start at $1,000. It starts at $25."** (line 43) -- Directly challenges the conventional "$1,000 starter emergency fund" advice. Specific, memorable, quotable.
 
-- **"Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence."** (line 57) -- The best three-sentence sequence in the piece. Reframes saving as an act of belief. This is the emotional core of the article.
+- **"Saving $25 when you have nothing requires believing that your financial life can change. That belief is the actual starting point. The $25 is just the evidence."** (line 55) -- The emotional core of the article. Reframes saving as an act of belief.
 
-- **"The hierarchy doesn't ask how you got here. It asks what you want to do next."** (line 87) -- Non-judgmental, forward-looking. Could serve as a cross-article truth and appear in onboarding for users entering debt information.
+- **"The hierarchy doesn't ask how you got here. It asks what you want to do next."** (line 85) -- Non-judgmental, forward-looking. Cross-article truth candidate. Could appear in onboarding for users entering debt information.
 
 ---
 
 ## Cross-Reference Notes
 
-### Overlap with "Setting Your Hierarchy" (Article #5)
-The most significant cross-content concern. Both articles walk through setting giving at zero, saving small amounts, and listing bills. "Setting Your Hierarchy" does this as a practical how-to with a worked numerical example ($4,000 income). "Starting From Zero" does it as emotional reassurance for someone who feels disqualified. The intent is different, but the surface content is similar enough that a reader navigating the Foundations pillar sequentially will notice the repetition. Change 1 above addresses this by shifting the "Starting From Zero" version away from imperative instructions toward declarative, emotional framing.
+### Joseph citation inconsistency with Article #1
+The most notable cross-content issue. Article #1 references Joseph with "In Genesis 41, God revealed to Joseph..." (line 54). This article references the same story at line 83 with "God gave Joseph wisdom to steward during famine" -- no Genesis citation. The Craft Guide's Biblical Attribution Standard explicitly names this reference as requiring citation. Change 1 addresses this with a three-word fix.
 
-### The "1% isn't failing at 10%" echo
-This line appears in three articles: Article #1 (line 80), Article #5 (line 109 in concept), and this article (lines 31 and 103). The repetition is intentional -- the canon plan identifies this as a founding truth to echo across tiers. It works here because line 31 attributes the quote to Article #1 ("We said in 'Give First...'") and line 103 closes the article with it as a capstone. The callback is earned, not lazy.
+### "Stewardship" as undefined term for direct-landing readers
+Article #1 defines stewardship as "a biblical idea -- the conviction that what you have isn't yours to consume, it's yours to manage faithfully (1 Peter 4:10)" (line 52). This article uses "stewardship" 4 times (lines 33, 81, 83, and implicitly throughout) without grounding it for a reader who may not have read Article #1. Change 2 proposes a light-touch fix at the article's defining moment. This is a judgment call -- the attribution improves standalone readability but adds five words to the article's most quotable line.
 
-### Forward reference to non-existent article
-"Debt, Giving, and the Hierarchy" (referenced at line 63) does not exist in the content directory. This must be resolved before publication -- either by publishing the debt article first, or by removing the specific title reference (see Change 4).
+### Prior review changes: all applied
+The five changes from the prior review (overlap reduction, brand name removal, paragraph tightening, dead forward reference, $25 repetition) have all been applied to the current text. The piece is meaningfully improved from the version that was first reviewed.
 
-### Consistency of $25/month vs. $40/month (1% of $4,000)
-"Setting Your Hierarchy" uses $40/month as the 1% starting point for a $4,000 income. This article uses $25/month as a flat amount. The two are not contradictory (different framing: percentage vs. flat amount), and no reader would catch a factual inconsistency. But a reader who reads both might wonder: "Should I save $25 or $40?" This is not something that needs to be fixed -- $25 serves this article's emotional purpose (smaller = braver), and $40 serves Setting Your Hierarchy's mathematical purpose (percentage-based). Just noting it for awareness.
+### Forward reference to "Debt and the Hierarchy" (line 61)
+The prior review flagged a dead cross-reference to a non-existent article titled "Debt, Giving, and the Hierarchy." The current text references "Debt and the Hierarchy" which matches the published article "Debt and the Hierarchy: Where Payoff Fits" (Article #11). Resolved.
 
 ### Word count
-Approximately 1,310 words (body content, excluding frontmatter). Within the 800-1,500 word target. The proposed changes (Change 1 and Change 3) would reduce this slightly to approximately 1,250 words, still well within range.
+Approximately 1,290 words (body content, excluding frontmatter). Within the 800-1,500 word target. The proposed changes would not materially affect the count.
 
 ---
 
@@ -237,14 +219,14 @@ Approximately 1,310 words (body content, excluding frontmatter). Within the 800-
 
 | Requirement | Status |
 |-------------|--------|
-| 800-1,500 words | PASS (~1,310) |
+| 800-1,500 words | PASS (~1,290) |
 | Pass all 5 filter questions | PASS (5/5) |
 | One clear takeaway per piece | PASS ("You can start the hierarchy at zero and it still works") |
-| Serve at least one pillar | PASS (Peace, primarily; also Order, Margin, Clarity) |
-| Include at least one actionable step | PASS (lines 91-99) |
-| End with encouragement, not a CTA | PASS (lines 101-105) |
+| Serve at least one pillar | PASS (Peace primarily; also Order, Margin, Clarity) |
+| Include at least one actionable step | PASS (lines 89-97) |
+| End with encouragement, not a CTA | PASS (lines 101-103) |
 | Voice: warm, honest, kitchen-table conversational | PASS |
-| Faith-grounded but accessible | PASS (Joseph at line 85; accessible framing) |
+| Attributive, not vague (biblical grounding) | PARTIAL -- Joseph is named with God but without Genesis 41 citation (Change 1). "Stewardship" used at line 33 without biblical grounding for standalone readers (Change 2). |
 | Never assume financial literacy | PASS (explains Safe-to-Spend, minimum payments, credit card interest) |
 | Acknowledge that some families start from 0% | PASS -- this is the entire article |
 
@@ -252,9 +234,9 @@ Approximately 1,310 words (body content, excluding frontmatter). Within the 800-
 
 ## Overall Assessment
 
-This is one of the strongest pieces in the Foundations canon. It does the hardest thing editorial content can do: it meets a reader in shame and walks them toward agency without once being condescending, preachy, or performative. The voice is consistently warm and specific -- $14 in savings, not "almost nothing"; a tightness in the chest, not "financial stress." The hierarchy is shown working at its most extreme edge case, which is the most compelling proof that it works at all. The Joseph reference extends naturally from the Article #1 usage (abundance) into famine, which is exactly right for this audience. The two high-priority changes -- reducing overlap with "Setting Your Hierarchy" and resolving the dead forward reference -- are important but not structural. The article's core argument, emotional arc, and voice are publish-ready. The single most important thing to address is Change 4 (the dead link to "Debt, Giving, and the Hierarchy"), because a broken cross-reference in an article for vulnerable readers sends exactly the wrong signal about reliability.
+This piece is the emotional anchor of the Foundations canon. It does the hardest thing financial content can do: it meets a reader in shame and walks them toward agency without once being condescending, preachy, or performative. The voice is consistently warm and specific -- $14 in savings, not "almost nothing"; a tightness in the chest, not "financial stress." The prior review's five changes have all been applied, and each one improved the piece. What remains is a biblical attribution gap (the Joseph reference needs its Genesis 41 citation for both Craft Guide compliance and cross-article consistency), a faith-grounding opportunity at the article's most quotable moment (line 33), and a rhythm tightening in the middle section. None of these are structural. The article's argument, emotional arc, voice, and integrity are sound. The single most important thing to address is Change 1 -- the Genesis 41 citation -- because the Craft Guide explicitly names this reference as requiring attribution, Article #1 provides it, and three words fix it.
 
-**Verdict: PUBLISH_READY with revisions.**
-- 2 high-priority changes (overlap reduction, dead forward reference)
-- 3 medium-priority changes (brand name removal, paragraph tightening, $25 repetition)
+**Verdict: Publish-ready with revisions.**
+- 1 high-priority change (Genesis 41 citation on the Joseph reference)
+- 2 medium-priority changes (biblical grounding of "stewardship" at line 33, rhythm tightening in middle section)
 - 0 critical or blocking issues
