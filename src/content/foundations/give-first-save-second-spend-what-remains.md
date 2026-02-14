@@ -49,11 +49,11 @@ That shift is the difference between budgeting and stewardship.
 
 ## What Stewardship Actually Means
 
-Stewardship is the conviction that what you have isn't yours to consume -- it's yours to manage well. It's an old idea with a simple application: hold money loosely instead of with a white-knuckle grip.
+Stewardship is a biblical idea -- the conviction that what you have isn't yours to consume, it's yours to manage faithfully (1 Peter 4:10). Hold money loosely instead of with a white-knuckle grip, because it was never really yours to begin with.
 
-There's a story in Genesis 41 about a man named Joseph who was put in charge of an entire nation's resources during seven years of abundance. He didn't spend the surplus. He didn't hoard it out of fear. He stored it with foresight, so that when famine came, there was enough.
+In Genesis 41, God revealed to Joseph that seven years of abundance would be followed by seven years of famine. Joseph didn't spend the surplus. He didn't hoard it out of fear. He stored it with foresight, so that when famine came, there was enough.
 
-Joseph wasn't wealthy. He was a steward. The abundance wasn't his -- but the wisdom to manage it was.
+Joseph wasn't wealthy. He was a steward. The abundance wasn't his -- and neither was the wisdom. It came from God.
 
 That's the posture we're reaching for. Not control. Not accumulation. Foresight. The kind of wisdom that says, "I have enough right now, so I'll set some aside for what matters and what's coming."
 

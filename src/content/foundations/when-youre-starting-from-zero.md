@@ -80,7 +80,7 @@ Here's the thing nobody says at the financial seminar: your bank balance is not 
 
 People start from zero for a thousand reasons. A medical crisis. A job loss. A divorce. A late start. A season of mistakes. An economy that didn't cooperate. None of those reasons make you less capable of stewarding what you have now.
 
-Stewardship doesn't require abundance. Joseph stewarded during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
+Stewardship doesn't require abundance. God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
 
 The hierarchy doesn't ask how you got here. It asks what you want to do next.
 

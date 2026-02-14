@@ -72,7 +72,7 @@ Here's the deeper difference: most budgeting apps assume the goal is to control 
 
 Control is about grip -- monitoring, restricting, optimizing. It works when you have the energy, and it collapses when you don't. That's why most people quit their budgets by February.
 
-Stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
+Biblical stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains -- trusting that God provides the rest. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
 
 The goal isn't to control your money. It's to steward it well enough that you don't have to think about it constantly.
 

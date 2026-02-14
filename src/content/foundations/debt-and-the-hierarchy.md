@@ -20,9 +20,9 @@ There are two dominant schools of thought on debt and generosity, and they could
 
 One voice says: stop all giving until the debt is gone. Every dollar toward generosity is a dollar not attacking the balance. You can't afford to be generous right now. Get intense. Cut everything. Pay it off. Then you can give.
 
-The other voice says: tithe no matter what. Ten percent, off the top, regardless of your financial situation. God will honor it. The math doesn't have to make sense because faith makes up the difference.
+The other voice says: tithe no matter what. Ten percent, off the top, regardless of your financial situation. The Bible teaches tithing (Malachi 3:10), and that's non-negotiable.
 
-Both voices carry real conviction. And both create guilt -- the first by making generosity feel irresponsible, the second by making anything less than 10% feel faithless.
+Both voices carry real conviction. And both can create guilt -- the first by making generosity feel irresponsible, the second by ignoring the real tension of giving when you're behind.
 
 If you've been caught between these two, you already know the feeling. Whatever you choose, one voice tells you you're wrong.
 

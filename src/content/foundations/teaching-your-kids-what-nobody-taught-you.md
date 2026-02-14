@@ -78,7 +78,7 @@ When your kids grow up with the hierarchy, they're not just learning a money sys
 
 They're learning that generosity is a first priority, not a leftover. That saving is an act of foresight, not fear. That "can we afford this?" has a clear answer -- not a fight, not a feeling, not a guess. A number both parents trust.
 
-And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. Joseph didn't wait for abundance to practice wisdom. Your kids can learn the same posture -- not because you lectured them about an ancient story, but because they watched you live it out on a Tuesday.
+And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. Joseph didn't wait for abundance to practice wisdom. Your kids can learn the same posture -- not because you lectured them about a Bible story, but because they watched you live it out on a Tuesday.
 
 ## The Long Game
 
