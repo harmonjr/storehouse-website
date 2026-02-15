@@ -32,7 +32,7 @@ The dollars that arrive without a plan are the ones most likely to disappear wit
 
 You've seen this happen. Tax refund arrives in March -- $2,400. By May, it's gone. You can't quite say where. Some went to a dinner out. Some went to that thing you'd been wanting. Some went to catching up on something you'd been putting off. Each expenditure made sense at the time. None of them was extravagant. But the money evaporated because it was never directed.
 
-This is the same mechanism we explore in "Lifestyle Creep: The Silent Margin Thief," just compressed into weeks instead of months. When money is available without a framework, spending expands to absorb it. Not through bad decisions -- through the absence of a decision.
+This is the same mechanism we explore in [Lifestyle Creep: The Silent Margin Thief](/foundations/lifestyle-creep), just compressed into weeks instead of months. When money is available without a framework, spending expands to absorb it. Not through bad decisions -- through the absence of a decision.
 
 The hierarchy is that decision. And it applies to the bonus the same way it applies to the paycheck.
 
@@ -66,7 +66,7 @@ That's not pressure. It's clarity. The Bible calls this stewardship -- faithfull
 
 The person who runs a $3,000 bonus through the hierarchy isn't just managing one check. They're proving to themselves that the hierarchy isn't just for easy months. It works everywhere.
 
-If you're in a season of debt payoff, "Debt and the Hierarchy" shows how the hierarchy adjusts -- and a windfall can be a powerful accelerant for that plan.
+If you're in a season of debt payoff, [Debt and the Hierarchy](/foundations/debt-and-the-hierarchy) shows how the hierarchy adjusts -- and a windfall can be a powerful accelerant for that plan.
 
 ## For Freelancers and Variable Income
 

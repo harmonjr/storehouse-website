@@ -54,7 +54,7 @@ We've seen it happen. Someone decides to pause giving until the debt is gone. Tw
 
 Maintaining even a small amount -- $10 a month, $25 a month, whatever is honest for your situation -- keeps the practice alive. It keeps giving visible in your hierarchy. It keeps the muscle working. When the debt clears and there's room to increase, you're adjusting a number, not rebuilding a habit from scratch.
 
-That said -- and we need to say this clearly -- giving $0 while in debt is honest and valid. If the math genuinely doesn't work, if every dollar is spoken for, if maintaining even $10 would mean missing a minimum payment, then zero is the right number. "When You're Starting From Zero" makes the case that the hierarchy works at zero because giving stays in position one -- visible, present, waiting. The same principle applies here. Zero isn't failure. It's where you are right now.
+That said -- and we need to say this clearly -- giving $0 while in debt is honest and valid. If the math genuinely doesn't work, if every dollar is spoken for, if maintaining even $10 would mean missing a minimum payment, then zero is the right number. [When You're Starting From Zero](/foundations/when-youre-starting-from-zero) makes the case that the hierarchy works at zero because giving stays in position one -- visible, present, waiting. The same principle applies here. Zero isn't failure. It's where you are right now.
 
 Both $0 and $10 are honest choices. Neither one is wrong. The hierarchy is a framework, not a mandate.
 
