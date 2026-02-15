@@ -86,10 +86,10 @@ const sections = [
 
           <h3>Financial Data</h3>
           <p>
-            When you connect your bank accounts through Plaid, we receive read-only
-            access to your account balances and transaction history. We do not store
-            your bank login credentials. All bank connections are facilitated through
-            Plaid, a trusted financial data provider.
+            When you import your financial data (via CSV, OFX, QFX export from your
+            bank, or YNAB data import), we process your transaction history and account
+            balances. We never store your bank login credentials — because we never
+            ask for them.
           </p>
 
           <h3>Usage Data</h3>
@@ -142,7 +142,7 @@ const sections = [
           <ul>
             <li>All data is encrypted in transit using TLS 1.2 or higher</li>
             <li>Sensitive data is encrypted at rest using AES-256 encryption</li>
-            <li>Bank credentials are never stored by Storehouse; all connections go through Plaid</li>
+            <li>Bank credentials are never stored or requested — Storehouse uses file-based import, not bank connections</li>
             <li>We use secure, SOC 2 compliant infrastructure providers</li>
             <li>Regular security audits and vulnerability assessments</li>
             <li>Access to user data is strictly limited to authorized personnel</li>
@@ -157,15 +157,13 @@ const sections = [
         <section id="third-party-services" class="scroll-mt-24 mt-12">
           <h2>5. Third-Party Services</h2>
 
-          <h3>Plaid</h3>
+          <h3>Data Import Processing</h3>
           <p>
-            We use Plaid to securely connect your bank accounts. When you link an
-            account, you're providing your credentials directly to Plaid, not to
-            Storehouse. Plaid is a trusted financial technology company used by
-            thousands of financial services. For more information, see
-            <a href="https://plaid.com/legal/" target="_blank" rel="noopener noreferrer">
-              Plaid's Privacy Policy
-            </a>.
+            Storehouse processes financial data from files you upload — CSV, OFX,
+            or QFX exports from your bank, or YNAB data exports. We do not connect
+            to any third-party financial data providers. Your imported files are
+            processed to extract transaction and balance data, then the original
+            files are not retained.
           </p>
 
           <h3>Analytics</h3>
@@ -203,8 +201,8 @@ const sections = [
               format.
             </li>
             <li>
-              <strong>Disconnect Accounts:</strong> Revoke access to connected bank
-              accounts at any time.
+              <strong>Remove Imported Data:</strong> Delete imported transaction
+              history for any account at any time.
             </li>
           </ul>
           <p>

@@ -29,7 +29,7 @@ const foundationsCollection = defineCollection({
     author: z.string().default('JR'),
     pillar: z.enum(['clarity', 'order', 'margin', 'peace']),
     tier: z.number().min(1).max(4),
-    articleNumber: z.number().min(1).max(12),
+    articleNumber: z.number().min(1).max(20),
     featured: z.boolean().default(false),
     status: z.enum(['published', 'coming-soon']).default('published'),
   }),
