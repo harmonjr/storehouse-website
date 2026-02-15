@@ -44,7 +44,7 @@ That's not a personal failing. That's a design philosophy that doesn't match how
 
 We needed something that started with a different question. Not "where did my money go?" but "what matters most?"
 
-The answer, for us, was the hierarchy we wrote about in "Give First": give first, save second, pay bills, spend what remains. That's not a budgeting trick. It's a biblical principle -- steward what you've been given, starting with what matters most. And we wanted a tool that started there.
+The answer, for us, was the hierarchy we wrote about in [Give First](/foundations/give-first-save-second-spend-what-remains): give first, save second, pay bills, spend what remains. That's not a budgeting trick. It's a biblical principle -- steward what you've been given, starting with what matters most. And we wanted a tool that started there.
 
 Most budgeting apps begin with spending -- they import transactions, sort them into buckets, and show you a report. The question is always backward: what happened?
 

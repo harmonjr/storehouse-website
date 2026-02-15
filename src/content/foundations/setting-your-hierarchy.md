@@ -70,7 +70,7 @@ True fixed bills are straightforward: rent or mortgage, utilities, insurance, ca
 
 Then there's the gray area. The subscriptions. The memberships. The streaming services and app fees and that gym you haven't visited since March. These feel like bills because they auto-charge. But they're choices you made once and stopped making -- money leaving your account with no active consent.
 
-Be honest about the difference between "fixed" and "forgotten." We'll talk more about this in "The Subscription Audit," but for now, as you set your hierarchy, make two lists:
+Be honest about the difference between "fixed" and "forgotten." We'll talk more about this in [The Subscription Audit](/foundations/the-subscription-audit), but for now, as you set your hierarchy, make two lists:
 
 1. **Truly fixed:** The bills you'd pay even in a tight month.
 2. **Recurring but optional:** The charges that continue because you haven't stopped them.
@@ -79,7 +79,7 @@ Only the first list belongs in your bills tier. The second list is spending that
 
 ## Safe-to-Spend: Your Truth
 
-After giving, saving, and bills, what remains is your Safe-to-Spend. This is the number from "The One Number That Tells You the Truth" -- the honest answer to "what can I freely spend?"
+After giving, saving, and bills, what remains is your Safe-to-Spend. This is the number from [The One Number That Tells You the Truth](/foundations/the-one-number-that-tells-you-the-truth) -- the honest answer to "what can I freely spend?"
 
 Let's walk through an example.
 

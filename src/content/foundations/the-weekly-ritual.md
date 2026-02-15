@@ -68,7 +68,7 @@ Ten minutes of intentional attention to your finances does more than twelve mont
 
 ## What Actually Happens During the Review
 
-The review isn't just looking at numbers. It's the moment where the hierarchy from "Give First, Save Second, Spend What Remains" stops being a principle and becomes a practice.
+The review isn't just looking at numbers. It's the moment where the hierarchy from [Give First, Save Second, Spend What Remains](/foundations/give-first-save-second-spend-what-remains) stops being a principle and becomes a practice.
 
 You gave this week. You can see it. It's not an idea -- it's a line item.
 
