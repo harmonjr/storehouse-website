@@ -1,6 +1,6 @@
 # Storehouse Website - Progress
 
-## Current Sprint: Content Gaps & Cross-Linking
+## Current Sprint: Content Gaps & Cross-Linking -- COMPLETE
 
 ### Completed
 - [x] Content Integrity System and Content Craft Guide
@@ -15,14 +15,17 @@
 - [x] Schema: articleNumber max bumped to 20
 - [x] Hub infrastructure: content-reviewer, seed.sql, import SQL files
 - [x] Build verified: 28 pages
-- [x] PR #3 created and pushed
+- [x] All PRs merged into main (PRs #1-4)
+- [x] All feature branches cleaned up
+- [x] GitHub default branch set to main
+- [x] Content review drafts committed (freelancers + emergency fund)
+- [x] Plan moved to completed
 
 ### Not Yet Done
-- [ ] Content review of 5 new/rewritten articles (reviewers launched, check docs/content-review/)
+- [ ] Content review of 5 new/rewritten articles (drafts exist in docs/content-review/, need verdict review)
 - [ ] Apply review feedback if NEEDS_REVISION
 - [ ] Visual review on preview deployment
-- [ ] Merge PR #3 to main
-- [ ] Move content gaps plan to docs/plans/completed/
+- [ ] Deploy to production (Vercel)
 
 ## Pillar Balance
 - Margin: 3 (Weekly Ritual, Lifestyle Creep, Emergency Fund)
@@ -31,8 +34,8 @@
 - Peace: 4 (Budgeting Apps, Money Conversation, Starting From Zero, Teaching Kids)
 
 ## Branch
-- `feat/content-gaps` -- pushed, PR #3 open
+- All work on `main` (feature branches deleted)
 
 ## Session Status
-- Last session: 2026-02-14
-- State: All content written and committed. Content reviews running. Ready for review feedback and merge.
+- Last session: 2026-02-15
+- State: All content merged to main. Content review drafts exist but review verdicts need checking. Next step is reviewing the 5 articles, applying any feedback, then deploying.

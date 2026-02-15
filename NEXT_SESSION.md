@@ -3,23 +3,25 @@
 I'm working on the **Storehouse website** (storehouse-website project).
 
 **Context:**
-- PR #3 is open on `feat/content-gaps` branch with all content gaps work
-- Content reviewers were launched and should have written review files to `docs/content-review/`
-- 5 new/rewritten articles need review feedback applied if NEEDS_REVISION
-- Build passes clean at 28 pages
-- Pillar balance is now 3/3/4/4 (Margin/Clarity/Order/Peace)
+- All content work is merged into `main` (PRs #1-4 merged, all feature branches deleted)
+- 14 Foundation articles + 3 blog posts are live in the codebase
+- Pillar balance is 3/3/4/4 (Margin/Clarity/Order/Peace)
+- Content review drafts exist in `docs/content-review/` for 5 new/rewritten articles
+- Build passes at 28 pages
 
 **WORKFLOW:**
 1. Read `PROGRESS.md` for current state
-2. Check `docs/content-review/` for review verdicts on the 5 articles
-3. If any are NEEDS_REVISION, apply the suggested changes
-4. Commit any fixes to `feat/content-gaps` and push
+2. Check `docs/content-review/` for review verdicts on the 5 articles:
+   - margin-for-freelancers-proposed.md
+   - the-emergency-fund-proposed.md
+   - (check for others: where-does-it-go, bank-connection, ynab-migration)
+3. If any are NEEDS_REVISION, apply the suggested changes on `main`
+4. Run `npm run build` to verify
 5. Deploy to preview and do visual review
-6. Merge PR #3 to main
-7. Move `docs/plans/proposed/misty-munching-feather.md` to `docs/plans/completed/`
-8. Update PROGRESS.md
+6. Deploy to production if preview looks good
+7. Update PROGRESS.md
 
-**STOP CONDITION:** After merging PR #3 and moving the plan to completed, your work is DONE.
+**STOP CONDITION:** After deploying to production and verifying, your work is DONE.
 - Do NOT start new content or features
 - Do NOT modify hub infrastructure
 
