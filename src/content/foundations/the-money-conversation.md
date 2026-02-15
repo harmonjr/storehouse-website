@@ -20,7 +20,7 @@ If you've had this drive home, you're not alone. Money is one of the most common
 
 Here's what most couples don't realize: the fight was never about the restaurant bill. It was about two people answering "can we afford this?" with different math in their heads.
 
-We introduced this idea in "The One Number That Tells You the Truth," but it deserves a much fuller treatment here, because this is where the real damage happens -- and where the real healing starts.
+We introduced this idea in [The One Number That Tells You the Truth](/foundations/the-one-number-that-tells-you-the-truth), but it deserves a much fuller treatment here, because this is where the real damage happens -- and where the real healing starts.
 
 When your spouse says "we can afford it," they might be looking at the checking account balance. When you say "we're tight this month," you might be subtracting the mortgage, the car payment, and the credit card bill in your head. You're both measuring something. You're just not measuring the same thing.
 
@@ -72,13 +72,15 @@ When both partners know the hierarchy is handled -- when they can see that givin
 
 The money conversation is never just about money. It's about trust. It's about shared values. It's about two people trying to build a life together without a common language for one of the most practical parts of that life.
 
+The Bible has a word for this: stewardship. The idea that what you have isn't yours to consume -- it's yours to manage faithfully, together. The hierarchy isn't a budgeting trick. It's that conviction turned into a weekly practice.
+
 Most couples share everything -- a home, children, dreams, a future. But they carry separate, unspoken financial realities in their heads. He thinks they're doing fine. She thinks they're falling behind. Or the reverse. The gap between those realities creates a low-grade tension that shows up everywhere: in the sighs at the store, in the silence after the credit card statement, in the careful way they avoid saying what they're actually thinking.
 
 Safe-to-Spend doesn't fix everything. It doesn't resolve differences in values or spending personalities or the deeper questions about what you're building together. But it removes the most common accelerant. When the facts are shared, the fight loses its fuel.
 
 ## One Step You Can Take Today
 
-Sit down with your spouse tonight -- or this weekend, when there's no rush. Show them this article if that's easier than explaining it cold. Then try the exercise from "Setting Your Hierarchy" together. Write down your giving, saving, and bills. Look at what remains. That number is your shared Safe-to-Spend.
+Sit down with your spouse tonight -- or this weekend, when there's no rush. Show them this article if that's easier than explaining it cold. Then try the exercise from [Setting Your Hierarchy](/foundations/setting-your-hierarchy) together. Write down your giving, saving, and bills. Look at what remains. That number is your shared Safe-to-Spend.
 
 You don't have to agree on every priority. You don't have to have the same feelings about money. You just need the same answer to one question: "Can we afford this?"
 

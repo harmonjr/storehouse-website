@@ -85,7 +85,7 @@ Here's where the audit connects to everything else. You've found $78 a month. Wh
 
 The instinct is to absorb it into general spending. The money frees up, spending expands to fill it, and three months later you don't notice the difference. That's how lifestyle creep works -- freed resources get consumed by the default.
 
-The hierarchy offers a different path.
+The hierarchy offers a different path. Stewardship -- the biblical idea that what we have isn't ours to consume but ours to manage faithfully -- means found money is an opportunity, not a windfall.
 
 That $78 could increase your giving. If you're at 3% and want to move toward 5%, found subscription money might close the gap. That's $78 a month you weren't using for anything -- now it's doing something meaningful.
 

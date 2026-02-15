@@ -70,7 +70,7 @@ True fixed bills are straightforward: rent or mortgage, utilities, insurance, ca
 
 Then there's the gray area. The subscriptions. The memberships. The streaming services and app fees and that gym you haven't visited since March. These feel like bills because they auto-charge. But they're choices you made once and stopped making -- money leaving your account with no active consent.
 
-Be honest about the difference between "fixed" and "forgotten." We'll talk more about this in "The Subscription Audit," but for now, as you set your hierarchy, make two lists:
+Be honest about the difference between "fixed" and "forgotten." We'll talk more about this in [The Subscription Audit](/foundations/the-subscription-audit), but for now, as you set your hierarchy, make two lists:
 
 1. **Truly fixed:** The bills you'd pay even in a tight month.
 2. **Recurring but optional:** The charges that continue because you haven't stopped them.
@@ -79,7 +79,7 @@ Only the first list belongs in your bills tier. The second list is spending that
 
 ## Safe-to-Spend: Your Truth
 
-After giving, saving, and bills, what remains is your Safe-to-Spend. This is the number from "The One Number That Tells You the Truth" -- the honest answer to "what can I freely spend?"
+After giving, saving, and bills, what remains is your Safe-to-Spend. This is the number from [The One Number That Tells You the Truth](/foundations/the-one-number-that-tells-you-the-truth) -- the honest answer to "what can I freely spend?"
 
 Let's walk through an example.
 
@@ -106,7 +106,7 @@ The hierarchy still works.
 
 It works because the hierarchy is a direction, not a destination. It puts giving first even when giving is zero -- which means when you get a raise, when the car is paid off, when things loosen up, giving is already in position. You don't have to restructure your finances to start. You just increase a number.
 
-There is no hierarchy configuration that's too small to start with. The person who sets giving at $10 and saving at $25 and follows through is practicing stewardship more faithfully than the person who plans to give 10% and save 20% and never gets around to setting it up.
+There is a principle in Scripture -- that God asks us to manage faithfully what we've been given, not to wait until we have more of it (Matthew 25:14-30). The servant who invested two talents wasn't judged against the servant who had five. He was judged by what he did with what he had. That is what the hierarchy is asking of you. The person who sets giving at $10 and saving at $25 and follows through is practicing stewardship more faithfully than the person who plans to give 10% and save 20% and never gets around to setting it up.
 
 Start where you are. Not where you think you should be.
 

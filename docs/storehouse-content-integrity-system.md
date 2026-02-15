@@ -4,9 +4,9 @@
 
 Every piece of content must serve one question:
 
-**Does this help someone become a better steward of what they've been given?**
+**Does this help someone become a better steward of what God has given them?**
 
-Stewardship is the heart of Storehouse -- the conviction that what we have isn't ours to consume but ours to manage well. Give first. Save second. Spend what remains. That order isn't a suggestion; it's the architecture of a life that builds margin instead of burning through it.
+Biblical stewardship is the heart of Storehouse -- the conviction that what we have isn't ours to consume but ours to manage faithfully for God. Give first. Save second. Spend what remains. That order isn't a suggestion; it's the architecture of a life that builds margin instead of burning through it.
 
 If content doesn't help users understand, practice, or sustain this hierarchy, it doesn't belong on this platform.
 
@@ -16,30 +16,7 @@ If content doesn't help users understand, practice, or sustain this hierarchy, i
 
 All content must serve at least one of these four applications:
 
-### 1. Clarity
-**Question:** Does this help users see where their money actually goes?
-
-Content that serves Clarity:
-- Reveals the gap between what people think they spend and what they actually spend
-- Makes the invisible visible (subscription creep, true cost of habits, the difference between gross and take-home)
-- Explains how Safe-to-Spend works and why it's trustworthy
-- Shows the math behind the hierarchy -- what giving first and saving second actually costs (and what it creates)
-
-**The principle:** People can't steward what they can't see.
-
-### 2. Order
-**Question:** Does this help users put first things first?
-
-Content that serves Order:
-- Reinforces the biblical money hierarchy: Give, Save, Bills, Live
-- Explains why the order matters (not legalism, but freedom)
-- Challenges the cultural default: spend first, save if there's extra, give if you feel generous
-- Shows what happens when the hierarchy is followed -- and what happens when it isn't
-- Makes the case for intentionality over autopilot
-
-**The principle:** The order you assign your dollars reveals the order you assign your values.
-
-### 3. Margin
+### 1. Margin
 **Question:** Does this help users build and protect financial breathing room?
 
 Content that serves Margin:
@@ -50,6 +27,29 @@ Content that serves Margin:
 - Connects margin to the bigger picture: retirement readiness, emergency resilience, relational health
 
 **The principle:** Margin isn't what's left over. It's what you protect on purpose.
+
+### 2. Clarity
+**Question:** Does this help users see where their money actually goes?
+
+Content that serves Clarity:
+- Reveals the gap between what people think they spend and what they actually spend
+- Makes the invisible visible (subscription creep, true cost of habits, the difference between gross and take-home)
+- Explains how Safe-to-Spend works and why it's trustworthy
+- Shows the math behind the hierarchy -- what giving first and saving second actually costs (and what it creates)
+
+**The principle:** People can't steward what they can't see.
+
+### 3. Order
+**Question:** Does this help users put first things first?
+
+Content that serves Order:
+- Reinforces the biblical money hierarchy: Give, Save, Bills, Live
+- Explains why the order matters (not legalism, but freedom)
+- Challenges the cultural default: spend first, save if there's extra, give if you feel generous
+- Shows what happens when the hierarchy is followed -- and what happens when it isn't
+- Makes the case for intentionality over autopilot
+
+**The principle:** The order you assign your dollars reveals the order you assign your values.
 
 ### 4. Peace
 **Question:** Does this reduce financial anxiety instead of increasing it?
@@ -79,7 +79,7 @@ Before publishing any content, ask:
    We empower. We never shame. If content makes someone feel worse about their finances without showing a way forward, it fails.
 
 4. **Would Joseph recognize this wisdom?**
-   Joseph (Genesis 41) stored surplus during abundance so there was enough during famine. He didn't hoard out of fear -- he stewarded with foresight. Would he recognize this content as wise stewardship, not anxious control?
+   God revealed to Joseph (Genesis 41) that abundance would be followed by famine. Joseph's response -- store with foresight, not hoard with fear -- is the pattern for biblical stewardship. Would he recognize this content as faithful management, not anxious control?
 
 5. **Am I being honest -- or performative?**
    Honest means acknowledging that stewardship is hard, that we fail, and that the hierarchy is an aspiration we grow into. Performative means pretending we've arrived.
@@ -92,8 +92,9 @@ Before publishing any content, ask:
 - **Warm, not clinical** -- This is a kitchen-table conversation about money, not a financial seminar.
 - **Honest about struggle** -- We've been behind on savings. We've had the "money fight" with our spouse. We're building this because we need it too.
 - **Encouraging, not punishing** -- YNAB felt like a disappointed parent. Storehouse feels like a friend who believes you can do this.
-- **Faith-grounded, not preachy** -- Our values are biblical but our language is accessible. We show the fruit, not the footnotes.
+- **Biblically grounded, not preachy** -- We name the Bible as our source and cite Scripture where it strengthens the point. We're direct about our foundation without turning every article into a sermon. The goal is clarity about the source, not a lecture.
 - **Simple, not simplistic** -- One number (Safe-to-Spend) is simple. Ignoring retirement is simplistic. We know the difference.
+- **Attributive, not vague** -- When a principle comes from the Bible, say so. "The Bible teaches..." and "God's wisdom" are better than "ancient wisdom" or "faith traditions." Give credit where it's due.
 
 ### We Are Not:
 - Prosperity gospel ("God wants you to be rich")
@@ -166,7 +167,7 @@ As content is created, certain statements emerge as **core truths** -- principle
 - Lead with the problem ("Most people spend first...") then the flip ("What if you gave first?")
 - Show the hierarchy visually -- it's the product's strongest differentiator
 - Social proof from real usage, not hypothetical scenarios
-- Include the faith foundation without making it a gate ("Built on the biblical principle of stewardship")
+- Be direct about the biblical foundation ("Built on financial principles from the Bible") while making clear that anyone can benefit from the approach
 
 ### Educational / Blog Content
 - 800-1,500 words (shorter than Candid Agent -- Storehouse readers want practical, not philosophical)
@@ -212,7 +213,7 @@ Be accurate, be humble about what the app can and can't do, and never let market
 - Comparisons to other apps by name that feel like attacks (we can differentiate without diminishing)
 - Content that implies Storehouse replaces professional financial advice
 - Fear-based messaging ("You'll never retire" / "You're running out of time")
-- Content that excludes non-Christians from the value proposition (the hierarchy works for anyone; the biblical foundation is our why, not the user's requirement)
+- Content that excludes non-Christians from the value proposition (the hierarchy works for anyone; we're transparent about the biblical source without requiring readers to share the belief)
 
 ---
 
@@ -248,7 +249,7 @@ Every three months, review published content:
 2. **Truth consistency:** Do newer pieces align with established truths?
 3. **Voice drift:** Are we staying warm and encouraging, or getting preachy or clinical?
 4. **Shame check:** Has any content crept toward guilt-driven messaging?
-5. **Accessibility:** Could a non-Christian still find value in every piece?
+5. **Accessibility:** Is the biblical foundation clear while remaining welcoming to non-Christians?
 6. **Gaps:** What aspects of stewardship haven't we addressed?
 
 ---
@@ -257,9 +258,9 @@ Every three months, review published content:
 
 **One core belief:** Stewardship -- managing well what you've been given -- is the path to margin, peace, and generosity.
 
-**Four pillars:** Clarity, Order, Margin, Peace.
+**Four pillars:** Margin, Clarity, Order, Peace.
 
-**Five filter questions:** Does it serve stewardship? Which pillar? Equipped and hopeful? Would Joseph recognize it? Honest or performative?
+**Five filter questions:** Does it serve stewardship? Which pillar? Equipped and hopeful? Would Joseph recognize this as faithful management? Honest or performative?
 
 **One ultimate test:** Would an anxious person feel more equipped and more hopeful?
 

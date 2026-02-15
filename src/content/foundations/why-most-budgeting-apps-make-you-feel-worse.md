@@ -22,7 +22,7 @@ If this sounds familiar, you're not alone. And you're not failing at budgeting. 
 
 We've used the popular budgeting apps. We've used most of them. And they're genuinely good at what they do.
 
-YNAB teaches you to give every dollar a job. That's a powerful concept. But when you fall behind -- and everyone falls behind -- the system punishes you. You have to "roll with the punches," which means pulling from one category to cover another, which means the whole structure unravels into a game of whack-a-mole. The app didn't fail. Your energy to maintain 47 categories did.
+YNAB teaches you to give every dollar a job. That's a powerful concept. But when you fall behind -- and everyone falls behind -- the recovery work starts to pile up. You have to "roll with the punches," which means pulling from one category to cover another, which means the whole structure unravels into a game of whack-a-mole. The app didn't fail. Your energy to maintain 47 categories did.
 
 Mint was brilliant at showing you where money went. But it was always backward-looking -- a detailed autopsy of last month's spending. Knowing you spent $387 on dining out doesn't help you at 6pm on a Tuesday when you're wondering if tonight is okay. The data was comprehensive. The peace was absent.
 
@@ -44,7 +44,7 @@ That's not a personal failing. That's a design philosophy that doesn't match how
 
 We needed something that started with a different question. Not "where did my money go?" but "what matters most?"
 
-The answer, for us, was the hierarchy we wrote about in "Give First": give first, save second, pay bills, spend what remains. That's not a budgeting trick. It's a set of values. And we wanted a tool that started there.
+The answer, for us, was the hierarchy we wrote about in [Give First](/foundations/give-first-save-second-spend-what-remains): give first, save second, pay bills, spend what remains. That's not a budgeting trick. It's a biblical principle -- steward what you've been given, starting with what matters most. And we wanted a tool that started there.
 
 Most budgeting apps begin with spending -- they import transactions, sort them into buckets, and show you a report. The question is always backward: what happened?
 
@@ -72,7 +72,7 @@ Here's the deeper difference: most budgeting apps assume the goal is to control 
 
 Control is about grip -- monitoring, restricting, optimizing. It works when you have the energy, and it collapses when you don't. That's why most people quit their budgets by February.
 
-Stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
+Biblical stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains -- trusting that God provides the rest. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
 
 The goal isn't to control your money. It's to steward it well enough that you don't have to think about it constantly.
 

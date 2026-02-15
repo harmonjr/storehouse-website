@@ -28,9 +28,9 @@ You're not behind some universal schedule. You're standing at the beginning of s
 
 ## Zero Is a Starting Point, Not a Verdict
 
-We said in "Give First, Save Second, Spend What Remains" that starting at 1% isn't failing at 10% -- it's choosing to begin. That was a sentence. This is the full truth behind it.
+We said in [Give First, Save Second, Spend What Remains](/foundations/give-first-save-second-spend-what-remains) that starting at 1% isn't failing at 10% -- it's choosing to begin. That was a sentence. This is the full truth behind it.
 
-Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Stewardship isn't about the size of the number. It's about the direction you're facing.
+Zero isn't a grade. It's a location. It tells you where you are, not who you are. The person with $0 in savings who sets up a hierarchy today is closer to financial peace than the person with $10,000 in savings who spends without intention. Biblical stewardship -- managing well what you've been given -- isn't about the size of the number. It's about the direction you're facing.
 
 And the direction is what the hierarchy gives you.
 
@@ -58,7 +58,7 @@ We've seen this pattern: the first amount is always the hardest. Not because of 
 
 If you're starting from zero, there's a good chance debt is part of the picture. Credit cards, medical bills, student loans, a car payment that feels permanent. The weight of owing money while trying to save money is a contradiction that can feel paralyzing.
 
-We're not going to solve the debt equation in this article -- "Debt and the Hierarchy" goes deeper into how the hierarchy handles competing obligations. But here's what matters right now: having debt doesn't disqualify you from the hierarchy. It doesn't mean you can't give or save. It means your bills tier includes minimum payments, and your Safe-to-Spend reflects reality.
+We're not going to solve the debt equation in this article -- [Debt and the Hierarchy](/foundations/debt-and-the-hierarchy) goes deeper into how the hierarchy handles competing obligations. But here's what matters right now: having debt doesn't disqualify you from the hierarchy. It doesn't mean you can't give or save. It means your bills tier includes minimum payments, and your Safe-to-Spend reflects reality.
 
 The hierarchy doesn't pretend debt doesn't exist. It accounts for it. And it still leaves room -- maybe small room, but real room -- for the things that matter. A little giving. A little saving. A life lived intentionally even when the margins are tight.
 
@@ -80,7 +80,7 @@ Here's the thing nobody says at the financial seminar: your bank balance is not 
 
 People start from zero for a thousand reasons. A medical crisis. A job loss. A divorce. A late start. A season of mistakes. An economy that didn't cooperate. None of those reasons make you less capable of stewarding what you have now.
 
-Stewardship doesn't require abundance. Joseph stewarded during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
+Stewardship doesn't require abundance. In Genesis 41, God gave Joseph wisdom to steward during famine, not just during plenty. The practice is the same whether you're working with $4,000 a month or $40,000 -- decide what matters, put those things first, and live intentionally on what remains.
 
 The hierarchy doesn't ask how you got here. It asks what you want to do next.
 

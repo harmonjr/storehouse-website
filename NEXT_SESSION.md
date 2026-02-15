@@ -1,33 +1,29 @@
 # NEXT SESSION PROMPT
 
-I'm working on the Storehouse Website (`projects/storehouse-website/`).
+I'm working on the **Storehouse website** (storehouse-website project).
 
 **Context:**
-- All 12 Foundations articles are written, reviewed, polished, and committed on `feat/design-improvements`
-- Build passes clean (24 pages including 12 article pages + foundations index)
-- Every article passed Content Integrity System review (PUBLISH_READY)
-- Blog has 1 remaining post (margin-for-freelancers.md)
-- Content reviews are in docs/content-review/ (12 review files total)
+- PR #3 is open on `feat/content-gaps` branch with all content gaps work
+- Content reviewers were launched and should have written review files to `docs/content-review/`
+- 5 new/rewritten articles need review feedback applied if NEEDS_REVISION
+- Build passes clean at 28 pages
+- Pillar balance is now 3/3/4/4 (Margin/Clarity/Order/Peace)
 
 **WORKFLOW:**
-1. Read `projects/storehouse-website/PROGRESS.md`
-2. Push `feat/design-improvements` to origin
-3. Deploy to Vercel preview and visually review:
-   - Foundations index page (hero, featured article, 4 pillar sections, blog preview, CTA)
-   - All 12 individual article pages (pillar theming, same-pillar navigation)
-   - Navigation (Foundations in header, mobile nav, footer)
-   - Blog index (cross-link banner to Foundations, 1 remaining post)
-4. Fix any visual issues found during review
-5. If satisfied, merge to main and deploy to production
-6. Move `docs/plans/proposed/storehouse-content-canon.md` to `docs/plans/completed/`
-7. Update PROGRESS.md
+1. Read `PROGRESS.md` for current state
+2. Check `docs/content-review/` for review verdicts on the 5 articles
+3. If any are NEEDS_REVISION, apply the suggested changes
+4. Commit any fixes to `feat/content-gaps` and push
+5. Deploy to preview and do visual review
+6. Merge PR #3 to main
+7. Move `docs/plans/proposed/misty-munching-feather.md` to `docs/plans/completed/`
+8. Update PROGRESS.md
 
-**STOP CONDITION:** After deploying to production, your work is DONE.
-- Do NOT start new content projects in the same session
-- Do NOT modify the Content Integrity System
-- Do NOT touch any other projects
+**STOP CONDITION:** After merging PR #3 and moving the plan to completed, your work is DONE.
+- Do NOT start new content or features
+- Do NOT modify hub infrastructure
 
 **BEFORE ENDING, provide:**
-1. Summary of what was deployed
-2. Any visual issues found and fixed
-3. **NEXT SESSION PROMPT** for next project work
+1. Summary of what was completed
+2. Any issues or blockers encountered
+3. **NEXT SESSION PROMPT** for the following phase

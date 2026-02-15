@@ -76,9 +76,9 @@ That calm is the real legacy. The emotional posture your kids learn from watchin
 
 When your kids grow up with the hierarchy, they're not just learning a money system. They're learning a set of values.
 
-They're learning that generosity is a first priority, not a leftover. That saving is an act of foresight, not fear. That "can we afford this?" has a clear answer -- not a fight, not a feeling, not a guess. A number both parents trust.
+They're learning that generosity is a first priority, not a leftover -- that the Bible calls it firstfruits because what you give first reveals what you value most. That saving is an act of foresight, not fear. That "can we afford this?" has a clear answer -- not a fight, not a feeling, not a guess. A number both parents trust.
 
-And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. Joseph didn't wait for abundance to practice wisdom. Your kids can learn the same posture -- not because you lectured them about an ancient story, but because they watched you live it out on a Tuesday.
+And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. God gave Joseph wisdom to store grain during abundance so Egypt could survive famine. Your kids can learn the same posture -- not because you lectured them about a Bible story, but because they watched you live it out on a Tuesday.
 
 ## The Long Game
 
@@ -86,7 +86,7 @@ Your kids are going to grow up. They're going to get their first paycheck. They'
 
 But your kids will have something you didn't. Not a lecture. A memory. The chart on the fridge. The Sunday morning review. The jars on the shelf. The calm tone when an unexpected expense appeared. The answer to "can we afford this?" that didn't start a fight.
 
-They'll remember that money wasn't a source of anxiety in their home. That giving came first -- not because the family was wealthy, but because generosity was a value, not a luxury.
+They'll remember that money wasn't a source of anxiety in their home. That giving came first -- not because the family was wealthy, but because they believed what they had was entrusted to them, and the first portion belonged somewhere other than their own pockets.
 
 That memory becomes their baseline. They'll still make their own choices, their own mistakes. But the starting point is different. Instead of unlearning the default order at thirty-five, they'll start with the right order already in place. Instead of discovering the hierarchy as a corrective, they'll carry it as a foundation.
 
@@ -98,7 +98,7 @@ Tonight at dinner, or this weekend when things are quiet, tell your kids one thi
 
 "We always set aside some money to give before we spend anything else."
 
-Let it sit. If they ask why, tell them: because generosity matters to this family, and we want to make sure it happens instead of hoping it happens. If they don't ask, that's fine. They heard it.
+Let it sit. If they ask why, tell them: because we believe everything we have comes from God, and giving first is how we say thank you. If they don't ask, that's fine. They heard it.
 
 The most powerful money lesson you can give your kids isn't a book or a course or an app. It's a household where the hierarchy is practiced, visible, and calm. Where the kids can see -- on the fridge, in the jars, in the Sunday morning ritual -- that money has an order, and the order starts with what matters most.
 

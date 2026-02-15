@@ -20,9 +20,9 @@ There are two dominant schools of thought on debt and generosity, and they could
 
 One voice says: stop all giving until the debt is gone. Every dollar toward generosity is a dollar not attacking the balance. You can't afford to be generous right now. Get intense. Cut everything. Pay it off. Then you can give.
 
-The other voice says: tithe no matter what. Ten percent, off the top, regardless of your financial situation. God will honor it. The math doesn't have to make sense because faith makes up the difference.
+The other voice says: tithe no matter what. Ten percent, off the top, regardless of your financial situation. The Bible teaches tithing (Malachi 3:10), and that's non-negotiable.
 
-Both voices carry real conviction. And both create guilt -- the first by making generosity feel irresponsible, the second by making anything less than 10% feel faithless.
+Both voices carry real conviction. And both can create guilt -- the first by making generosity feel irresponsible, the second by ignoring the real tension of giving when you're behind.
 
 If you've been caught between these two, you already know the feeling. Whatever you choose, one voice tells you you're wrong.
 
@@ -48,13 +48,13 @@ This is the question that trips people up. If you're in debt, shouldn't every sp
 
 The math says yes. The math is right as far as it goes. A dollar toward debt saves you future interest. A dollar toward giving doesn't reduce your balance.
 
-But generosity isn't only a math equation. It's a practice. And practices that stop are hard to restart.
+But generosity isn't only a math equation. It's a practice -- and a biblical one. The principle behind the hierarchy comes from Proverbs: honor God with the first of what you earn, not the leftovers. That principle doesn't pause when the balance sheet is hard. And practices that stop are hard to restart.
 
 We've seen it happen. Someone decides to pause giving until the debt is gone. Two years later, the debt is paid off, and the giving never resumes. Not because they stopped caring -- because the habit dissolved. The muscle atrophied. The $0 line became the new normal, and starting from zero again felt just as hard as it did the first time.
 
 Maintaining even a small amount -- $10 a month, $25 a month, whatever is honest for your situation -- keeps the practice alive. It keeps giving visible in your hierarchy. It keeps the muscle working. When the debt clears and there's room to increase, you're adjusting a number, not rebuilding a habit from scratch.
 
-That said -- and we need to say this clearly -- giving $0 while in debt is honest and valid. If the math genuinely doesn't work, if every dollar is spoken for, if maintaining even $10 would mean missing a minimum payment, then zero is the right number. "When You're Starting From Zero" makes the case that the hierarchy works at zero because giving stays in position one -- visible, present, waiting. The same principle applies here. Zero isn't failure. It's where you are right now.
+That said -- and we need to say this clearly -- giving $0 while in debt is honest and valid. If the math genuinely doesn't work, if every dollar is spoken for, if maintaining even $10 would mean missing a minimum payment, then zero is the right number. [When You're Starting From Zero](/foundations/when-youre-starting-from-zero) makes the case that the hierarchy works at zero because giving stays in position one -- visible, present, waiting. The same principle applies here. Zero isn't failure. It's where you are right now.
 
 Both $0 and $10 are honest choices. Neither one is wrong. The hierarchy is a framework, not a mandate.
 

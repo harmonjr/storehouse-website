@@ -3,11 +3,11 @@
 **Source:** `projects/storehouse-website/src/content/foundations/irregular-income-and-the-hierarchy.md`
 **Reviewed:** 2026-02-14
 **Reviewer:** content-reviewer agent
-**Verdict:** PUBLISH_READY with minor revisions (4 medium-priority changes)
+**Verdict:** Needs revision (1 high-priority, 4 medium-priority changes)
 
 ## Review Summary
 
-This is a well-constructed piece that takes a universal financial experience -- the bonus that vanishes without a trace -- and uses it to demonstrate that the hierarchy applies to every dollar, not just the predictable ones. The opening scenario is vivid and immediate, the "stewardship test" reframe genuinely inverts how readers think about windfalls, and the freelancer/variable-income section extends the article's value beyond its obvious audience. At approximately 1,300 words (body text, lines 13-99), it sits comfortably within the 800-1,500 range. The four proposed changes address a cross-reference that could be smoother, a moment that edges toward prescriptive percentage advice flagged by the Content Integrity System, a section heading that undersells its content, and a minor structural repetition in the closing. None are blocking.
+This is a strong piece with a vivid opening, clean structure, and a genuine reframe at its center. The "free money trap" setup earns the reader's trust, the freelancer baseline section extends the article's reach, and "Buy the shoes. Take the trip. Enjoy the dinner." is the Storehouse voice at its most encouraging. However, the article has a significant gap: it contains zero biblical attribution. Not one mention of God, Scripture, the Bible, or any biblical story. The word "stewardship" appears twice (lines 59, 65) as a floating concept with no anchor. For a platform whose Voice Guidelines require being "Attributive, not vague" and whose Craft Guide includes a Biblical Attribution Standard specifying that "when the principle originates from a specific passage... say so," this is not a minor omission -- it is the single most important thing to address. The hierarchy's foundation in biblical stewardship needs to be named once, directly, without turning the article into a sermon.
 
 ---
 
@@ -15,11 +15,11 @@ This is a well-constructed piece that takes a universal financial experience -- 
 
 | # | Question | Result |
 |---|----------|--------|
-| 1 | Does this serve stewardship? | PASS -- The entire article argues that irregular income deserves the same intentional stewardship as regular income. The core claim -- that the hierarchy applies to every dollar regardless of source (line 27) -- is a direct application of the stewardship principle. Line 65: "the habits you practice with irregular income reveal the habits you're building overall." That sentence connects windfall management to the larger practice of stewardship, not just a one-time decision. |
-| 2 | Which pillar does this serve? | PASS -- The article primarily serves **Order** (applying the hierarchy to a category of income that typically bypasses it). It also serves **Margin** (the freelancer baseline strategy protects margin even in lean months, lines 71-79) and **Clarity** (making visible the mechanism by which windfalls vanish, lines 33-35). The frontmatter correctly lists `pillar: "order"`. The hierarchy's order is the organizing principle of every section. |
-| 3 | Does this make the reader feel equipped and hopeful -- or guilty and overwhelmed? | PASS -- The opening names the guilt sequence honestly: "Your third thought is guilt about the first thought" (line 15). The article then systematically removes that guilt by providing a framework. Line 85: "Buy the shoes. Take the trip. Enjoy the dinner. The guilt dissolves when the priorities are already handled." The "Yes, Enjoy Some of It" section (lines 81-89) is deliberately placed to ensure the reader does not walk away feeling deprived. The closing is forward-looking and actionable, not shaming. |
-| 4 | Would Joseph recognize this wisdom? | PASS -- Joseph stored surplus during abundance with foresight. A windfall is precisely a moment of unexpected abundance, and the article's prescription -- direct it through the hierarchy before it dissipates -- mirrors Joseph's approach. Line 57: "One version builds margin and meaning. The other just raises the waterline temporarily." Joseph would recognize the difference between storing with foresight and letting abundance evaporate. |
-| 5 | Am I being honest -- or performative? | PASS -- The article does not claim the author has perfectly handled every bonus. The opening scenario is written in second person, which sidesteps any performative "we've always done this." The freelancer section acknowledges real difficulty: "your Safe-to-Spend reflects reality at its leanest" (line 75). The "Yes, Enjoy Some of It" section is honest about the tension between discipline and enjoyment rather than pretending it does not exist. |
+| 1 | Does this serve stewardship? | PASS -- The entire article argues that irregular income deserves the same intentional management as regular income. Line 27: "Every dollar carries the same question: what do you want this to become?" Line 65: "the habits you practice with irregular income reveal the habits you're building overall." Both serve the stewardship principle. |
+| 2 | Which pillar does this serve? | PASS -- Primarily **Order** (applying the hierarchy to a category of income that typically bypasses it). Also serves **Margin** (freelancer baseline protects margin in lean months, lines 73-79) and **Clarity** (making visible the mechanism by which windfalls vanish, lines 33-35). Frontmatter correctly lists `pillar: "order"`. |
+| 3 | Does this make the reader feel equipped and hopeful -- or guilty and overwhelmed? | PASS -- The opening names the guilt sequence honestly (line 15: "Your third thought is guilt about the first thought") then systematically removes it. Lines 85-87: "Buy the shoes. Take the trip. Enjoy the dinner. The guilt dissolves when the priorities are already handled." The "Yes, Enjoy Some of It" section is deliberately placed to ensure the reader does not walk away feeling deprived. |
+| 4 | Would Joseph recognize this wisdom? | PASS -- Joseph stored surplus during abundance with foresight. A windfall is precisely a moment of unexpected abundance, and the article prescribes directing it through the hierarchy before it dissipates -- Joseph's approach. However, Joseph is not mentioned. The wisdom is present; the attribution is not. See Change 1. |
+| 5 | Am I being honest -- or performative? | PASS -- The article does not claim the author has perfectly handled every bonus. The opening is second person, sidestepping performative "we always do this." The freelancer section acknowledges real difficulty: "your Safe-to-Spend reflects reality at its leanest" (line 77). The "Yes, Enjoy Some of It" section is honest about the tension between discipline and enjoyment. |
 
 ---
 
@@ -27,27 +27,29 @@ This is a well-constructed piece that takes a universal financial experience -- 
 
 ### Hits (strong voice moments)
 
-- **Lines 13-17 (opening scenario):** "The bonus hits your account on a Thursday afternoon. Three thousand dollars, after taxes." The specificity of "Thursday afternoon" is a small detail that makes the scenario feel lived rather than hypothetical. The three-thought sequence (buy, save, guilt) is immediately recognizable and earns the reader's trust. This opening is on par with the best in the Foundations series.
+- **Lines 13-15 (opening):** "The bonus hits your account on a Thursday afternoon. Three thousand dollars, after taxes." The specificity of "Thursday afternoon" makes this feel lived. The three-thought sequence (buy, save, guilt) is immediately recognizable.
 
-- **Line 25:** "That feeling is the trap." -- A five-word sentence after a paragraph of building tension. Effective rhythm. The brevity forces the reader to stop and absorb.
+- **Line 25:** "That feeling is the trap." -- Five words after a paragraph of building tension. The brevity forces the reader to stop.
 
-- **Line 27:** "There's no such thing as free money. Every dollar carries the same question: what do you want this to become?" -- Truth candidate. The second sentence reframes the dollar from a noun (a thing you have) to a verb (something that becomes). That shift is the article's philosophical core.
+- **Line 27:** "There's no such thing as free money. Every dollar carries the same question: what do you want this to become?" -- Truth candidate. Reframes the dollar from something you have to something you direct.
 
-- **Lines 33-35:** "Tax refund arrives in March -- $2,400. By May, it's gone. You can't quite say where." -- The compression of timeline (March to May) and the honest "You can't quite say where" captures the universal experience perfectly. The specificity of "$2,400" makes it feel real without being biographical.
+- **Lines 33-34:** "Tax refund arrives in March -- $2,400. By May, it's gone. You can't quite say where." -- Compression of timeline plus the honest "You can't quite say where" captures the universal experience.
 
-- **Line 57:** "Same money. One version builds margin and meaning. The other just raises the waterline temporarily." -- "Raises the waterline" echoes the same metaphor used in the Lifestyle Creep article (line 31 of that piece: "let the water level rise one millimeter at a time"). Good cross-article consistency in metaphor language.
+- **Line 57:** "Same money. One version builds margin and meaning. The other just raises the waterline temporarily." -- "Waterline" echoes the Lifestyle Creep article's "water level" metaphor. Good cross-article consistency.
 
-- **Lines 85-87:** "Buy the shoes. Take the trip. Enjoy the dinner." -- The staccato rhythm of three short imperative sentences gives the reader visceral permission. This is the Storehouse voice at its best: encouraging, not punishing.
+- **Lines 85-87:** "Buy the shoes. Take the trip. Enjoy the dinner." -- Staccato imperative rhythm gives visceral permission. Storehouse voice at its best.
 
-- **Line 89:** "That's the rhythm. Not restriction. Direction." -- Clean two-beat closing to the section. "Not restriction. Direction." could stand as a signature phrase.
+- **Line 91:** "That's the rhythm. Not restriction. Direction." -- Clean two-beat close. Could stand as a signature phrase.
 
-- **Line 97:** "The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later." -- Truth candidate. The contrast between "building blocks" and "a story you can't quite piece together" is sharp and memorable.
+- **Line 99:** "The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later." -- Sharp contrast. Truth candidate.
 
 ### Misses (voice deviations)
 
-- **Line 41:** "Here's the practical move:" -- The phrase "Here's the practical move" is a mild throat-clearing. Every other section in the article opens with a claim or observation, not a meta-signal about what kind of content is coming. Compare to the stronger openings: "That feeling is the trap" (line 25), "You've seen this happen" (line 33). This is a minor note -- the sentence that follows is strong enough to carry the weight -- but "practical move" briefly sounds like a seminar handout rather than a kitchen-table conversation. See Change 3.
+- **Lines 59-65 ("A Windfall Is a Stewardship Test" section):** The word "stewardship" appears twice (lines 61, 65) without any biblical grounding. The Integrity System Voice Guidelines (line 95) require "Biblically grounded, not preachy" and (line 97) "Attributive, not vague -- When a principle comes from the Bible, say so." The Craft Guide's Biblical Attribution Standard (lines 289-290) states: "Cite when the principle originates from a specific passage. The firstfruits concept comes from Proverbs 3:9 -- say so." The concept of stewardship -- managing what God has entrusted to you -- originates from Scripture. Using it as a floating concept with no anchor is the "ancient wisdom" vagueness the Voice Guidelines explicitly reject. This is not about turning the section into a Bible study. One sentence is enough. See Change 1.
 
-- **Line 47:** "If you're giving at 3% of your regular income, a $3,000 bonus is a chance to give at 10% of that specific amount -- $300 toward something meaningful." -- The jump from 3% to 10% is illustrative, but the Content Integrity System (line 199) flags "Generic percentage advice" as something to watch for. The 3% and 10% numbers here are directional, not prescriptive, and the sentence frames them as "a chance" rather than "you should." However, the combination of two specific percentages in one sentence could read as suggesting 10% is the right target for windfall giving. A brief qualifier would soften this without losing the example's force. See Change 2.
+- **Line 41:** "When irregular income arrives, run it through the hierarchy before you spend any of it." -- This line was already revised from an earlier draft but the section heading "The Same Hierarchy, Applied to Every Dollar" is the only section title that reads like a subheading from a manual rather than a claim or observation. Compare to "The 'Free Money' Trap," "Why Windfalls Vanish," "A Windfall Is a Stewardship Test." Those are assertions. "The Same Hierarchy, Applied to Every Dollar" is a description. See Change 3.
+
+- **Line 47:** The sentence jumps from 3% regular giving to suggesting 5-10% windfall giving. The Content Integrity System (line 200) flags "Generic percentage advice" without acknowledging that some families are starting from 0%. The current text does include "whatever feels generous without feeling forced" and "Even $150 toward something meaningful," which soften this. However, the three specific percentages (3%, 5%, 10%) in quick succession could read as a sliding scale with 10% as the destination. Minor concern. See Change 2.
 
 ---
 
@@ -61,55 +63,31 @@ Not applicable -- Storehouse content does not have anonymity requirements.
 
 ### Internal
 
-- **$3,000 bonus allocation table (lines 51-55):** $300 (10%) + $1,200 (40%) + $1,500 (50%) = $3,000. Percentages: 10% + 40% + 50% = 100%. Math is correct.
+- **$3,000 bonus allocation table (lines 51-55):** $300 (10%) + $1,200 (40%) + $1,500 (50%) = $3,000. Math is correct.
 
-- **$2,400 tax refund example (line 33):** Used as an illustrative amount. No calculations attached. Consistent use.
+- **$2,400 tax refund example (line 33):** Illustrative amount, no calculations attached. Consistent.
 
-- **Freelancer baseline advice (line 73):** "Look at your last six months of income, find the lowest month, and use that as your baseline." This is practical, specific, and does not overstate. The six-month lookback is reasonable and does not constitute professional financial advice.
+- **Freelancer baseline advice (line 75):** "Look at your last six months of income, find the lowest month, and use that as your baseline." Practical heuristic, does not constitute professional financial advice. Appropriate.
 
-- **No internal contradictions found.**
+- No internal contradictions found.
 
 ### Cross-content
 
-- **Against Article #1 ("Give First, Save Second, Spend What Remains"):** Article #1 line 42: "It's not a rule -- it's a way of telling your money what you actually value before the month tells you what you spent." Article #10 line 27: "The hierarchy doesn't care whether a dollar arrived on the 1st of the month or the 15th." These are complementary -- Article #1 establishes the hierarchy for regular income, Article #10 extends it to all income sources. No contradictions.
+- **Against Article #1 ("Give First, Save Second, Spend What Remains"):** Article #1 includes direct biblical citations -- 1 Peter 4:10 (line 52), Genesis 41 / Joseph story (lines 54-56), and attributes stewardship to its biblical origin. Article #10 uses the word "stewardship" without any biblical grounding. This creates an inconsistency: the foundational article grounds the hierarchy in Scripture, but this article treats the same concepts as secular principles. A reader encountering Article #10 first would not know the hierarchy has a biblical foundation. This is the primary issue. See Change 1.
 
-- **Against Article #2 ("The One Number That Tells You the Truth"):** Article #2 defines Safe-to-Spend as "Your Income - Giving - Saving - Bills" (line 27). Article #10's allocation table (lines 51-55) follows this formula: Giving comes first, then Saving, then Safe-to-Spend. The table omits "Bills" because a windfall has no bills attached -- this is appropriate and internally consistent. The article correctly does not claim the windfall Safe-to-Spend merges into the monthly Safe-to-Spend number, which avoids a potential confusion point.
+- **Against Article #9 ("Lifestyle Creep"):** Line 35 references the same mechanism. The cross-reference to the article title is present ("Lifestyle Creep: The Silent Margin Thief"). This connection works well.
 
-- **Against Article #5 ("Setting Your Hierarchy"):** Article #5 line 44: "Want to start but 10% feels impossible? Start at 3%. Or 1%. Or $25 a month." Article #10 line 47 uses 3% as the regular-income giving rate and 10% as the windfall rate. The 3% is consistent with Article #5's starting-point framing. The 10% for windfall giving is higher but framed as an opportunity, not an expectation. No contradiction, but worth noting the 10% number appears in both articles in different contexts (Article #5 as the "right answer" that feels impossible; Article #10 as a windfall opportunity). See Change 2 for a softening suggestion.
+- **Against Article #11 ("Debt and the Hierarchy"):** Article #11 modifies the hierarchy to include a debt-attack tier. Article #10 does not mention debt. Line 69 already includes a cross-reference: "If you're in a season of debt payoff, 'Debt and the Hierarchy' shows how the hierarchy adjusts." This bridge works. No action needed.
 
-- **Against Article #9 ("Lifestyle Creep"):** Article #9 line 35: "When money is available without a framework, spending expands to absorb it. Not through bad decisions -- through the absence of a decision." Article #10 line 35 makes the same connection explicitly: "This is the same mechanism behind lifestyle creep, just compressed into weeks instead of months." The cross-reference is accurate and the distinction (compressed timeline) is correctly drawn.
+- **Against Article #5 ("Setting Your Hierarchy"):** Article #5 line 17 presents 10% as the percentage that "makes your stomach tighten." Article #10 line 47 uses a range (5-10%) for windfall giving. The contexts are different (monthly vs. one-time), and the range softens it. Minor tension but not a contradiction.
 
-- **Against Article #8 ("When You're Starting From Zero"):** Article #8 addresses people with minimal income. Article #10's freelancer section addresses people with variable income. These are overlapping but distinct audiences. Article #8 line 43: "Twenty-five dollars a month is $300 in a year. Three hundred dollars is a car repair." Article #10's freelancer advice (set hierarchy to the lowest month) is compatible -- someone starting from zero with variable income would set their baseline at the lowest month and their hierarchy numbers very small. No contradictions.
+- **Against Article #8 ("When You're Starting From Zero"):** Article #8 line 83 explicitly mentions God: "God gave Joseph wisdom to steward during famine, not just during plenty." Article #10 mentions neither God nor Joseph. The contrast is noticeable across the series.
 
-- **Against Article #11 ("Debt and the Hierarchy"):** Article #11 modifies the hierarchy to include a debt-attack tier. Article #10's windfall treatment does not mention debt. For someone with debt, a windfall would arguably flow through the modified hierarchy from Article #11 (give baseline, small buffer, then debt attack). The omission is not a contradiction -- Article #10 is about irregular income generally, not specifically about irregular income during a debt payoff season. However, a brief acknowledgment that "if you're in a debt season, 'Debt and the Hierarchy' shows how to adjust the split" would strengthen the cross-reference. This is an opportunity, not a gap. See Change 4.
+- **"Waterline" metaphor consistency:** Article #10 line 57 ("raises the waterline") echoes Article #9 line 31 ("let the water level rise one millimeter at a time"). Good. Same image for the same concept across articles.
 
-- **Against Article #4 ("The Weekly Ritual"):** Article #4 describes the weekly import as the mechanism for visibility. Article #10 does not reference the weekly ritual. This is appropriate -- windfall handling is a decision-point activity, not a monitoring activity. No contradiction.
+- **Allocation table format:** Lines 51-55 follow the same Priority/Amount/Notes format used in Article #5 (lines 88-93) and Article #11 (lines 99-105). Consistent.
 
-- **Against Article #7 ("The Money Conversation"):** Article #7 positions Safe-to-Spend as a couples tool. Article #10's windfall allocation is framed individually (second person singular). No contradiction. The allocation table (lines 51-55) could be a couples conversation, but the article does not address that dimension. Not a gap for an article already covering substantial ground.
-
-### Math/claims
-
-- **"$876 a year" equivalent:** Not in this article. Referenced in Article #6 (Subscription Audit). No confusion.
-
-- **Freelancer baseline advice (line 73):** "Look at your last six months of income, find the lowest month, and use that as your baseline." This is a conservative, practical heuristic. It does not constitute professional financial advice and is presented as a framework, not a guarantee. Appropriate for the Storehouse voice.
-
-- No unsupported claims requiring sourcing.
-
----
-
-## Truth Extraction
-
-Strong candidates from this piece:
-
-- **"There's no such thing as free money. Every dollar carries the same question: what do you want this to become?" (line 27)** -- Truth candidate. Reframes the dollar from something you have to something you direct. Quotable independently. Could be used in onboarding copy for a windfall-allocation feature, or referenced in any content about unexpected income.
-
-- **"The dollars that arrive without a plan are the ones most likely to disappear without a trace." (line 29)** -- Truth candidate. Captures the central problem in a single sentence. Could serve as a pull quote or headline.
-
-- **"Not through bad decisions -- through the absence of a decision." (line 35)** -- This echoes a pattern across the Foundations series (lifestyle creep, subscription creep, windfall vanishing -- all happen through the absence of a decision, not through bad ones). Worth considering as a cross-article truth.
-
-- **"The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later." (line 97)** -- Strong closing truth. The contrast between "building blocks" and "a story you can't quite piece together" is vivid and memorable.
-
-- **"That's the rhythm. Not restriction. Direction." (line 89)** -- Clean, quotable. Could be a signature phrase used across Storehouse content about the hierarchy.
+- No factual contradictions found across any cross-referenced articles.
 
 ---
 
@@ -117,103 +95,230 @@ Strong candidates from this piece:
 
 | Red Line | Status |
 |----------|--------|
-| Shaming people for their financial situation | CLEAR -- The opening names the guilt sequence (line 15) as universal, not as a character flaw. Line 83: "A bonus should be partly enjoyed." Line 85: "Buy the shoes. Take the trip. Enjoy the dinner." The article consistently validates enjoyment after the hierarchy is honored. No shame language anywhere. |
-| Prosperity gospel messaging | CLEAR -- No promises that following the hierarchy will produce wealth. The hierarchy is framed as a decision framework. "Margin and meaning" (line 57) is the promised outcome, not prosperity. |
-| Legalistic messaging | CLEAR -- "The percentages don't have to match your regular allocations" (line 45). The allocation table (lines 51-55) is labeled "An example" (line 49), not "The correct split." No mandatory targets. Minor note: the 10% windfall giving example (line 47) could be read as suggestive of a target. See Change 2. Not a red line violation, but worth softening. |
+| Shaming people for their financial situation | CLEAR -- The opening names guilt as universal (line 15), not a character flaw. "Buy the shoes. Take the trip. Enjoy the dinner." (line 87) validates enjoyment. No shame language. |
+| Prosperity gospel messaging | CLEAR -- No promises that following the hierarchy produces wealth. "Margin and meaning" (line 57) is the promised outcome, not prosperity. |
+| Legalistic messaging | CLEAR -- "The percentages don't have to match your regular allocations" (line 45). The allocation table is labeled "An example" (line 49). No mandatory targets. |
 | Attacking competitors by name | CLEAR -- No competitor names mentioned. |
-| Implying Storehouse replaces professional financial advice | CLEAR -- The freelancer advice (lines 71-79) is a practical heuristic, not professional financial planning. No claims about replacing advisors. |
-| Fear-based messaging | CLEAR -- "That's not pressure. It's clarity." (line 65). The article explicitly reframes the singularity of windfalls as clarity rather than pressure. No urgency or fear language. |
-| Excluding non-Christians from value proposition | CLEAR -- No faith language in the article body. "Stewardship" is used in its practical sense. The hierarchy is presented as a universal framework. Accessible to any reader. |
+| Implying Storehouse replaces professional financial advice | CLEAR -- Freelancer advice is a practical heuristic, not professional planning. |
+| Fear-based messaging | CLEAR -- "That's not pressure. It's clarity." (line 65). Explicitly reframes singularity as clarity, not urgency. |
+| Excluding non-Christians from value proposition | CLEAR -- The hierarchy is presented as a universal framework. However, the absence of ANY faith language actually overcorrects. The Integrity System says to be "transparent about the biblical source without requiring readers to share the belief" (line 216). The article is so secular that it obscures the source entirely. See Change 1. |
 
-No red line violations.
+No red line violations. But the absence of biblical attribution, while not a red line violation per se, conflicts with the "Attributive, not vague" voice guideline.
 
 ---
 
 ## Word Count
 
-Body text (lines 13-99, excluding frontmatter and YAML): approximately 1,300 words. Within the 800-1,500 word target range. No action needed.
+Body text (lines 13-101, excluding frontmatter): approximately 1,300 words. Within the 800-1,500 word target. No action needed.
 
 ---
 
 ## Proposed Changes
 
-### Change 1: Smooth the lifestyle creep cross-reference
+### Change 1: Add biblical attribution for the stewardship concept
 
-**Priority:** Medium
-**Why:** Voice alignment / Cross-content consistency -- Line 35 references lifestyle creep with "This is the same mechanism behind lifestyle creep, just compressed into weeks instead of months." This is well-written and draws the connection clearly. However, it does not signal to the reader that there is a companion article exploring lifestyle creep in depth. Other articles in the series handle cross-references with a light nod to the companion piece (e.g., Article #3 line 47: "the hierarchy we wrote about in 'Give First'"; Article #8 line 31: "We said in 'Give First, Save Second, Spend What Remains' that starting at 1% isn't failing at 10%"). Adding a brief signal would help readers navigate the series.
+**Priority:** High
+**Why:** Voice alignment ("Attributive, not vague"), Biblical Attribution Standard, cross-content consistency
 
-> **Current (line 35):**
-> This is the same mechanism behind lifestyle creep, just compressed into weeks instead of months.
+This is the most important change. The article uses "stewardship" twice (lines 61, 65) and "stewardship test" as a section header (line 59) without ever grounding the concept in its biblical origin. Every other article in the Foundations series that uses "stewardship" provides at least a brief anchor:
 
-> **Proposed:**
-> This is the same mechanism behind lifestyle creep -- explored more fully in "Lifestyle Creep: The Silent Margin Thief" -- just compressed into weeks instead of months.
+- Article #1 cites 1 Peter 4:10 and retells the Joseph story
+- Article #8 mentions "God gave Joseph wisdom to steward during famine"
+- Article #11 references giving as a practice with roots in the hierarchy's biblical foundation
 
-The parenthetical is brief enough not to disrupt the sentence's rhythm and gives the reader a path to the companion piece. If the dashed insertion feels too heavy, an alternative:
+Article #10 is the only Foundations piece that uses "stewardship" as a floating concept. The Voice Guidelines are explicit: "When a principle comes from the Bible, say so" (Integrity System line 97). The Craft Guide's Biblical Attribution Standard says to "cite when the principle originates from a specific passage" and to "credit God as the source of wisdom" (Craft Guide lines 289, 309).
 
-> **Proposed (alternative):**
-> This is the same mechanism we explore in the lifestyle creep article, just compressed into weeks instead of months.
+The fix does not require a sermon. One sentence, woven into the "A Windfall Is a Stewardship Test" section, would anchor the concept without disrupting the article's practical tone.
+
+> **Current (lines 61-65):**
+> Regular income gives you practice -- every month, you run the hierarchy, and if you miss a month, the next one comes around. Windfalls don't work that way. The bonus arrives once. The tax refund comes once a year. The freelance check clears and that project is over. There's no next month to try again with that specific money.
+>
+> That's not pressure. It's clarity. When the opportunity is singular, the intentionality matters more. Not because you'll be judged for how you handle a bonus, but because the habits you practice with irregular income reveal the habits you're building overall.
+
+> **Proposed (lines 61-65):**
+> Regular income gives you practice -- every month, you run the hierarchy, and if you miss a month, the next one comes around. Windfalls don't work that way. The bonus arrives once. The tax refund comes once a year. The freelance check clears and that project is over. There's no next month to try again with that specific money.
+>
+> That's not pressure. It's clarity. The Bible calls this stewardship -- faithfully managing what God has entrusted to you, whether the amount is expected or not. When the opportunity is singular, the intentionality matters more. Not because you'll be judged for how you handle a bonus, but because the habits you practice with irregular income reveal the habits you're building overall.
+
+The inserted sentence ("The Bible calls this stewardship -- faithfully managing what God has entrusted to you, whether the amount is expected or not") does three things: (1) names the Bible as the source, satisfying the "Attributive, not vague" guideline, (2) defines stewardship in a way that connects to the article's windfall theme with "whether the amount is expected or not," and (3) keeps the tone conversational rather than sermonic. It does not require the reader to share the belief -- it simply names the source.
+
+Alternative approach if the mid-paragraph insertion feels too heavy: add the attribution in the section header's opening line instead.
+
+> **Proposed (alternative, replace line 61):**
+> Here's the reframe: a windfall isn't free money. It's a stewardship test with higher stakes and no monthly reset. Stewardship -- the biblical conviction that what you have is entrusted, not owned -- applies to the dollars you expected and the ones you didn't.
 
 ---
 
-### Change 2: Soften the 10% windfall giving example
+### Change 2: Widen the giving percentage range in the example
 
 **Priority:** Medium
-**Why:** Red lines proximity / Financial accuracy -- The Content Integrity System (line 199) flags "Generic percentage advice" and notes the importance of "acknowledging that some families are starting from 0% and 5% would be a victory." Line 47 jumps from a regular 3% to a windfall 10% without acknowledging that any increase -- even from 3% to 5% -- is meaningful. The 10% number is particularly charged because Article #5 ("Setting Your Hierarchy") explicitly names 10% as the percentage that "makes your stomach tighten" (line 17 of that article). Using 10% as the windfall giving example could inadvertently reinforce the notion that 10% is the real target. This is not a red line violation, but it is close to the edge of legalistic messaging. A small adjustment preserves the example while widening the invitation.
+**Why:** Financial accuracy / Red lines proximity -- The Content Integrity System (line 200) flags "Generic percentage advice" and notes the importance of "acknowledging that some families are starting from 0% and 5% would be a victory." Line 47 currently offers a range (5-10%) with softening language ("whatever feels generous without feeling forced"), which is already better than anchoring to a single number. However, the sentence still presents three specific percentages (3%, 5%, 10%) in quick succession, and the dollar amount example ($150) corresponds to the 5% figure. The 10% remains the upper anchor. Article #5 ("Setting Your Hierarchy") explicitly names 10% as the percentage that "makes your stomach tighten." A slight rebalance could further de-emphasize 10% as a target.
 
 > **Current (line 47):**
-> If you're giving at 3% of your regular income, a $3,000 bonus is a chance to give at 10% of that specific amount -- $300 toward something meaningful.
-
-> **Proposed:**
 > If you're giving at 3% of your regular income, a $3,000 bonus is a chance to stretch -- maybe 5%, maybe 10%, whatever feels generous without feeling forced. Even $150 toward something meaningful is more than the zero that happens when the bonus just absorbs into spending.
 
-This opens the range (5% to 10% rather than jumping straight to 10%), names a dollar amount at the lower end ($150), and frames the choice as personal ("whatever feels generous without feeling forced") rather than anchoring to a single percentage. The allocation table below (lines 51-55) can remain at 10% / $300 because it is clearly labeled as "An example."
+> **Proposed:**
+> If you're giving at 3% of your regular income, a $3,000 bonus is a chance to stretch. Maybe that means $150. Maybe it means $300. The amount matters less than the act of deciding before the money disappears. Even a modest increase over your regular percentage is more than the zero that happens when the bonus just absorbs into spending.
+
+This removes all percentage anchors from the sentence, substitutes dollar amounts (which feel more personal and less rule-like), and refocuses on the act of deciding rather than hitting a specific target. The allocation table at lines 51-55 still shows 10% / $300 as the example, which is fine because tables are clearly illustrative.
 
 ---
 
-### Change 3: Tighten the opening of "The Same Hierarchy" section
+### Change 3: Strengthen the section heading for "The Same Hierarchy, Applied to Every Dollar"
 
 **Priority:** Medium
-**Why:** Voice alignment -- "Here's the practical move:" (line 41) is a mild meta-signal that tells the reader what kind of content is coming rather than just delivering it. The strongest section openings in this article lead with claims or observations: "That feeling is the trap" (line 25), "You've seen this happen" (line 33). "Here's the practical move" briefly sounds like a seminar handout. The sentence that follows (line 43, "Give first. Save second. Spend what remains.") is strong enough to open the section on its own, but a transitional sentence is needed to bridge from the previous section. A slight rewording removes the meta-framing.
+**Why:** Voice alignment / Prose rhythm -- This is the only section heading that reads as descriptive rather than assertive. Compare to the article's other headings: "The 'Free Money' Trap" (an assertion), "Why Windfalls Vanish" (a question that implies a story), "A Windfall Is a Stewardship Test" (a reframe), "Yes, Enjoy Some of It" (permission). "The Same Hierarchy, Applied to Every Dollar" reads like a manual subheading.
 
-> **Current (line 41):**
-> Here's the practical move: when irregular income arrives, run it through the hierarchy before spending any of it.
+> **Current (line 39):**
+> ## The Same Hierarchy, Applied to Every Dollar
 
 > **Proposed:**
-> When irregular income arrives, run it through the hierarchy before you spend any of it.
+> ## Every Dollar Gets the Same Question
 
-This preserves the instruction while eliminating the "Here's the practical move:" setup. The sentence is direct and conversational, which matches the voice of the rest of the article.
+This echoes line 27 ("Every dollar carries the same question: what do you want this to become?") and creates a callback that ties the section to the article's core philosophical claim. It is assertive rather than descriptive, matching the voice of the other headings.
+
+Alternative:
+
+> **Proposed (alternative):**
+> ## The Hierarchy Doesn't Care Where the Dollar Came From
+
+This echoes line 27's framing ("The hierarchy doesn't care whether a dollar arrived on the 1st of the month or the 15th") and has more personality than the current heading.
 
 ---
 
-### Change 4: Add a brief cross-reference to the debt article for windfall allocation during debt payoff
+### Change 4: Tighten the closing section's final paragraph to avoid repetition
 
 **Priority:** Medium
-**Why:** Cross-content consistency -- Article #11 ("Debt and the Hierarchy") introduces a modified hierarchy that includes a debt-attack tier between saving and bills. For a reader who is both carrying debt and receiving a windfall, the question of whether the windfall should go toward debt is significant and unanswered in this article. A brief acknowledgment would connect the two articles without requiring Article #10 to rehash Article #11's framework. The "For Freelancers and Variable Income" section (line 69) demonstrates that the article already extends its core advice to secondary audiences, so adding one sentence for readers with debt follows the established pattern.
+**Why:** Craft quality / Prose rhythm -- The closing section (lines 93-101) contains three paragraphs. The first (lines 95-97) gives the practical instruction (write down the amount, split it through the hierarchy). The second (lines 97-99) provides the "building blocks vs. story you can't piece together" contrast -- a strong truth. The third (line 101) restates the hierarchy mantra. The issue is that the second and third paragraphs both function as closings. "Same dollars. Different outcome. The only variable is whether you decided before the money decided for you." (line 99) is a strong ending. Then line 101 restates the mantra: "Give first. Save second. Spend what remains. Every dollar. Even -- especially -- the ones you didn't expect." This is also a strong ending. Having two strong endings in sequence dilutes both.
 
-> **Current (line 67, end of "A Windfall Is a Stewardship Test" section):**
-> The person who runs a $3,000 bonus through the hierarchy isn't just managing one check. They're proving to themselves that the hierarchy isn't just for easy months. It works everywhere.
-
-> **Proposed (add after line 67):**
-> The person who runs a $3,000 bonus through the hierarchy isn't just managing one check. They're proving to themselves that the hierarchy isn't just for easy months. It works everywhere.
+> **Current (lines 97-101):**
+> Decide the giving, the saving, and the spending before the deposit hits your account. Write it on a sticky note or a phone note. When the money arrives, execute the plan.
 >
-> If you're in a season of debt payoff, "Debt and the Hierarchy" shows how the hierarchy adjusts -- and a windfall can be a powerful accelerant for that plan.
+> The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later. Same dollars. Different outcome. The only variable is whether you decided before the money decided for you.
+>
+> Give first. Save second. Spend what remains. Every dollar. Even -- especially -- the ones you didn't expect.
 
-This is a single sentence that names the companion article and frames the windfall as relevant to that audience. It does not attempt to explain the modified hierarchy; it simply points the reader to the right place.
+> **Proposed:**
+> Decide the giving, the saving, and the spending before the deposit hits your account. Write it on a sticky note or a phone note. When the money arrives, execute the plan.
+>
+> The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later.
+>
+> Give first. Save second. Spend what remains. Every dollar. Even -- especially -- the ones you didn't expect.
+
+This removes "Same dollars. Different outcome. The only variable is whether you decided before the money decided for you." from line 99. The "building blocks vs. story" contrast is strong enough to stand alone, and it hands off cleanly to the mantra restatement. The "decided before the money decided for you" phrasing, while clever, is thematically redundant with the "building blocks vs. story" contrast (both say the same thing: plan beats no plan). Cutting it lets each closing paragraph do one thing.
+
+Note: If "decided before the money decided for you" is a line worth keeping, it could replace "The only variable is whether you decided before the money decided for you" with just the final clause as a standalone fragment -- but that may feel like too much craft-surgery for a closing that already works well.
+
+---
+
+### Change 5: Consider a brief admission of imperfection
+
+**Priority:** Low
+**Why:** Voice alignment ("Honest about struggle") / Craft Guide "Neat Conclusions" watchlist -- The article is written entirely in second person, which gives it a confident, instructional tone. Every other Tier 3-4 article in the series includes at least one moment of first-person admission -- a "we've been there" or "we're still figuring this out." Article #1 line 76: "We've been there." Article #8 line 16: "Stay. This one is for you." Article #9 line 47: "And you do. That's the honest truth." Article #10 has no such moment. The "Yes, Enjoy Some of It" section (lines 83-89) comes closest with "We need to say this plainly" (line 85), which acknowledges the tension. But nowhere does the article admit that the author has ever failed to run a windfall through the hierarchy. The Craft Guide's "Voice of Experience" section (line 275) values "admissions of uncertainty or failure" as credibility builders.
+
+This is a low-priority suggestion because the second-person voice works well and the article does not feel preachy. But one brief admission -- even a phrase -- would ground the "stewardship test" framing in lived experience rather than instruction.
+
+> **Current (line 85):**
+> We need to say this plainly: the hierarchy isn't about eliminating enjoyment.
+
+> **Proposed:**
+> We need to say this plainly -- because we've been on the other side of it, watching a bonus dissolve into nothing memorable: the hierarchy isn't about eliminating enjoyment.
+
+This is optional. The current sentence works. The proposed version adds a single autobiographical clause that signals experience without derailing the paragraph.
+
+---
+
+## Craft Quality
+
+### AI Tells Found
+
+- **Rule of three:** Line 15: "Your first thought is what you'd buy. Your second thought is that you should probably save it. Your third thought is guilt about the first thought." -- This IS a rule of three, but it works because it mirrors actual psychology (the real sequence people experience) and the third item subverts the pattern (guilt about thought one, not a tidy third option). Not a problem. Intentional craft.
+
+- **Rule of three:** Line 17: "excitement, responsibility, guilt" -- Summary of the above. Same verdict: the three items are psychologically accurate, not symmetrically constructed.
+
+- **Neat conclusion tendency:** Lines 97-101 contain two closings stacked on top of each other. The "building blocks vs. story" contrast is strong. Then "Same dollars. Different outcome." restates it. Then the mantra restates the whole article. This is the one place where the article wraps up a little too neatly. See Change 4.
+
+- **No hedge phrases found.** The article is direct throughout.
+
+- **No filler transitions found.** Section openings are assertions or observations, not meta-signals.
+
+- **No passive hedging found.** The article owns its claims.
+
+- **No "It's not X, it's Y" overuse.** The device appears once: "That's not pressure. It's clarity." (line 65). Used once, effectively.
+
+- **No emotional flatness.** The opening scenario (lines 13-17) evokes the feeling rather than describing it. "You can't quite say where" (line 34) is specific and emotionally honest.
+
+**AI Tells Count: 1 flagged (double closing at lines 97-101). No significant AI fingerprint. This reads as human-written.**
+
+### Prose Rhythm: Strong
+
+The article varies sentence length effectively. Line 25 ("That feeling is the trap.") is five words after a full paragraph. Line 57 alternates long and short: "Same money. One version builds margin and meaning. The other just raises the waterline temporarily." The freelancer section (lines 71-81) builds a longer argument, then line 81 delivers a two-sentence payoff: "The baseline handles the fear. The windfall gets the freedom." The rhythm pulls the reader forward consistently.
+
+One minor note: the "For Freelancers and Variable Income" section (lines 71-81) is the longest sustained paragraph block in the article. It could benefit from a line break between the baseline concept (lines 73-77) and the two-things-it-does payoff (lines 79-81). This is a readability note, not a rhythm problem.
+
+### Reframes Found
+
+- **"A windfall isn't free money. It's a stewardship test with higher stakes and no monthly reset." (line 61)** -- This is the article's central reframe. It takes the reader's assumption (windfall = bonus, extra, fun money) and inverts it (windfall = a test of the habits you're building). The inversion is genuinely true and concise. It works.
+
+- **"The baseline handles the fear. The windfall gets the freedom." (line 81)** -- A secondary reframe for the freelancer audience. Takes the assumption (variable income = constant anxiety) and inverts it (a baseline-plus-windfall framework converts anxiety into a clear system). Less dramatic than the primary reframe but effective for its audience.
+
+### Engagement: Pulls forward
+
+The opening scenario is one of the strongest in the Foundations series. The three-thought sequence (buy, save, guilt) creates immediate identification. "That feeling is the trap" earns the next section. "Why Windfalls Vanish" delivers on the promise. The article maintains curiosity through each section transition. The "Yes, Enjoy Some of It" section arrives at exactly the right moment -- after the reader has absorbed the framework, before the closing instruction. No section loses the reader.
+
+### The "Changed Inside" Test
+
+- **Reframe present:** Yes. "A windfall isn't free money. It's a stewardship test." This inverts the reader's assumption about bonus money.
+- **Conclusion earned:** Mostly. The article builds toward the mantra restatement through scenarios, examples, and framework. The reader arrives at "Give first. Save second. Spend what remains. Every dollar." having understood why it applies to irregular income. The double closing (Change 4) slightly undermines the earned-ness by restating the conclusion twice.
+- **Show vs. tell ratio:** Strong. The $3,000 bonus scenario (lines 13-17), the $2,400 tax refund evaporation (lines 33-34), and the allocation table (lines 51-55) are all concrete. The freelancer baseline method (line 75) is practical and specific. The article shows more than it tells.
+
+### Condescension Check
+
+- No "simply put," "let me explain," or "let's break this down" found.
+- No over-explanation of obvious concepts.
+- The reader is treated as an intelligent adult who has experienced the bonus-vanishing phenomenon and needs a framework, not a lecture.
+- CLEAR.
+
+---
+
+## Truths Extracted
+
+- **"There's no such thing as free money. Every dollar carries the same question: what do you want this to become?" (line 27)** -- Reframes the dollar from something you have to something you direct. Quotable independently. Could be used in onboarding copy for a windfall feature.
+
+- **"The dollars that arrive without a plan are the ones most likely to disappear without a trace." (line 29)** -- Captures the central problem in a single sentence. Pull-quote or headline candidate.
+
+- **"Not through bad decisions -- through the absence of a decision." (line 35)** -- Echoes a cross-series pattern (lifestyle creep, subscription creep, windfall vanishing all happen through absence of decision, not bad ones). Cross-article truth candidate.
+
+- **"The dollars that arrive with a plan become building blocks. The ones that arrive without a plan become a story you can't quite piece together three months later." (line 99)** -- Strong closing truth. "Building blocks" vs. "a story you can't quite piece together" is vivid and memorable.
+
+- **"That's the rhythm. Not restriction. Direction." (line 91)** -- Clean, quotable. Signature phrase candidate for the hierarchy across Storehouse content.
+
+- **"The baseline handles the fear. The windfall gets the freedom." (line 81)** -- Tight two-sentence summary of the freelancer framework. Quotable for variable-income audiences.
 
 ---
 
 ## Cross-Reference Notes
 
-- **Lifestyle creep connection (line 35):** The article correctly identifies the shared mechanism between windfall vanishing and lifestyle creep ("spending expands to absorb it") and distinguishes the timescale (weeks vs. months). This is a strong conceptual link. The cross-reference could be made explicit for reader navigation. See Change 1.
+- **Biblical attribution gap across the series:** Articles #1, #5, #8, and #11 all include at least one biblical reference (God, Joseph, Scripture, or specific verses). Article #10 includes none. A reader moving through the Foundations series would notice the inconsistency. This is the primary issue flagged in this review.
 
-- **"Waterline" metaphor (line 57):** "The other just raises the waterline temporarily" echoes the Lifestyle Creep article's "water level" metaphor (that article's line 31). This is good cross-article metaphor consistency -- the same image is used for the same concept (spending expanding to absorb available money). No action needed, but worth noting as a positive pattern.
+- **"Waterline" metaphor consistency:** Article #10 line 57 ("raises the waterline") and Article #9 line 31 ("let the water level rise one millimeter at a time") use the same image for spending expanding to absorb available money. Positive pattern. No action needed.
 
-- **Allocation table format:** The table at lines 51-55 follows the same format as the allocation tables in Article #5 ("Setting Your Hierarchy," lines 88-93) and Article #11 ("Debt and the Hierarchy," lines 95-101). Three columns: Priority, Amount, Notes. Consistent formatting across the series. The table correctly places Giving first, Saving second, and Safe-to-Spend last, mirroring the hierarchy order.
+- **Lifestyle creep cross-reference:** Line 35 includes a named reference to "Lifestyle Creep: The Silent Margin Thief." This follows the series convention of naming companion articles explicitly.
 
-- **10% giving in context:** Article #5 line 17 presents 10% as the number that "makes your stomach tighten." Article #10 line 47 uses 10% as a windfall giving rate. These are different contexts (monthly vs. one-time), but a reader moving through the series might notice the 10% appearing as a target in both. Change 2 addresses this by widening the range.
+- **Debt article cross-reference:** Line 69 includes "If you're in a season of debt payoff, 'Debt and the Hierarchy' shows how the hierarchy adjusts." This bridge connects the two audiences cleanly.
 
-- **Freelancer section and Article #8 ("When You're Starting From Zero"):** Article #8 addresses people with minimal savings. Article #10's freelancer section addresses people with variable income. Both recommend building from a conservative baseline. Article #8 says "start at 1%"; Article #10 says "find the lowest month." These are compatible strategies for overlapping audiences. No contradictions.
+- **Allocation table format:** Lines 51-55 use the same Priority/Amount/Notes format as Articles #5 and #11. Consistent.
 
-- **Missing debt cross-reference:** Article #11 modifies the hierarchy for debt seasons. Article #10 does not mention debt. For readers carrying debt who receive a windfall, the omission is noticeable. Change 4 addresses this with a single-sentence bridge.
+- **10% giving in context:** Article #5 line 17 presents 10% as the number that "makes your stomach tighten." Article #10 line 53 uses 10% in the allocation table example. The table is clearly labeled "An example" (line 49), which provides sufficient framing. The percentage range in line 47 ("maybe 5%, maybe 10%") is already softer than a single anchor. Minor tension but not a contradiction.
 
 - **No contradictions found** across any cross-referenced articles.
+
+---
+
+## Change Priority Summary
+
+| Priority | Count | Description |
+|----------|-------|-------------|
+| High | 1 | Biblical attribution for stewardship concept (Change 1) |
+| Medium | 3 | Percentage range softening (Change 2), section heading (Change 3), double closing (Change 4) |
+| Low | 1 | Brief admission of imperfection (Change 5) |
