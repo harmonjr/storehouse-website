@@ -7,17 +7,15 @@ import HeroSection from '../components/sections/HeroSection.astro';
 import ProblemSection from '../components/sections/ProblemSection.astro';
 import SolutionSection from '../components/sections/SolutionSection.astro';
 import HowItWorksSection from '../components/sections/HowItWorksSection.astro';
-import VariableIncomeSection from '../components/sections/VariableIncomeSection.astro';
 import ComparisonSection from '../components/sections/ComparisonSection.astro';
-import PhilosophySection from '../components/sections/PhilosophySection.astro';
-import SubscriptionsSection from '../components/sections/SubscriptionsSection.astro';
+import AudienceSection from '../components/sections/AudienceSection.astro';
 import TestimonialsSection from '../components/sections/TestimonialsSection.astro';
 import FinalCtaSection from '../components/sections/FinalCtaSection.astro';
 
-const description = "Know exactly what you can spend. Storehouse shows you one number — what's truly safe to spend after your priorities are handled. No guilt. No guessing.";
+const description = "Finally, breathing room. Storehouse shows you one number \u2014 what's truly safe to spend after your priorities are handled. Built on biblical financial principles.";
 ---
 
-<PageLayout title="Know What You Can Spend | Storehouse" description={description}>
+<PageLayout title="Finally, Breathing Room | Storehouse" description={description}>
   <Header slot="header" transparent />
   <MobileNav />
 
@@ -27,28 +25,22 @@ const description = "Know exactly what you can spend. Storehouse shows you one n
   <!-- Section 2: Problem (Empathy) -->
   <ProblemSection />
 
-  <!-- Section 3: Solution -->
+  <!-- Section 3: The Hierarchy -->
   <SolutionSection />
 
   <!-- Section 4: How It Works -->
   <HowItWorksSection />
 
-  <!-- Section 5: Variable Income -->
-  <VariableIncomeSection />
-
-  <!-- Section 6: Comparison -->
+  <!-- Section 5: Comparison -->
   <ComparisonSection />
 
-  <!-- Section 7: Philosophy Teaser -->
-  <PhilosophySection />
+  <!-- Section 6: Who This Is For -->
+  <AudienceSection />
 
-  <!-- Section 8: Subscriptions -->
-  <SubscriptionsSection />
-
-  <!-- Section 9: Testimonials -->
+  <!-- Section 7: Testimonials -->
   <TestimonialsSection />
 
-  <!-- Section 10: Final CTA -->
+  <!-- Section 8: Final CTA -->
   <FinalCtaSection />
 
   <Footer slot="footer" />

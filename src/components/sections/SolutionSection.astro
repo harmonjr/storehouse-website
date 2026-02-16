@@ -1,56 +1,87 @@
 ---
-import { Image } from 'astro:assets';
-import dashboardImage from '../../assets/images/dashboard-screenshot.png';
-
-const steps = [
-  'Set your priorities first — giving, saving, bills',
-  'We handle the math',
-  'You see one number: Safe to Spend',
+const hierarchySteps = [
+  { label: 'Income', icon: '\u{1F4B0}', color: 'bg-slate-700 text-white' },
+  { label: 'Give First', sublabel: 'tithe, generosity', icon: '\u{1F49B}', color: 'bg-storehouse-500 text-white' },
+  { label: 'Save Second', sublabel: 'retirement, emergency fund', icon: '\u{1F331}', color: 'bg-emerald-500 text-white' },
+  { label: 'Pay Bills', sublabel: 'mortgage, utilities, insurance', icon: '\u{1F4CB}', color: 'bg-slate-500 text-white' },
+  { label: 'Safe to Spend', sublabel: 'your one number', icon: '\u2728', color: 'bg-storehouse-600 text-white ring-2 ring-storehouse-300' },
 ];
 ---
 
 <section class="py-16 md:py-24 bg-slate-50">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-      <!-- Content -->
-      <div>
-        <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-          One number. Total clarity.
-        </h2>
-        <p class="mt-4 text-lg text-slate-600">
-          Storehouse flips the script:
-        </p>
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        One number. Total clarity.
+      </h2>
+      <p class="mt-4 text-lg text-slate-600">
+        Most apps work backwards &mdash; spend first, save what's left, give if there's anything remaining. Storehouse flips the order. Your priorities are handled before you see your number. What's left is truly yours to spend, freely.
+      </p>
+    </div>
 
-        <ol class="mt-6 space-y-4">
-          {steps.map((step, index) => (
-            <li class="flex items-start gap-4">
-              <span class="flex-shrink-0 w-8 h-8 rounded-full bg-storehouse-500 text-white font-semibold flex items-center justify-center text-sm">
-                {index + 1}
-              </span>
-              <span class="text-lg text-slate-700 pt-1">{step}</span>
-            </li>
-          ))}
-        </ol>
-
-        <p class="mt-8 text-lg text-slate-600">
-          Spend freely within it. No categories to track. No guilt when you buy coffee.
-        </p>
-
-        <blockquote class="mt-8 pl-4 border-l-4 border-storehouse-500 italic text-slate-700">
-          "Available after giving & saving" — that's not restriction. That's freedom.
-        </blockquote>
-      </div>
-
-      <!-- Dashboard Screenshot -->
-      <div class="relative">
-        <div class="rounded-2xl shadow-xl overflow-hidden border border-slate-200/50">
-          <Image
-            src={dashboardImage}
-            alt="Storehouse dashboard showing Safe to Spend calculation"
-            class="w-full h-auto"
-          />
-        </div>
+    <!-- Hierarchy Visual -->
+    <div class="mt-12 max-w-md mx-auto">
+      <div class="space-y-0">
+        {hierarchySteps.map((step, index) => (
+          <div class="hierarchy-step" style={`--step-index: ${index}`}>
+            <div class="flex items-center gap-4">
+              <!-- Connector line -->
+              {index > 0 && (
+                <div class="absolute left-7 -top-4 w-0.5 h-4 bg-slate-300"></div>
+              )}
+              <!-- Step pill -->
+              <div class:list={[
+                'relative flex items-center gap-3 w-full rounded-xl px-5 py-4 shadow-sm',
+                step.color,
+                index === hierarchySteps.length - 1 ? 'shadow-lg scale-105' : '',
+              ]}>
+                <span class="text-2xl flex-shrink-0">{step.icon}</span>
+                <div>
+                  <span class="font-display font-semibold text-lg">{step.label}</span>
+                  {step.sublabel && (
+                    <span class="block text-sm opacity-80">{step.sublabel}</span>
+                  )}
+                </div>
+                {index === hierarchySteps.length - 1 && (
+                  <span class="ml-auto text-sm font-medium opacity-90">&larr; your one number</span>
+                )}
+              </div>
+            </div>
+            <!-- Arrow between steps -->
+            {index < hierarchySteps.length - 1 && (
+              <div class="flex justify-center py-1">
+                <svg class="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                </svg>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </div>
+
+    <p class="mt-12 text-center text-xl text-slate-700 font-medium">
+      One number. No guilt. That's the whole idea.
+    </p>
   </div>
 </section>
+
+<style>
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hierarchy-step {
+    animation: fadeInUp 0.4s ease-out forwards;
+    animation-delay: calc(var(--step-index, 0) * 0.15s);
+    opacity: 0;
+    position: relative;
+  }
+</style>

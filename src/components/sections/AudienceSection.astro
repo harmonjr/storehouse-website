@@ -1,0 +1,60 @@
+---
+const builtFor = [
+  'Anyone who feels stretched \u2014 not because they don\'t earn enough, but because there\'s no margin',
+  'Couples who want to see the same number and stop arguing about money',
+  'People with irregular income who need a system that adapts',
+  'Families who want to give generously but can\'t find the breathing room',
+];
+
+const notFor = [
+  'People who want to track every dollar across dozens of categories',
+  'Investment managers or day traders',
+  'Anyone who needs real-time automatic bank sync (we use weekly file imports \u2014 your banking credentials stay in your hands)',
+];
+---
+
+<section class="py-16 md:py-24 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+        Who This Is For
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+      <!-- Built For -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-100">
+        <h3 class="font-display text-xl font-semibold text-slate-900 mb-6">
+          Storehouse is built for...
+        </h3>
+        <ul class="space-y-4">
+          {builtFor.map((item) => (
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-storehouse-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+              <span class="text-slate-700">{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Not For -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-100">
+        <h3 class="font-display text-xl font-semibold text-slate-900 mb-6">
+          Storehouse is not for...
+        </h3>
+        <ul class="space-y-4">
+          {notFor.map((item) => (
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-slate-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              <span class="text-slate-600">{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
