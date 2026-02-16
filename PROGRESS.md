@@ -20,10 +20,14 @@
 - [x] GitHub default branch set to main
 - [x] Content review drafts committed (freelancers + emergency fund)
 - [x] Plan moved to completed
+- [x] Content reviews completed for all 5 new/rewritten articles
+- [x] High-priority review feedback applied (biblical attribution, security claim, unsourced stat)
+- [x] CIS updated with margin-first voice guideline
+- [x] My Story page: nav label, full name, bio woven into narrative
 
 ### Not Yet Done
-- [ ] Content review of 5 new/rewritten articles (drafts exist in docs/content-review/, need verdict review)
-- [ ] Apply review feedback if NEEDS_REVISION
+- [ ] Apply remaining medium/low-priority review feedback (optional polish)
+- [ ] Update waitlist CTAs to beta/launch CTAs (Randy's call on timing)
 - [ ] Visual review on preview deployment
 - [ ] Deploy to production (Vercel)
 
@@ -37,5 +41,5 @@
 - All work on `main` (feature branches deleted)
 
 ## Session Status
-- Last session: 2026-02-15
-- State: All content merged to main. Content review drafts exist but review verdicts need checking. Next step is reviewing the 5 articles, applying any feedback, then deploying.
+- Last session: 2026-02-16
+- State: All content reviewed and high-priority feedback applied. CIS aligned with margin-first positioning. My Story page updated. Remaining items: medium/low review feedback (optional), waitlist-to-CTA swap (Randy's timing), visual QA, and production deploy.
