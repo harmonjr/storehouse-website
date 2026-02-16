@@ -23,9 +23,9 @@ A buffer account is your personal granary. It doesn't require predicting which m
 
 ## The Mechanics
 
-Here's how it works in practice. You need two numbers and one extra account.
+You need two numbers and one extra account.
 
-**Number one: your baseline.** Look at your last six months of income. Find the lowest month. That's your baseline -- the amount you can count on even when work is slow. If your last six months were $4,200, $1,800, $3,600, $900, $2,800, and $3,100, your baseline is $900. That feels low, so let's be practical: maybe your true floor is closer to $1,800 if that $900 month was an anomaly. Use your judgment. The point is to pick a number that's realistic in a bad month, not an average that flatters you.
+**Number one: your baseline.** Look at your last six months of income. Find the lowest month. That's your baseline -- the amount you can count on even when work is slow. If your last six months were $4,200, $1,800, $3,600, $900, $2,800, and $3,100, the lowest month was $900. But one outlier month shouldn't set your floor -- look at the pattern. If $900 was a one-time gap between contracts and $1,800 is closer to your realistic low, use that. The point is to pick a number that holds up in a genuinely slow month, not a worst-case disaster.
 
 **Number two: your monthly need.** Add up your non-negotiables -- giving, saving targets, rent, utilities, insurance, groceries, minimum debt payments. Let's say that's $2,600.
 
@@ -51,7 +51,7 @@ That's the buffer doing its job -- absorbing the volatility so your financial li
 
 ## The Hierarchy on a Freelancer's Terms
 
-Here's the part that trips people up: if your income varies, do your giving and saving percentages vary too?
+If your income varies, do your giving and saving percentages vary too?
 
 They can. But they don't have to.
 
@@ -60,6 +60,8 @@ When you pay yourself a stable $2,600 from the buffer, your hierarchy runs on th
 Some freelancers prefer a different approach: run the hierarchy on actual income, before the buffer split. A $4,200 month means a bigger tithe. A $900 month means a smaller one. Both approaches honor the order. The buffer method is simpler because it removes the decision each month. The actual-income method might feel more responsive to what God is providing in real time.
 
 Either way, giving doesn't wait for a good month. Even variable income can put giving first. The buffer just makes it less stressful to do so.
+
+If your income is a mix of steady and irregular -- a base salary plus freelance on the side -- you might find the approach in [Irregular Income and the Hierarchy](/foundations/irregular-income-and-the-hierarchy) a better fit. That piece treats anything above your baseline as windfall and runs each irregular check through the hierarchy individually. The buffer approach works best when all your income is variable and you need a stable floor to stand on.
 
 ## How Much Buffer Is Enough?
 

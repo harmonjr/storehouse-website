@@ -92,7 +92,8 @@ Before publishing any content, ask:
 - **Warm, not clinical** -- This is a kitchen-table conversation about money, not a financial seminar.
 - **Honest about struggle** -- We've been behind on savings. We've had the "money fight" with our spouse. We're building this because we need it too.
 - **Encouraging, not punishing** -- YNAB felt like a disappointed parent. Storehouse feels like a friend who believes you can do this.
-- **Biblically grounded, not preachy** -- We name the Bible as our source and cite Scripture where it strengthens the point. We're direct about our foundation without turning every article into a sermon. The goal is clarity about the source, not a lecture.
+- **Margin-first, generosity-discovered** -- We lead with margin because it's the universal need. Our audience is margin-seekers first -- people who need breathing room regardless of background. Giving is structurally prominent (first in the hierarchy) but it's a discovery moment, not a sales pitch. The journey is: stressed, margin, freedom, generosity.
+- **Biblically grounded, not preachy** -- We name the Bible as our source and cite Scripture where it strengthens the point. Faith is stated directly ("Built on biblical financial principles") as the source of the conviction -- not hidden in the footer, not turned into a sermon. The goal is honesty about where this comes from, not a lecture.
 - **Simple, not simplistic** -- One number (Safe-to-Spend) is simple. Ignoring retirement is simplistic. We know the difference.
 - **Attributive, not vague** -- When a principle comes from the Bible, say so. "The Bible teaches..." and "God's wisdom" are better than "ancient wisdom" or "faith traditions." Give credit where it's due.
 
@@ -164,10 +165,12 @@ As content is created, certain statements emerge as **core truths** -- principle
 - Use the hierarchy language: Give, Save, Bills, Live (not "categories" or "envelopes")
 
 ### Website / Landing Page
-- Lead with the problem ("Most people spend first...") then the flip ("What if you gave first?")
-- Show the hierarchy visually -- it's the product's strongest differentiator
+- Lead with the universal need ("There's never anything left") then the answer ("One number that tells you the truth after your priorities are handled")
+- The front door is margin and breathing room -- giving is what margin makes possible, discovered rather than pitched
+- Show the hierarchy visually -- it's the product's strongest differentiator, and giving in the first position is the discovery moment
 - Social proof from real usage, not hypothetical scenarios
-- Be direct about the biblical foundation ("Built on financial principles from the Bible") while making clear that anyone can benefit from the approach
+- Be direct about the biblical foundation ("Built on biblical financial principles") while making clear that anyone can benefit from the approach
+- The emotional journey of the homepage: stressed, margin, freedom, generosity
 
 ### Educational / Blog Content
 - 800-1,500 words (shorter than Candid Agent -- Storehouse readers want practical, not philosophical)

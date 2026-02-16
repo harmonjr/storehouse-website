@@ -1,6 +1,6 @@
 ---
 title: "The Emergency Fund: When $500 Changes Everything"
-description: "The emergency fund is the first tangible proof that margin works. Not a number on a checklist -- a shift in how you relate to money."
+description: "The emergency fund is where margin stops being an idea and starts being something you can feel. Not a number on a checklist -- a shift in how you relate to money."
 publishDate: 2026-02-14
 author: "JR"
 pillar: "margin"
@@ -52,13 +52,13 @@ Watching a gauge fill is different from watching a number grow. Numbers are abst
 
 If you've read [When You're Starting From Zero](/foundations/when-youre-starting-from-zero), you know the argument: $25 a month is not nothing. It's the hardest $25 you'll set aside because you're building the habit from scratch.
 
-That $25 is also the beginning of this fund. Twenty months of $25 is $500. That timeline might feel unbearably slow. But consider what changes during those twenty months: you build the saving habit. You prove to yourself that money can be set aside consistently. You watch the gauge move, week by week, during your [weekly check-in](/foundations/the-weekly-ritual). By the time you hit $500, the habit is so established that increasing to $50 or $75 feels like adjusting a dial, not starting something new.
+That $25 is also the beginning of this fund. Twenty months of $25 is $500. That timeline feels slow. Here is what changes during those twenty months: you build the saving habit. You prove to yourself that money can be set aside consistently. You watch the gauge move, week by week, during your [weekly check-in](/foundations/the-weekly-ritual). By the time you hit $500, the habit is so established that increasing to $50 or $75 feels like adjusting a dial, not starting something new.
 
 [Debt and the Hierarchy](/foundations/debt-and-the-hierarchy) makes the case for building a $500-$1,000 buffer before going scorched-earth on debt payoff. The reason is exactly this: without the buffer, every surprise becomes new debt. You're filling a bathtub with the drain open. The emergency fund is the plug.
 
 ## What Counts as an Emergency
 
-This is where most funds fail. Not because the money isn't there, but because the definition stretches.
+You have $500 set aside. The car needs tires. That qualifies. But what about the weekend trip your friends just invited you on? This is where most funds fail -- not because the money isn't there, but because the definition stretches.
 
 An emergency is an expense that is unexpected, necessary, and urgent. All three. The car repair qualifies. The medical copay qualifies. The furnace dying in January qualifies.
 

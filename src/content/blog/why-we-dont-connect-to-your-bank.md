@@ -49,7 +49,7 @@ Here's something worth sitting with: Storehouse never asks for your bank login. 
 
 That's not a limitation. That's a wall we chose not to knock down.
 
-Every service that connects to your bank creates a copy of your credentials -- encrypted, secured, protected by layers of technology. And those layers are good. The companies that provide them are serious about security. But the safest credential is one that doesn't exist outside your bank. A database of millions of bank logins is a target, no matter how well it's protected. Your bank login staying between you and your bank is the simplest, most reliable form of security there is.
+Every service that connects to your bank creates a copy of your credentials -- encrypted, secured, protected by layers of technology. And those layers are good. The companies that provide them are serious about security. But the safest credential is one that doesn't exist outside your bank. Manual import isn't a security silver bullet -- you're still downloading files to your computer, and that carries its own responsibility. But your bank login never leaves your bank, and that's one less thing to worry about.
 
 We didn't set out to make a security argument. But when we stepped back and looked at what we'd built, we realized that "we never ask for your bank login" is actually something worth saying out loud.
 

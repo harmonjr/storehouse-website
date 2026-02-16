@@ -1,6 +1,6 @@
 ---
 title: "Where Does It Go? The Gap Between What You Think and What You Spend"
-description: "Most people's mental model of their spending is wrong by 20-40%. The gap between perceived and actual spending is where margin quietly dies."
+description: "Most people's mental model of their spending is off by more than they'd guess. The gap between perceived and actual spending is where margin quietly dies."
 publishDate: 2026-02-14
 author: "JR"
 pillar: "clarity"
@@ -22,7 +22,7 @@ That gap -- between what you think you spend and what you actually spend -- is w
 
 ## The 20-40% Problem
 
-The gap isn't a rounding error. For most households, perceived spending runs 20-40% below actual spending across discretionary categories. Groceries, dining, household supplies, personal care, kids' activities -- the areas where spending happens in small, frequent increments.
+The gap isn't a rounding error. In our experience, most households underestimate their discretionary spending by 20-40%. Groceries, dining, household supplies, personal care, kids' activities -- the areas where spending happens in small, frequent increments.
 
 Fixed expenses are different. You know your rent. You know your car payment. Those numbers don't drift because they hit your account in one predictable charge. The brain is good at remembering a single, recurring number.
 
@@ -78,7 +78,7 @@ This is where the perception gap feeds directly into [lifestyle creep](/foundati
 
 If you've been operating with a mental model for months or years, the first look at actual numbers can sting. The gap between "$400 on groceries" and "$620 on groceries" isn't just a math correction. It feels like finding out you've been fooling yourself.
 
-You haven't been fooling yourself. You've been doing what every human brain does -- working from estimates because perfect tracking isn't how life works. The gap doesn't mean you're irresponsible. It means you're normal. And now you're doing something most people never do: looking.
+You haven't been fooling yourself. You've been doing what every human brain does -- working from estimates because perfect tracking isn't how life works. The gap doesn't mean you're irresponsible. It means you're normal. And now you're doing something most people never do: looking. The Bible calls this stewardship -- managing faithfully what you've been given. It starts with seeing clearly.
 
 That first look is the entire point. Not to feel bad about the gap. To see it, name it, and decide what to do about it. Maybe $620 on groceries is exactly right for your family and your season. Maybe it's $150 more than you'd choose if you were choosing on purpose. Either answer is fine. The only answer that costs you is the one you never examine.
 

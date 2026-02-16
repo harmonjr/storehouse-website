@@ -29,7 +29,7 @@ Both questions come from the same place -- intentionality. Both reject autopilot
 
 Zero-based budgeting distributes your attention across every category, every dollar, every transaction. The system works when you maintain it. It collapses when you don't -- and the recovery work (re-categorizing weeks of transactions, moving money between overspent categories, rebuilding category balances) is often what pushes people away.
 
-Storehouse concentrates your attention into one decision: set your hierarchy. Give first. Save second. Pay your bills. Spend what remains. Four tiers instead of forty-seven categories. One number -- Safe-to-Spend -- instead of a dashboard full of progress bars.
+Storehouse concentrates your attention into one decision: set your hierarchy. Give first. Save second. Pay your bills. Spend what remains. The order comes from the Bible -- the principle of firstfruits, honoring God with the first of what you earn rather than the leftovers. Four tiers instead of forty-seven categories. One number -- Safe-to-Spend -- instead of a dashboard full of progress bars.
 
 The control shifts from micro-management to priority-setting. You make a few important decisions at the start, and then you live within what's left.
 
@@ -83,7 +83,7 @@ The shift feels like losing control at first. You've spent months or years track
 
 Give it a month. What most YNAB switchers discover is that the control they were maintaining wasn't serving them anymore. It was serving the system. The categories were accurate, but the experience was exhausting. When you replace forty-seven decisions with one number, the relief is physical. You can feel your shoulders drop.
 
-What if the problem wasn't your discipline? It was the tool asking too much of it.
+The problem was never your discipline. It was a tool that asked too much of it.
 
 ## A Practical Transition
 
