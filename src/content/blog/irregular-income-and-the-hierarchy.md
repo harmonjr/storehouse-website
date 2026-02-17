@@ -2,12 +2,7 @@
 title: "Irregular Income and the Hierarchy"
 description: "The hierarchy works beautifully with a steady paycheck. But what about the bonus, the freelance check, the tax refund?"
 publishDate: 2026-02-12
-author: "JR"
-pillar: "order"
-tier: 4
-articleNumber: 10
-featured: false
-status: "published"
+category: "variable-income"
 ---
 
 The bonus hits your account on a Thursday afternoon. Three thousand dollars, after taxes. You knew it was coming -- your manager mentioned it last month -- but seeing the number in your checking account still produces a specific kind of feeling. Not relief, exactly. More like possibility. Three thousand dollars that isn't spoken for. Three thousand dollars with no line item, no recurring obligation, no bill attached.

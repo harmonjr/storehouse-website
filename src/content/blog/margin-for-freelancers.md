@@ -61,7 +61,7 @@ Some freelancers prefer a different approach: run the hierarchy on actual income
 
 Either way, giving doesn't wait for a good month. Even variable income can put giving first. The buffer just makes it less stressful to do so.
 
-If your income is a mix of steady and irregular -- a base salary plus freelance on the side -- you might find the approach in [Irregular Income and the Hierarchy](/foundations/irregular-income-and-the-hierarchy) a better fit. That piece treats anything above your baseline as windfall and runs each irregular check through the hierarchy individually. The buffer approach works best when all your income is variable and you need a stable floor to stand on.
+If your income is a mix of steady and irregular -- a base salary plus freelance on the side -- you might find the approach in [Irregular Income and the Hierarchy](/blog/irregular-income-and-the-hierarchy) a better fit. That piece treats anything above your baseline as windfall and runs each irregular check through the hierarchy individually. The buffer approach works best when all your income is variable and you need a stable floor to stand on.
 
 ## How Much Buffer Is Enough?
 

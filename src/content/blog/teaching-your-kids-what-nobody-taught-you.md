@@ -2,12 +2,7 @@
 title: "Teaching Your Kids What Nobody Taught You"
 description: "The most powerful money lesson isn't a curriculum. It's a household that practices what it believes."
 publishDate: 2026-02-12
-author: "JR"
-pillar: "peace"
-tier: 4
-articleNumber: 12
-featured: false
-status: "published"
+category: "faith-stewardship"
 ---
 
 Nobody taught you the hierarchy.
