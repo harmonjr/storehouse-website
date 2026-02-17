@@ -79,7 +79,7 @@ Before publishing any content, ask:
    We empower. We never shame. If content makes someone feel worse about their finances without showing a way forward, it fails.
 
 4. **Would Joseph recognize this wisdom?**
-   God revealed to Joseph (Genesis 41) that abundance would be followed by famine. Joseph's response -- store with foresight, not hoard with fear -- is the pattern for biblical stewardship. Would he recognize this content as faithful management, not anxious control?
+   God revealed to Joseph (Genesis 41) that abundance would be followed by famine. Joseph's response -- store with foresight, not hoard with fear -- is the pattern for biblical stewardship. The Joseph Principle isn't limited to income fluctuations; it's about building margin for whatever life brings -- job loss, medical bills, economic shifts, or simply a season that costs more than expected. Would he recognize this content as faithful preparation for uncertainty, not anxious control?
 
 5. **Am I being honest -- or performative?**
    Honest means acknowledging that stewardship is hard, that we fail, and that the hierarchy is an aspiration we grow into. Performative means pretending we've arrived.
@@ -87,6 +87,11 @@ Before publishing any content, ask:
 ---
 
 ## Voice Guidelines
+
+### Author Naming
+- The author/builder is referred to as **JR** only
+- Never "JR Harmon," never "Randy" in editorial content
+- Exception: the testimonial card uses "Randy and Karen" (personal, not editorial)
 
 ### We Are:
 - **Warm, not clinical** -- This is a kitchen-table conversation about money, not a financial seminar.
@@ -122,6 +127,11 @@ Before publishing any content, ask:
 - "Safe-to-Spend: the one number that tells you the truth."
 - "Stewardship over ownership."
 - "The hierarchy isn't punishment. It's freedom."
+- "Finally, breathing room."
+- "Built on biblical financial principles. Designed for anyone who wants breathing room."
+- "Think in seasons, not just months."
+- "Categories are the rearview mirror, not the steering wheel."
+- "You don't need another budget. You need clarity."
 
 ### Humor:
 - Light, self-deprecating, relatable
@@ -163,14 +173,19 @@ As content is created, certain statements emerge as **core truths** -- principle
 - Every label should pass the "would my spouse understand this instantly?" test
 - No financial jargon (no "amortization," "allocation," "disbursement")
 - Use the hierarchy language: Give, Save, Bills, Live (not "categories" or "envelopes")
+- Storehouse auto-categorizes spending for awareness -- showing users where their money went -- but never sets category budgets or limits
+- Categories are the rearview mirror, not the steering wheel: say "no category budgets" (not "no category tracking" -- we DO track categories)
+- One number (Safe-to-Spend) determines what you can spend, not 47 little buckets
 
 ### Website / Landing Page
-- Lead with the universal need ("There's never anything left") then the answer ("One number that tells you the truth after your priorities are handled")
+- **Hero formula:** "Finally, breathing room." (headline) + "Built on biblical financial principles. Designed for anyone who wants breathing room." (subhead)
+- **Problem section leads with clarity:** "You don't need another budget. You need clarity."
 - The front door is margin and breathing room -- giving is what margin makes possible, discovered rather than pitched
+- The emotional journey: stressed, clarity, margin, freedom, generosity
 - Show the hierarchy visually -- it's the product's strongest differentiator, and giving in the first position is the discovery moment
+- The Joseph Principle is a key differentiator alongside Safe-to-Spend and the hierarchy
 - Social proof from real usage, not hypothetical scenarios
 - Be direct about the biblical foundation ("Built on biblical financial principles") while making clear that anyone can benefit from the approach
-- The emotional journey of the homepage: stressed, margin, freedom, generosity
 
 ### Educational / Blog Content
 - 800-1,500 words (shorter than Candid Agent -- Storehouse readers want practical, not philosophical)
@@ -208,6 +223,22 @@ Be accurate, be humble about what the app can and can't do, and never let market
 
 ---
 
+## Feature Accuracy
+
+When describing Storehouse features in any content, use the correct framing:
+
+| Feature | Correct Description | NOT This |
+|---------|-------------------|----------|
+| Joseph Principle | Margin building for life's uncertainty | Income smoothing (too narrow) |
+| Categories | Auto-categorize for awareness | Category budgets / limits / tracking |
+| Giving | Giving tracker with annual totals | Tax export tool |
+| Data import | Weekly balance updates through manual import | Auto-connect / bank sync |
+| Safe-to-Spend | One number after priorities are handled | Budget / spending limit |
+
+The goal is precision. Each feature does one thing well -- describe that thing, not an adjacent thing the user might assume.
+
+---
+
 ## Red Lines (Never Publish)
 
 - Content that shames people for their financial situation
@@ -230,6 +261,29 @@ Storehouse and The Candid Agent share a root philosophy: **margin is the foundat
 They are complementary. A reader of The Candid Agent who bought the right house still needs to steward their daily finances. A Storehouse user building margin might eventually use The Candid Agent's principles when buying a home.
 
 **The shared conviction:** Living below your means isn't deprivation. It's the most generous, peaceful, resilient way to live. The order of your dollars reflects the order of your values.
+
+---
+
+## The Joseph Principle
+
+In Genesis 41, God revealed to Joseph that seven years of abundance would be followed by seven years of famine. Joseph's response -- store during plenty so you can survive the lean -- became the model for faithful stewardship. The wisdom was God's; Joseph was the faithful executor.
+
+The Joseph Principle is Storehouse's name for this pattern, and it's broader than any single financial scenario. It's about building margin for life's uncertainty -- not just income fluctuations. It applies to:
+
+- A job loss that comes without warning
+- Medical expenses that don't wait for permission
+- A car repair on the worst possible Tuesday
+- An economic downturn that affects everyone
+- And yes, income that varies month to month
+
+Variable income is one application of the Joseph Principle, not the definition. The principle is woven into how Storehouse works from the ground up.
+
+### Writing about the Joseph Principle:
+- Use "seasons" language: "plenty seasons / lean seasons" -- not months
+- Credit God as the source of the wisdom, not just Joseph as the executor
+- The key phrase: **"Think in seasons, not just months."**
+- Frame it as preparation born from faith, not anxiety born from fear
+- Keep the scope broad: margin for whatever life brings, not a niche feature for freelancers
 
 ---
 
@@ -263,7 +317,7 @@ Every three months, review published content:
 
 **Four pillars:** Margin, Clarity, Order, Peace.
 
-**Five filter questions:** Does it serve stewardship? Which pillar? Equipped and hopeful? Would Joseph recognize this as faithful management? Honest or performative?
+**Five filter questions:** Does it serve stewardship? Which pillar? Equipped and hopeful? Would Joseph recognize this as faithful preparation? Honest or performative?
 
 **One ultimate test:** Would an anxious person feel more equipped and more hopeful?
 
