@@ -366,19 +366,23 @@ When the app reaches beta:
 
 ## Implementation Order
 
-| Phase | What | Deliverable |
-|-------|------|-------------|
-| **1** | Write unified PRD | `projects/storehouse/STOREHOUSE_PRD.md` (living document — revise as messaging is tested) |
-| **2** | Rewrite homepage sections | 6 modified components + 1 new |
-| **3** | Update nav | Header, MobileNav |
-| **4** | Fix V1 app bugs | Oops buffer, biblical terms, stale warning |
-| **5** | Build onboarding flow | Priorities-first setup wizard (giving invited, not assumed) |
-| **6** | Generate new screenshots | Real app screens for homepage visual variety |
-| **7** | Beta readiness pass | Align all website claims with app reality, switch CTAs to free trial |
+| Phase | What | Deliverable | Status |
+|-------|------|-------------|--------|
+| **1** | Write unified PRD | `projects/storehouse/STOREHOUSE_PRD.md` (living document — revise as messaging is tested) | Done |
+| **2** | Rewrite homepage sections | 6 modified components + 1 new | Done |
+| **3** | Update nav | Header, MobileNav | Done |
+| **4** | Fix V1 app bugs | Oops buffer, biblical terms, stale warning | Done (PR #16) |
+| **5** | Build onboarding flow | Priorities-first setup wizard (giving invited, not assumed) | Next |
+| **6** | Shared login onboarding | Explain credential sharing to couples in signup flow and settings. Guide them to share one login rather than create separate accounts. | Planned |
+| **7** | Subscription auto-detection + known merchant database | Basic pattern matching on imported transactions to surface recurring charges. Also: pre-loaded database of common merchants → categories (Tier 1 categorization) to reduce first-import friction. MCC codes and/or a curated merchant list so "Walmart" auto-categorizes without the user creating a rule. Website claims auto-detection — app needs it before beta. | Planned |
+| **8** | "Something wrong?" escape hatch | Simple link/button on dashboard Safe-to-Spend card for when numbers look off. Could navigate to a help screen or prompt to re-import/check settings. | Planned |
+| **9** | Generate new screenshots | Real app screens for homepage visual variety | Planned |
+| **10** | Beta readiness pass | Align all website claims with app reality, switch CTAs to free trial | Final |
 
-Phases 1-3 (PRD + website) can happen in one session.
-Phases 4-6 (app work) are separate development sessions.
-Phase 7 happens when the app is beta-ready.
+Phases 1-3 (PRD + website) happened in one session.
+Phase 4 (bug fixes) completed in one session.
+Phases 5-8 (app work) are separate development sessions. Phase 7 is the biggest — combines subscription detection with merchant intelligence.
+Phase 9-10 happen when the app is beta-ready.
 
 ---
 
