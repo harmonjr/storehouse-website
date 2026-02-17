@@ -22,11 +22,11 @@ If this sounds familiar, you're not alone. And you're not failing at budgeting. 
 
 We've used the popular budgeting apps. We've used most of them. And they're genuinely good at what they do.
 
-YNAB teaches you to give every dollar a job. That's a powerful concept. But when you fall behind -- and everyone falls behind -- the recovery work starts to pile up. You have to "roll with the punches," which means pulling from one category to cover another, which means the whole structure unravels into a game of whack-a-mole. The app didn't fail. Your energy to maintain 47 categories did.
+Zero-based budgeting apps teach you to give every dollar a job. That's a powerful concept. But when you fall behind -- and everyone falls behind -- the recovery work starts to pile up. You have to shuffle money between categories, pull from one to cover another, and the whole structure unravels into a game of whack-a-mole. The approach didn't fail. Your energy to maintain 47 categories did.
 
-Mint was brilliant at showing you where money went. But it was always backward-looking -- a detailed autopsy of last month's spending. Knowing you spent $387 on dining out doesn't help you at 6pm on a Tuesday when you're wondering if tonight is okay. The data was comprehensive. The peace was absent.
+Passive tracking tools are brilliant at showing you where money went. But they're always backward-looking -- a detailed autopsy of last month's spending. Knowing you spent $290 on groceries that somehow became takeout doesn't help you at 6pm on a Tuesday when you're wondering if tonight is okay. The data is comprehensive. The peace is absent.
 
-Monarch is beautiful and investment-forward -- great for people who've already built margin and want to grow wealth. But if you're still trying to figure out whether you can afford dinner out this week, a net worth tracker isn't the tool you need yet.
+Wealth-tracking apps are beautiful and investment-forward -- great for people who've already built margin and want to grow wealth. But if you're still trying to figure out whether you can afford dinner out this week, a net worth tracker isn't the tool you need yet.
 
 These are well-built tools made by teams who care about financial wellness. We have genuine respect for what they've created. But they all share the same assumption: the goal is control. Track every dollar. Categorize every expense. Set limits. Monitor. Adjust. Repeat.
 
@@ -44,7 +44,7 @@ That's not a personal failing. That's a design philosophy that doesn't match how
 
 We needed something that started with a different question. Not "where did my money go?" but "what matters most?"
 
-The answer, for us, was the hierarchy we wrote about in [Give First](/foundations/give-first-save-second-spend-what-remains): give first, save second, pay bills, spend what remains. That's not a budgeting trick. It's a biblical principle -- steward what you've been given, starting with what matters most. And we wanted a tool that started there.
+The answer, for us, was the hierarchy we wrote about in [Give First](/foundations/give-first-save-second-spend-what-remains): give first, save second, pay bills, spend what remains. That's not a budgeting trick. The Bible teaches that we steward what we've been given, starting with what matters most. We wanted a tool that started there.
 
 Most budgeting apps begin with spending -- they import transactions, sort them into buckets, and show you a report. The question is always backward: what happened?
 
@@ -54,15 +54,17 @@ When your financial tool begins with giving and saving -- when those are the fir
 
 ## One Number Instead of Forty-Seven
 
-This is where Safe-to-Spend comes in. Instead of 47 categories, Storehouse shows you one number: what's left after giving, saving, and bills have been handled.
+This is where Safe-to-Spend comes in. Instead of managing dozens of category budgets, Storehouse shows you one number: what's left after giving, saving, and bills have been handled.
 
-You don't need to know if dinner comes from the "dining" budget or the "entertainment" budget. You don't need to check whether you've hit your coffee limit. You need to know one thing: is my number above zero?
+You don't need to check whether dinner comes from the "dining" budget or the "entertainment" budget. You don't need to monitor your coffee limit. You need to know one thing: is my number above zero?
 
 If yes, spend freely. The priorities are already handled.
 
 If no, wait.
 
-The simplicity isn't laziness. It's the result of concentrating discipline where it matters -- in the hierarchy, not in the categories. You make three decisions at the start (how much to give, save, and set aside for bills), and every purchase after that is one question.
+Storehouse still tracks categories -- you can see where your money went after the fact. But categories are the rearview mirror, not the steering wheel. One number tells you what you can spend. The categories show you the patterns later, when you're curious, not when you're standing at the register.
+
+The simplicity isn't laziness. It's the result of concentrating discipline where it matters -- in the hierarchy, not in category budgets. You make three decisions at the start (how much to give, save, and set aside for bills), and every purchase after that is one question.
 
 For the people who've tried detailed category budgets and given up, that's the difference between a system they abandon and a practice they sustain.
 
@@ -72,7 +74,7 @@ Here's the deeper difference: most budgeting apps assume the goal is to control 
 
 Control is about grip -- monitoring, restricting, optimizing. It works when you have the energy, and it collapses when you don't. That's why most people quit their budgets by February.
 
-Biblical stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains -- trusting that God provides the rest. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
+Biblical stewardship is about posture. It's about deciding what you value, putting those things first, and living freely within what remains. In Genesis 41, God gave Joseph wisdom to store during plenty so Egypt could survive the lean years. That's the pattern Storehouse is built on -- the Joseph Principle. Not anxious control, but faithful preparation. Think in seasons, not just months. Build margin for whatever life brings. It doesn't require you to track every coffee. It requires you to make a few important decisions and trust what flows from them.
 
 The goal isn't to control your money. It's to steward it well enough that you don't have to think about it constantly.
 
@@ -80,7 +82,7 @@ The goal isn't to control your money. It's to steward it well enough that you do
 
 We want to be clear about what this isn't.
 
-This isn't "budgeting doesn't work." Budgeting works. YNAB works for the people it works for. Detailed tracking works for some households. If you're thriving with a category-based system, keep using it.
+This isn't "budgeting doesn't work." Budgeting works. Zero-based budgets work for the people they work for. Detailed tracking works for some households. If you're thriving with a category-based system, keep using it.
 
 This isn't "other apps are bad." They're not. They've helped millions of families. The teams behind them care about the same things we care about.
 

@@ -20,9 +20,9 @@ Not because they're bad with money. Not because they're lying. Because nobody wa
 
 That gap -- between what you think you spend and what you actually spend -- is where financial margin quietly bleeds out. Not in the big purchases you deliberate over. In the ordinary ones you don't even register as decisions.
 
-## The 20-40% Problem
+## The Perception Gap
 
-The gap isn't a rounding error. In our experience, most households underestimate their discretionary spending by 20-40%. Groceries, dining, household supplies, personal care, kids' activities -- the areas where spending happens in small, frequent increments.
+The gap isn't a rounding error. In our experience working with families, most households underestimate their discretionary spending by 20-40%. Groceries, dining, household supplies, personal care, kids' activities -- the areas where spending happens in small, frequent increments.
 
 Fixed expenses are different. You know your rent. You know your car payment. Those numbers don't drift because they hit your account in one predictable charge. The brain is good at remembering a single, recurring number.
 
@@ -54,13 +54,13 @@ That invisible outflow -- the gap between your balance and your actual available
 
 ## What Actually Closes the Gap
 
-Awareness alone doesn't fix this. You can't maintain an accurate mental model of dozens of variable spending categories across hundreds of transactions per month. The brain doesn't work that way, and asking it to is how budgeting apps burn people out.
+You can't maintain an accurate mental model of dozens of variable spending categories across hundreds of transactions per month. The brain doesn't work that way, and asking it to is how budgeting apps burn people out.
 
 What works is removing the need for the mental model entirely.
 
-This is what Storehouse's Spending by Category view is designed to do. You pick a month, and horizontal bars show you exactly where the money went -- not where you think it went. Tap a category and the transactions are right there. No memory required. No estimation. The number is the number.
+This is what Storehouse's Spending by Category view is designed to do. Storehouse auto-categorizes your spending for awareness -- showing you where the money actually went, not where you thought it went. Tap a category and the transactions are right there. No memory required. No estimation. The number is the number.
 
-But the category breakdown is a rearview mirror. It shows what happened. The forward-looking tool is [Safe-to-Spend](/foundations/the-one-number-that-tells-you-the-truth) -- a single number that accounts for giving, saving, and bills, leaving you with what's genuinely available. You don't need an accurate mental model of your spending when one number tells you the truth about what's left.
+But the category breakdown is a rearview mirror, not the steering wheel. It shows what happened -- no category budgets, no spending limits per bucket. The forward-looking tool is [Safe-to-Spend](/foundations/the-one-number-that-tells-you-the-truth) -- a single number that accounts for giving, saving, and bills, leaving you with what's genuinely available. You don't need an accurate mental model of your spending when one number tells you the truth about what's left.
 
 The gap between perception and reality stops mattering when you stop relying on perception.
 

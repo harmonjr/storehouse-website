@@ -48,29 +48,29 @@ Lifestyle creep hides because every piece of it feels earned. You got the raise.
 
 But there's a difference between choosing to enjoy something and letting your spending drift upward without choosing anything at all. The first is intentional. The second is just momentum.
 
-A subscription audit catches the charges you forgot about. Lifestyle creep is harder because you haven't forgotten anything. You're actively using all of it. You just never decided, as a whole, that this is what you wanted to do with your raise.
+A [subscription audit](/foundations/the-subscription-audit) catches the charges you forgot about. Lifestyle creep is harder because you haven't forgotten anything. You're actively using all of it. You just never decided, as a whole, that this is what you wanted to do with your raise.
 
 ## The Hierarchy as a Circuit Breaker
 
-This is where the Storehouse hierarchy earns its keep -- and where the stewardship principle behind it becomes most practical.
+This is where the [Storehouse hierarchy](/foundations/give-first-save-second-spend-what-remains) earns its keep -- and where the biblical principle behind it becomes most practical.
 
 When your income increases, most financial systems silently pass the increase through to spending. Your paycheck goes up, your available balance goes up, and spending expands to fill the space. The system doesn't ask you what you want to do with the new money. It just makes it available.
 
 The hierarchy asks.
 
-When you get a raise, Safe-to-Spend doesn't automatically increase. You have to revisit your hierarchy and decide where the new money goes. That moment -- the decision point -- is the circuit breaker that lifestyle creep doesn't want you to have.
+When you get a raise, [Safe-to-Spend](/foundations/the-one-number-that-tells-you-the-truth) doesn't automatically increase. You have to revisit your hierarchy and decide where the new money goes. That moment -- the decision point -- is the circuit breaker that lifestyle creep doesn't want you to have.
 
 A $500 monthly raise becomes a question with real answers:
 
-- $200 more in saving -- your emergency fund builds faster, or you start a retirement contribution
+- $200 more in saving -- your [emergency fund](/foundations/the-emergency-fund) builds faster, or you start a retirement contribution
 - $100 more in giving -- you move from 3% to 5%, and generosity grows with your income
 - $200 more in Safe-to-Spend -- you genuinely enjoy a higher standard of living, chosen on purpose
 
-That's a different outcome than $500 more in spending that happened by accident. The same money. A completely different result. Not because you denied yourself -- you gave yourself $200 more to spend freely. But you also directed $300 toward the things that build margin -- giving and saving, the first two priorities the Bible puts ahead of spending. That split doesn't happen without a moment of conscious choice.
+That's a different outcome than $500 more in spending that happened by accident. The same money. A completely different result. Not because you denied yourself -- you gave yourself $200 more to spend freely. But you also directed $300 toward the things that build margin -- giving and saving, the priorities the Bible puts ahead of spending (Proverbs 3:9). That split doesn't happen without a moment of conscious choice.
 
 ## A Raise Is a Margin Opportunity
 
-Here's the reframe: a raise is a margin opportunity disguised as a spending opportunity. Most people only see the spending.
+Here's the reframe: a raise is a margin opportunity disguised as a spending opportunity. Most people only see the spending. The Joseph Principle says to think in seasons, not just months -- and a raise is a plenty season. What you do with it determines what the next lean season feels like.
 
 When your income was lower, you had less room to build margin. Giving and saving competed directly with necessities. But a raise loosens that tension. For the first time, there's money that doesn't have to go to bills. Money that's genuinely free -- free to save, free to give, free to spend.
 
@@ -82,11 +82,11 @@ The people who build margin over time aren't usually the ones who make the most 
 
 Lifestyle creep isn't a problem you solve once. It's the ongoing challenge for anyone whose income grows over time -- which is, hopefully, everyone.
 
-Every raise, every bonus, every new income stream presents the same question: does this go to margin or to spending? And the honest answer might be "some of both." That's fine. The hierarchy isn't about deprivation. Upgrading your life as your income grows is one of the genuine rewards of hard work.
+Every raise, every bonus, every new income stream presents the same question: does this go to margin or to spending? The answer can be "some of both" -- the hierarchy isn't about deprivation. Upgrading your life as your income grows is one of the genuine rewards of hard work.
 
-The issue isn't the conscious upgrades. It's the unconscious ones -- the spending increases you didn't choose, the margins that eroded without a decision, the raises that vanished into a slightly higher cost of living that doesn't make you any happier than the old one did.
+The issue is the unconscious upgrades -- the spending increases you didn't choose, the margins that eroded without a decision, the raises that vanished into a slightly higher cost of living that doesn't make you any happier than the old one did.
 
-Awareness is the first defense. When you know the pattern, you can see it forming. When you can see it forming, you can choose differently. Not perfectly. Not every time. But enough to keep the margin you've built from quietly slipping away.
+When you know the pattern, you can see it forming. When you can see it, you can choose differently. Not every time. But enough.
 
 ## One Step You Can Take Today
 

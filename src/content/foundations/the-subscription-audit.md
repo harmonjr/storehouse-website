@@ -54,7 +54,7 @@ Not "do I use it sometimes?" Not "might I need it eventually?" Would you, right 
 
 If yes, keep it. You're paying for something you value. That's not a leak -- that's a choice.
 
-If no, cancel it. Today. Not next week. Not after you "check one more time." The reason these charges persist is because canceling requires a decision and inertia doesn't. Make the decision now while you're looking at the number.
+If no, cancel it. The reason these charges persist is because canceling requires a decision and inertia doesn't. Right now, while you're looking at the number, is the easiest moment to make that call.
 
 If you're unsure, cancel it anyway. Here's why: every subscription you cancel can be restarted. If you cancel a streaming service and miss it two months later, sign up again. You'll have saved two months of charges and confirmed that you actually want it. But most of the time, you won't miss it. You'll forget it existed -- which tells you everything.
 
@@ -85,7 +85,7 @@ Here's where the audit connects to everything else. You've found $78 a month. Wh
 
 The instinct is to absorb it into general spending. The money frees up, spending expands to fill it, and three months later you don't notice the difference. That's how lifestyle creep works -- freed resources get consumed by the default.
 
-The hierarchy offers a different path. Stewardship -- the biblical idea that what we have isn't ours to consume but ours to manage faithfully -- means found money is an opportunity, not a windfall.
+The hierarchy offers a different path. The Bible teaches that what we have isn't ours to consume but ours to manage faithfully -- stewardship. Found money, then, is an opportunity, not a windfall.
 
 That $78 could increase your giving. If you're at 3% and want to move toward 5%, found subscription money might close the gap. That's $78 a month you weren't using for anything -- now it's doing something meaningful.
 

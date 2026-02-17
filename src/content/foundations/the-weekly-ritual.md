@@ -28,7 +28,7 @@ You glance at the numbers, feel a vague sense of "I should look at that more clo
 
 Manual import puts you in the room with your money. You see the transactions arrive. You watch the numbers change. You notice the charge from that subscription you forgot about and the dinner that cost more than you expected. Ten minutes of actual attention replaces months of passive monitoring.
 
-The act of showing up -- downloading, importing, looking -- is what turns data into understanding. Ten minutes of attention does what twelve months of auto-synced notifications can't.
+The act of showing up -- downloading, importing, looking -- is what turns data into understanding. You can't steward what you haven't seen.
 
 ## The Ritual: What It Actually Looks Like
 
@@ -76,7 +76,7 @@ You saved this week. It's right there, moving from "intention" to "fact."
 
 Your bills are covered. Your Safe-to-Spend reflects reality.
 
-That weekly confirmation is what turns biblical stewardship -- the conviction that what you have is God's, and your job is to manage it faithfully -- from something you believe in to something you do. The gap between values and behavior closes in those ten minutes. Not through willpower. Through visibility.
+That weekly confirmation is what turns stewardship from something you believe in to something you do. The Bible describes a posture -- that what you have is God's, and your job is to manage it faithfully. Ten minutes a week is where that posture becomes practice. The gap between values and behavior closes in those ten minutes. Not through willpower. Through visibility.
 
 ## The Surprising Part
 

@@ -14,7 +14,7 @@ You've tried budgeting apps. You've made spreadsheets. You've categorized every 
 
 That's not a discipline problem. That's a design problem.
 
-Most budgeting tools give you an autopsy of last month's spending -- 47 categories of where the money went after it was already gone. They're good at what they do. But knowing that you spent $387 on dining out last month doesn't help you at 6pm on a Tuesday when you're wondering if dinner out tonight is okay.
+Most budgeting tools give you an autopsy of last month's spending -- 47 categories of where the money went after it was already gone. They're good at what they do. But knowing that you spent $214 on coffee shops last month doesn't help you at 6pm on a Tuesday when you're wondering if dinner out tonight is okay.
 
 What if there was one number that answered that question instantly?
 
@@ -44,7 +44,7 @@ If no, wait until it is.
 
 That simplicity isn't a shortcut -- it's the result of front-loading the hard decisions. When you've already decided how much to give, how much to save, and what bills to cover, every remaining spending decision becomes the same question. Not "can I afford this?" but "is my number above zero?"
 
-No guilt. No guessing. No mental math at the register.
+No guilt. No guessing. No mental math at the register. Storehouse still auto-categorizes your spending so you can see where the money went -- but categories are the rearview mirror, not the steering wheel. No category budgets. Just one number that tells you what's available right now.
 
 ## What It Actually Looks Like
 
@@ -80,7 +80,7 @@ Give it two weeks. Once you see that the number is reliable -- that it accounts 
 
 ## The Discipline Shift
 
-Here's the real insight: traditional budgets fail because they distribute discipline across every single purchase. Every trip to the store is a decision. Every category is a potential failure. The cognitive load is enormous, and eventually, everyone gives up.
+Traditional budgets fail because they distribute discipline across every single purchase. Every trip to the store is a decision. Every category is a potential failure. The cognitive load is enormous, and eventually, everyone gives up.
 
 Safe-to-Spend requires discipline in one decision: setting your priorities at the start.
 
@@ -94,7 +94,7 @@ You don't need an app to try this. Take five minutes right now:
 
 1. Write down your take-home pay for the month
 2. Subtract what you give (even if it's $0 today -- be honest)
-3. Subtract what you save (even if it's $0 today)
+3. Subtract what you save (start where you are, not where you think you should be)
 4. Subtract your fixed bills and subscriptions
 5. Look at what's left
 

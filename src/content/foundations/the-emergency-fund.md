@@ -68,13 +68,13 @@ This sounds obvious written down. In the moment, with the money sitting there an
 
 You might. But the fund isn't for things you deserve. It's for things you didn't expect. Keeping that line firm is what makes the fund trustworthy. When the actual emergency comes, the money is there because you didn't spend it on something that felt urgent but wasn't.
 
-## The Joseph Pattern
+## The Joseph Principle
 
-There's a story in Genesis about a man named Joseph who told Pharaoh to store grain during seven years of abundance so Egypt could survive seven years of famine. God gave Joseph the insight to see what was coming and the wisdom to prepare for it. The abundance wasn't for consuming. It was for storing.
+In Genesis 41, God revealed to Joseph that abundance would be followed by famine. Joseph's response -- store during plenty so you can survive the lean -- was not his own cleverness. The wisdom came from God. Joseph was the faithful executor.
 
-An emergency fund is the same pattern at a smaller scale. You're not storing grain -- you're storing margin. The good months, the months where nothing breaks and no one gets sick, are your abundance. Setting money aside during those months isn't pessimism. It's the same faithful preparation that kept a nation alive.
+The emergency fund is this principle woven into daily life. You're not storing grain -- you're storing margin. Not for one specific disaster, but for whatever life brings: the car repair, the medical bill, the job that ends without warning, the season that simply costs more than expected. The good seasons are your plenty. Setting money aside during those seasons is faithful preparation, not pessimism.
 
-Joseph didn't know exactly when the famine would come or how bad it would be. He just knew it was coming, because God told him so. You don't know when the car will break down or the furnace will quit. You just know it will. Building the fund is acting on what you know.
+Think in seasons, not just months. You don't know what the next hard season looks like or when it arrives. You just know it's coming. Building the fund is acting on what you know -- the same posture that kept a nation alive.
 
 ## The Emotional Math
 

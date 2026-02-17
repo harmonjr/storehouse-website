@@ -2,6 +2,7 @@
 title: "Teaching Your Kids What Nobody Taught You"
 description: "The most powerful money lesson isn't a curriculum. It's a household that practices what it believes."
 publishDate: 2026-02-12
+author: "JR"
 category: "faith-stewardship"
 ---
 
@@ -33,7 +34,7 @@ If your hierarchy lives inside an app and your financial conversations happen be
 
 Making the hierarchy visible changes that.
 
-It can be as simple as a chart on the refrigerator. Four lines: Give, Save, Bills, Safe-to-Spend. The kids don't need to know the exact numbers (though older kids might be ready for that). They need to see the order. They need to see that giving is first -- not last, not optional, not "if there's extra." They need to see that saving comes before spending. They need to hear you say, "We already took care of giving and saving this month, so this is what we have left to work with."
+It can be as simple as a chart on the refrigerator. Four lines: Give, Save, Bills, Live. That fourth line -- "Live" -- is what's safe to spend on everything else, the number left after giving, saving, and bills are handled. The kids don't need to know the exact numbers (though older kids might be ready for that). They need to see the order. They need to see that giving is first -- not last, not optional, not "if there's extra." They need to see that saving comes before spending. They need to hear you say, "We already took care of giving and saving this month, so this is what we have left to work with."
 
 That sentence -- casual, matter-of-fact, part of a normal week -- teaches more about money than a year of financial literacy worksheets.
 
@@ -73,7 +74,7 @@ When your kids grow up with the hierarchy, they're not just learning a money sys
 
 They're learning that generosity is a first priority, not a leftover -- that the Bible calls it firstfruits because what you give first reveals what you value most. That saving is an act of foresight, not fear. That "can we afford this?" has a clear answer -- not a fight, not a feeling, not a guess. A number both parents trust.
 
-And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. God gave Joseph wisdom to store grain during abundance so Egypt could survive famine. Your kids can learn the same posture -- not because you lectured them about a Bible story, but because they watched you live it out on a Tuesday.
+And they're learning that stewardship isn't about being rich or poor. It's about being intentional with whatever you have. God gave Joseph the wisdom to store grain during abundance so Egypt could survive famine -- the Joseph Principle. Your kids can learn the same posture -- not because you lectured them about a Bible story, but because they watched you live it out on a Tuesday.
 
 ## The Long Game
 

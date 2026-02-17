@@ -2,6 +2,7 @@
 title: "Irregular Income and the Hierarchy"
 description: "The hierarchy works beautifully with a steady paycheck. But what about the bonus, the freelance check, the tax refund?"
 publishDate: 2026-02-12
+author: "JR"
 category: "variable-income"
 ---
 
@@ -55,9 +56,9 @@ That's a different outcome than $3,000 absorbed into general spending over three
 
 Here's the reframe: a windfall isn't free money. It's a stewardship test with higher stakes and no monthly reset.
 
-Regular income gives you practice -- every month, you run the hierarchy, and if you miss a month, the next one comes around. Windfalls don't work that way. The bonus arrives once. The tax refund comes once a year. The freelance check clears and that project is over. There's no next month to try again with that specific money.
+In Genesis 41, God showed Joseph that abundance would be followed by scarcity. Joseph's response was to store with foresight during the plenty seasons so Egypt could survive the lean ones. That's the Joseph Principle -- and it doesn't just apply to seven-year economic cycles. It applies to the bonus that arrives once. The tax refund that comes once a year. The freelance check that clears and then the project is over. There's no next season to try again with that specific money.
 
-That's not pressure. It's clarity. The Bible calls this stewardship -- faithfully managing what God has entrusted to you, whether the amount is expected or not. When the opportunity is singular, the intentionality matters more. Not because you'll be judged for how you handle a bonus, but because the habits you practice with irregular income reveal the habits you're building overall.
+That's not pressure. It's clarity. The Bible calls this stewardship -- faithfully managing what God has entrusted to you, whether the amount is expected or not. Think in seasons, not just months. The windfall is your plenty season. What you do with it builds the margin for whatever comes next.
 
 The person who runs a $3,000 bonus through the hierarchy isn't just managing one check. They're proving to themselves that the hierarchy isn't just for easy months. It works everywhere.
 

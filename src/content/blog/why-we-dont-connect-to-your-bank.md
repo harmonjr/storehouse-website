@@ -2,6 +2,7 @@
 title: "Why We Don't Connect to Your Bank (And Why That Might Be Better)"
 description: "Most finance apps race to connect to your bank. Storehouse takes a different path -- you bring your data, on your schedule. Here's why that's not a limitation."
 publishDate: 2026-02-14
+author: "JR"
 category: "practical-money"
 ---
 
@@ -35,7 +36,7 @@ The ten-minute import became the moment where stewardship stopped being a princi
 
 ## The Weekly Import as Practice
 
-There's a concept in "The Weekly Ritual" that applies here: the friction is the point.
+There's a concept in [The Weekly Ritual](/foundations/the-weekly-ritual) that applies here: the friction is the point.
 
 When something arrives without effort, you value it accordingly. Auto-synced data is free -- it costs you nothing to receive, and it leaves your mind just as easily. The weekly import costs you ten minutes. That small investment creates ownership. You did something. You showed up. The numbers aren't just sitting in an app; you put them there.
 
@@ -59,9 +60,9 @@ Manual import sounds harder than it is. Here's what it actually looks like:
 
 **From most banks:** Log in, navigate to your account, click "Download" or "Export," choose CSV or QFX or OFX format, save the file. Two minutes, maybe three. After you've done it once, it's muscle memory.
 
-**If you're coming from YNAB:** You already know how to export. The format Storehouse reads is the same kind of file you've been working with. The transition is straightforward.
+**If you're coming from a zero-based budgeting app:** You already know how to export. The format Storehouse reads is the same kind of file you've been working with. The transition is straightforward.
 
-**The weekly rhythm:** Most Storehouse users pick a day -- Sunday morning, Wednesday evening, whatever works -- and the import becomes part of their week. Download, upload, review, done. Ten minutes. The article on the weekly ritual walks through the whole process.
+**The weekly rhythm:** Most Storehouse users pick a day -- Sunday morning, Wednesday evening, whatever works -- and the import becomes part of their week. Download, upload, review, done. Ten minutes. [The Weekly Ritual](/foundations/the-weekly-ritual) walks through the whole process.
 
 The two-minute download is the only part that's different from an auto-connected app. Everything after that -- the review, the Safe-to-Spend check, the sense of where you stand -- happens either way. The question is whether you actually do the review. Manual import makes sure you do.
 

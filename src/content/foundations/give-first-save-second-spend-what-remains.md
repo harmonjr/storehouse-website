@@ -51,11 +51,13 @@ That shift is the difference between budgeting and stewardship.
 
 Stewardship is a biblical idea -- the conviction that what you have isn't yours to consume, it's yours to manage faithfully (1 Peter 4:10). Hold money loosely instead of with a white-knuckle grip, because it was never really yours to begin with.
 
-In Genesis 41, God revealed to Joseph that seven years of abundance would be followed by seven years of famine. Joseph didn't spend the surplus. He didn't hoard it out of fear. He stored it with foresight, so that when famine came, there was enough.
+In Genesis 41, God revealed to Joseph that a long season of abundance would be followed by a long season of famine -- seven years of plenty, then seven years of scarcity. Joseph didn't spend the surplus. He didn't hoard it out of fear. He stored it with foresight, so that when famine came, there was enough.
 
 Joseph wasn't wealthy. He was a steward. The abundance wasn't his -- and neither was the wisdom. It came from God.
 
-That's the posture we're reaching for. Not control. Not accumulation. Foresight. The kind of wisdom that says, "I have enough right now, so I'll set some aside for what matters and what's coming."
+Storehouse calls this the Joseph Principle: think in seasons, not just months. Build margin for whatever life brings -- a job loss, a medical bill, a car repair on the worst Tuesday, an economy that shifts under your feet. Joseph's wisdom wasn't about one kind of crisis. It was about being ready for the season you can't predict.
+
+That's the posture we're reaching for. Not control. Not accumulation. Foresight born from faith, not anxiety born from fear.
 
 The hierarchy is how that posture becomes a practice.
 
@@ -87,7 +89,7 @@ People who prioritize generosity often end up with more margin, not less. We've 
 
 It works because generosity changes how you see everything else.
 
-When you give first, you break the scarcity mindset that drives overspending. You make intentional choices about what remains. You build contentment as a practice, not a feeling you're chasing. And you stop measuring your financial health by how much you've accumulated and start measuring it by how well you've stewarded what you have.
+When you give first, the scarcity mindset that drives overspending starts to loosen. Not immediately -- it's not a switch. But something shifts. You stop white-knuckling every dollar and start noticing what's actually enough. Contentment becomes a practice instead of a feeling you're chasing. And the way you measure financial health changes -- from "how much have I accumulated" to "how well have I stewarded what I have."
 
 That's a different kind of freedom.
 
