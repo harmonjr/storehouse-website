@@ -1,23 +1,5 @@
 ---
 import Card from '../Card.astro';
-
-const painPoints = [
-  {
-    emoji: '\u{1F624}',
-    title: "There's never anything left",
-    description: "You pay the bills, give when you can, try to save \u2014 and somehow there's nothing left. Not because you overspent. Because no one showed you what was actually available.",
-  },
-  {
-    emoji: '\u{1F61F}',
-    title: 'Every purchase comes with guilt',
-    description: 'Without a clear number, every coffee, every dinner out carries a whisper: "should I be spending this?"',
-  },
-  {
-    emoji: '\u{1F4F1}',
-    title: "You've tried apps and quit all of them",
-    description: "They made you track everything, shamed you when you didn't, and you still didn't know what you could spend. That's not help \u2014 that's homework.",
-  },
-];
 ---
 
 <section class="py-16 md:py-24 bg-white">
@@ -28,18 +10,16 @@ const painPoints = [
       </h2>
     </div>
 
-    <div class="mt-12 grid md:grid-cols-3 gap-6 lg:gap-8">
-      {painPoints.map((point) => (
-        <Card class="text-center">
-          <div class="text-4xl mb-4">{point.emoji}</div>
-          <h3 class="font-display text-xl font-semibold text-slate-900 mb-2">
-            {point.title}
-          </h3>
-          <p class="text-slate-600">
-            {point.description}
-          </p>
-        </Card>
-      ))}
+    <div class="mt-12 flex justify-center">
+      <Card class="text-center max-w-md">
+        <div class="text-4xl mb-4">{'\u{1F61F}'}</div>
+        <h3 class="font-display text-xl font-semibold text-slate-900 mb-2">
+          Every purchase comes with guilt
+        </h3>
+        <p class="text-slate-600">
+          Without a clear number, every coffee, every dinner out carries a whisper: "should I be spending this?"
+        </p>
+      </Card>
     </div>
 
     <p class="mt-12 text-center text-lg text-slate-600 italic">
