@@ -5,10 +5,6 @@ interface Props {
 
 const { class: className = '' } = Astro.props;
 
-// Pass Supabase config to client-side script
-const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL || '';
-const supabaseAnonKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY || '';
-
 const frustrationOptions = [
   { value: '', label: "What's your biggest money frustration?" },
   { value: 'paycheck-to-paycheck', label: 'Living paycheck to paycheck' },
@@ -22,8 +18,6 @@ const frustrationOptions = [
 <form
   id="waitlist-form"
   class:list={['flex flex-col gap-4', className]}
-  data-supabase-url={supabaseUrl}
-  data-supabase-key={supabaseAnonKey}
 >
   <div class="flex flex-col sm:flex-row gap-3">
     <label for="email" class="sr-only">Email address</label>
@@ -72,7 +66,8 @@ const frustrationOptions = [
 </form>
 
 <script>
-  import { createClient } from '@supabase/supabase-js';
+  const KIT_API_URL = 'https://api.convertkit.com/v3/forms/9100529/subscribe';
+  const KIT_API_KEY = 'z3FLdIGE-wxPBmmjv2eInA';
 
   const form = document.getElementById('waitlist-form') as HTMLFormElement;
   const submitButton = form?.querySelector('button[type="submit"]');
@@ -81,67 +76,70 @@ const frustrationOptions = [
   const successMessage = document.getElementById('form-success');
   const errorMessage = document.getElementById('form-error');
 
-  // Get Supabase config from data attributes
-  const supabaseUrl = form?.dataset.supabaseUrl || '';
-  const supabaseKey = form?.dataset.supabaseKey || '';
+  function setLoadingState(isLoading: boolean) {
+    if (submitButton) {
+      isLoading
+        ? submitButton.setAttribute('disabled', 'true')
+        : submitButton.removeAttribute('disabled');
+    }
+    buttonText?.classList.toggle('hidden', isLoading);
+    buttonLoading?.classList.toggle('hidden', !isLoading);
+  }
 
-  // Create Supabase client if configured
-  const supabase = supabaseUrl && supabaseKey
-    ? createClient(supabaseUrl, supabaseKey)
-    : null;
+  function showSuccess(message?: string) {
+    if (message && successMessage) {
+      const heading = successMessage.querySelector('p');
+      if (heading) heading.textContent = message;
+    }
+    successMessage?.classList.remove('hidden');
+  }
+
+  async function submitToKit(email: string, frustration: string | null) {
+    const body: Record<string, unknown> = {
+      api_key: KIT_API_KEY,
+      email,
+    };
+    if (frustration) {
+      body.fields = { frustration };
+    }
+
+    const response = await fetch(KIT_API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify(body),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Kit.com responded with ${response.status}`);
+    }
+
+    return response.json();
+  }
 
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    // Reset states
     successMessage?.classList.add('hidden');
     errorMessage?.classList.add('hidden');
-
-    // Show loading state
-    if (submitButton) submitButton.setAttribute('disabled', 'true');
-    buttonText?.classList.add('hidden');
-    buttonLoading?.classList.remove('hidden');
+    setLoadingState(true);
 
     const formData = new FormData(form);
     const email = formData.get('email') as string;
-    const frustration = formData.get('frustration') as string || null;
+    const frustration = (formData.get('frustration') as string) || null;
 
     try {
-      if (supabase) {
-        // Submit to Supabase
-        const { error } = await supabase
-          .from('waitlist')
-          .insert([{ email, frustration }]);
+      const data = await submitToKit(email, frustration);
 
-        if (error) {
-          // Handle duplicate email gracefully
-          if (error.code === '23505') {
-            // Unique violation - email already exists
-            successMessage?.classList.remove('hidden');
-            const successText = successMessage?.querySelector('p');
-            if (successText) successText.textContent = "You're already on the list!";
-            form.reset();
-            return;
-          }
-          throw error;
-        }
+      if (data?.subscription?.subscriber?.state === 'active') {
+        showSuccess("You're already on the list!");
       } else {
-        // Supabase not configured - log for development
-        console.log('Waitlist signup (Supabase not configured):', { email, frustration });
-        await new Promise((resolve) => setTimeout(resolve, 500));
+        showSuccess();
       }
-
-      // Show success state
-      successMessage?.classList.remove('hidden');
       form.reset();
-    } catch (error) {
-      console.error('Waitlist signup error:', error);
+    } catch {
       errorMessage?.classList.remove('hidden');
     } finally {
-      // Reset button state
-      if (submitButton) submitButton.removeAttribute('disabled');
-      buttonText?.classList.remove('hidden');
-      buttonLoading?.classList.add('hidden');
+      setLoadingState(false);
     }
   });
 </script>
