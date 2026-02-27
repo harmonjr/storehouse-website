@@ -7,14 +7,17 @@ import WaitlistForm from '../components/WaitlistForm.astro'
 
 const benefits = [
   {
+    number: '01',
     title: 'Early access',
     description: 'Be among the first to use Storehouse when we launch.',
   },
   {
+    number: '02',
     title: 'Founding member pricing',
     description: 'Lock in special rates as a thank-you for believing in us early.',
   },
   {
+    number: '03',
     title: 'Development updates',
     description: "Follow along as we build. No spam, we promise.",
   },
@@ -29,46 +32,60 @@ const benefits = [
   <MobileNav />
 
   <!-- Hero Section -->
-  <section class="relative pt-24 pb-16 overflow-hidden bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-2xl mx-auto">
-        <h1 class="font-display text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
-          Be the first to find financial peace.
+  <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-warm-cream overflow-hidden">
+    <div class="absolute top-0 right-0 w-[50%] h-full bg-storehouse-50/50 rounded-bl-[120px] -z-0"></div>
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-storehouse-200/20 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          Join the waitlist
+        </p>
+        <h1 class="mt-6 font-display text-4xl sm:text-5xl lg:text-[3.5rem] text-text-deep leading-[0.95] reveal reveal-delay-1">
+          Be the first to find<br />
+          <span class="text-storehouse-600">financial peace.</span>
         </h1>
-        <p class="mt-6 text-lg sm:text-xl text-slate-600">
+        <p class="mt-8 text-lg sm:text-xl text-text-body leading-relaxed max-w-lg reveal reveal-delay-2">
           Storehouse is launching soon. Join the waitlist for early access and updates.
         </p>
       </div>
     </div>
-
-    <!-- Decorative elements -->
-    <div class="absolute -z-10 top-20 right-1/4 w-72 h-72 bg-storehouse-200 rounded-full blur-3xl opacity-30"></div>
-    <div class="absolute -z-10 bottom-0 left-1/4 w-64 h-64 bg-emerald-200 rounded-full blur-3xl opacity-25"></div>
   </section>
 
   <!-- Form Section -->
-  <section class="py-16 bg-white">
-    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
+  <section class="py-24 md:py-32 bg-warm-white">
+    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 reveal">
       <WaitlistForm class="w-full" />
     </div>
   </section>
 
   <!-- What You'll Get Section -->
-  <section class="py-20 bg-slate-50">
-    <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
-      <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900 text-center">
-        What you'll get:
+  <section class="py-24 md:py-32 bg-warm-cream">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+        What you'll get
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+        Three reasons to join early.
       </h2>
 
-      <div class="mt-12 space-y-8">
-        {benefits.map((benefit, index) => (
-          <div class="flex items-start gap-4">
-            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-storehouse-100 flex items-center justify-center">
-              <span class="text-storehouse-600 font-semibold text-sm">{index + 1}</span>
+      <div class="mt-16 grid gap-12 md:gap-0 md:divide-y md:divide-text-faint/20 reveal reveal-delay-2">
+        {benefits.map((benefit) => (
+          <div class="md:grid md:grid-cols-12 md:gap-8 md:py-10 first:md:pt-0 last:md:pb-0">
+            <div class="md:col-span-1">
+              <span class="font-display text-2xl text-storehouse-500/60">
+                {benefit.number}
+              </span>
             </div>
-            <div>
-              <h3 class="font-semibold text-slate-900">{benefit.title}</h3>
-              <p class="mt-1 text-slate-600">{benefit.description}</p>
+            <div class="md:col-span-3 mt-2 md:mt-0">
+              <h3 class="font-display text-xl text-text-deep">
+                {benefit.title}
+              </h3>
+            </div>
+            <div class="md:col-span-8 mt-3 md:mt-0">
+              <p class="text-lg text-text-muted leading-relaxed">
+                {benefit.description}
+              </p>
             </div>
           </div>
         ))}
@@ -76,44 +93,49 @@ const benefits = [
     </div>
   </section>
 
-  <!-- What is Storehouse Section -->
-  <section class="py-20 bg-white">
-    <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
-      <h2 class="font-display text-2xl sm:text-3xl font-bold text-slate-900 text-center">
-        What is Storehouse?
-      </h2>
-
-      <div class="mt-8 space-y-6 text-center">
-        <p class="text-lg text-slate-600">
-          Storehouse is a budgeting app built on a simple idea: give first, save second, spend what's left.
-        </p>
-        <p class="text-slate-600">
-          Instead of tracking 47 categories and feeling guilty about coffee, you see one number — your Safe to Spend. That's what's truly available after your priorities are handled.
-        </p>
-        <p class="text-slate-700 font-medium italic">
-          Built for real life. Built for peace.
-        </p>
-
-        <a
-          href="/how-it-works"
-          class="inline-flex items-center text-storehouse-600 hover:text-storehouse-700 font-medium transition-colors"
-        >
-          Learn more about how it works
-          <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-          </svg>
-        </a>
+  <!-- What is Storehouse Section — Two-column editorial -->
+  <section class="py-24 md:py-32 bg-warm-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
+        <div class="reveal">
+          <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase">
+            About the app
+          </p>
+          <h2 class="mt-4 font-display text-3xl sm:text-4xl text-text-deep leading-[1.05]">
+            What is Storehouse?
+          </h2>
+        </div>
+        <div class="space-y-6 reveal reveal-delay-1">
+          <p class="text-lg text-text-body leading-relaxed">
+            Storehouse is a budgeting app built on a simple idea: give first, save second, spend what's left.
+          </p>
+          <p class="text-text-body leading-relaxed">
+            Instead of tracking 47 categories and feeling guilty about coffee, you see one number — your Safe to Spend. That's what's truly available after your priorities are handled.
+          </p>
+          <p class="font-quote text-xl text-text-deep italic leading-relaxed">
+            Built for real life. Built for peace.
+          </p>
+          <a
+            href="/how-it-works"
+            class="inline-flex items-center text-storehouse-600 hover:text-storehouse-700 font-medium transition-colors duration-150"
+          >
+            Learn more about how it works
+            <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Social Proof Section -->
-  <section class="py-16 bg-gradient-to-br from-storehouse-50 to-emerald-50">
-    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-lg text-slate-700">
-        <span class="font-semibold">Join the early adopters</span>
+  <!-- Social Proof / Closing -->
+  <section class="py-16 bg-warm-cream">
+    <div class="mx-auto max-w-xl px-4 sm:px-6 lg:px-8 text-center reveal">
+      <p class="font-display text-xl text-text-deep">
+        Join the early adopters
       </p>
-      <p class="mt-2 text-sm text-slate-500">
+      <p class="mt-2 text-sm text-text-muted">
         Be part of something new.
       </p>
     </div>
@@ -121,3 +143,31 @@ const benefits = [
 
   <Footer slot="footer" />
 </PageLayout>
+
+<script>
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
+</script>

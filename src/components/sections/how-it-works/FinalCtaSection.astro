@@ -1,38 +1,44 @@
 ---
-import Button from '../../Button.astro'
+import WaitlistForm from '../../WaitlistForm.astro';
 ---
 
-<section class="py-16 md:py-24 bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="py-24 md:py-36 bg-warm-stone grain-overlay">
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
     <div class="max-w-2xl mx-auto text-center">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white leading-[1.05] reveal">
         Ready to try it?
       </h2>
 
-      <p class="mt-6 text-lg text-slate-600">
+      <p class="mt-6 text-lg text-warm-white/70 leading-relaxed reveal reveal-delay-1">
         Storehouse is launching soon. Join the waitlist to get early access and be among the first to experience budgeting that actually feels like freedom.
       </p>
 
-      <div class="mt-8">
-        <Button href="/waitlist" variant="primary" size="lg">
-          Join the Waitlist
-        </Button>
+      <div class="mt-12 rounded-2xl bg-warm-white/[0.07] backdrop-blur-sm border border-warm-white/10 p-6 sm:p-8 reveal reveal-delay-2">
+        <WaitlistForm
+          class="[&_input]:bg-warm-white [&_input]:border-warm-white/20 [&_select]:bg-warm-white [&_select]:border-warm-white/20 [&_button]:bg-storehouse-500 [&_button]:text-warm-white [&_button:hover]:bg-storehouse-600 [&_p]:text-warm-white/60"
+        />
       </div>
 
-      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm">
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm reveal reveal-delay-3">
         <a
           href="/faq"
-          class="text-slate-600 hover:text-slate-900 transition-colors"
+          class="text-warm-white/60 hover:text-warm-white transition-colors duration-200"
         >
           Questions? Read our FAQ
         </a>
         <a
           href="/contact"
-          class="text-slate-600 hover:text-slate-900 transition-colors"
+          class="text-warm-white/60 hover:text-warm-white transition-colors duration-200"
         >
           Contact us
         </a>
       </div>
+
+      <p class="mt-8 text-sm text-warm-white/40 reveal reveal-delay-3">
+        No spam. No credit card. Just early access to financial clarity.
+      </p>
     </div>
+
   </div>
 </section>

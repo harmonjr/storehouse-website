@@ -3,7 +3,6 @@ import PageLayout from '../layouts/PageLayout.astro'
 import Header from '../components/Header.astro'
 import MobileNav from '../components/MobileNav.astro'
 import Footer from '../components/Footer.astro'
-import Button from '../components/Button.astro'
 import HowItWorksHero from '../components/sections/how-it-works/HeroSection.astro'
 import CoreFormulaSection from '../components/sections/how-it-works/CoreFormulaSection.astro'
 import PrioritiesSection from '../components/sections/how-it-works/PrioritiesSection.astro'
@@ -18,20 +17,87 @@ import FinalCtaSection from '../components/sections/how-it-works/FinalCtaSection
 ---
 
 <PageLayout title="How It Works | Storehouse" description="Learn exactly how Storehouse uses a simple formula to show you what's truly safe to spend.">
-  <Header slot="header" />
+  <Header slot="header" transparent />
   <MobileNav />
 
+  <!-- Section 1: Hero — Split layout with formula preview -->
   <HowItWorksHero />
+
+  <!-- Section 2: Core Formula — Sticky left + visual right -->
   <CoreFormulaSection />
+
+  <!-- Section 3: Priorities — Dark editorial numbered list -->
   <PrioritiesSection />
+
+  <!-- Section 4: Import Data — Two-column with security card -->
   <ConnectAccountsSection />
+
+  <!-- Section 5: Live Your Life — Status card + explanation -->
   <DailyRealitySection />
+
+  <!-- Section 6: Joseph Principle — Dark emotional section -->
   <MarginMethodSection />
+
+  <!-- Section 7: Subscriptions — Big stat + feature grid -->
   <SubscriptionsSection />
+
+  <!-- Section 8: What We Don't Do — Editorial list -->
   <WhatWeDoNotDoSection />
+
+  <!-- Section 9: Comparison — Table with warm tokens -->
   <ComparisonSection />
+
+  <!-- Section 10: Audience — Who it's for -->
   <AudienceSection />
+
+  <!-- Section 11: Final CTA — Warm dark waitlist -->
   <FinalCtaSection />
 
   <Footer slot="footer" />
 </PageLayout>
+
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = (this as HTMLAnchorElement).getAttribute('href');
+      if (targetId && targetId !== '#') {
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }
+      }
+    });
+  });
+
+  // Scroll-triggered reveal animations
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
+</script>

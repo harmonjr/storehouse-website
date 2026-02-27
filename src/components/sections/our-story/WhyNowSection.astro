@@ -1,63 +1,61 @@
 ---
+const offerings = [
+  'One number for safe spending',
+  'Priorities first, not last',
+  'Reserves for lean seasons',
+  'Peace instead of anxiety',
+];
 ---
 
-<section class="py-16 md:py-24 bg-white">
-  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-    <!-- Timeline marker -->
-    <div class="flex items-center gap-4 mb-8">
-      <div class="flex-shrink-0 w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center">
-        <span class="font-display text-xl text-amber-700">Today</span>
-      </div>
-      <div class="h-px flex-1 bg-slate-200"></div>
-    </div>
+<section class="py-24 md:py-36 bg-warm-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-    <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-      We need margin more than ever.
-    </h2>
+    <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
 
-    <div class="mt-8 space-y-6 text-lg text-slate-600 leading-relaxed">
-      <p>
-        The world encourages optimization: max out your mortgage, lifestyle up with every raise, fill every dollar with purpose.
-      </p>
+      <!-- Left column: Content -->
+      <div class="lg:col-span-7">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          Today
+        </p>
+        <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+          We need margin<br />
+          more than ever.
+        </h2>
 
-      <p>
-        The result? A generation drowning in financial anxiety.
-      </p>
+        <div class="mt-8 space-y-6 text-lg text-text-body leading-relaxed max-w-xl reveal reveal-delay-2">
+          <p>
+            The world encourages optimization: max out your mortgage, lifestyle
+            up with every raise, fill every dollar with purpose.
+          </p>
+          <p>
+            The result? A generation drowning in financial anxiety.
+          </p>
+        </div>
 
-      <!-- What Storehouse offers -->
-      <div class="my-10 p-8 bg-gradient-to-br from-storehouse-50 to-emerald-50 rounded-xl">
-        <h3 class="text-lg font-semibold text-slate-900 mb-4">Storehouse offers a different path:</h3>
-        <ul class="space-y-3">
-          <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 w-5 h-5 mt-0.5 text-storehouse-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-            </svg>
-            <span>One number for safe spending</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 w-5 h-5 mt-0.5 text-storehouse-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-            </svg>
-            <span>Priorities first, not last</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 w-5 h-5 mt-0.5 text-storehouse-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-            </svg>
-            <span>Reserves for lean seasons</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 w-5 h-5 mt-0.5 text-storehouse-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-            </svg>
-            <span>Peace instead of anxiety</span>
-          </li>
-        </ul>
+        <!-- Italic closer -->
+        <p class="mt-12 font-quote text-xl sm:text-2xl text-text-deep italic leading-snug max-w-lg reveal reveal-delay-3">
+          Bob probably doesn't know the impact he had.
+        </p>
       </div>
 
-      <p class="text-xl italic text-slate-700">
-        Bob probably doesn't know the impact he had.
-      </p>
+      <!-- Right column: What Storehouse offers -->
+      <div class="lg:col-span-5 reveal reveal-delay-3">
+        <div class="bg-warm-cream rounded-2xl p-8 sm:p-10 border border-storehouse-100/60">
+          <h3 class="font-display text-xl text-text-deep mb-6">
+            Storehouse offers a different path:
+          </h3>
+          <ul class="space-y-5">
+            {offerings.map((item) => (
+              <li class="flex items-start gap-4">
+                <span class="flex-shrink-0 mt-2 w-2 h-2 rounded-full bg-storehouse-500"></span>
+                <span class="text-lg text-text-body">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
     </div>
+
   </div>
 </section>

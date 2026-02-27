@@ -7,28 +7,32 @@ import HeroSection from '../components/sections/HeroSection.astro';
 import ProblemSection from '../components/sections/ProblemSection.astro';
 import SolutionSection from '../components/sections/SolutionSection.astro';
 import HowItWorksSection from '../components/sections/HowItWorksSection.astro';
+import PrinciplesSection from '../components/sections/PrinciplesSection.astro';
 import FinalCtaSection from '../components/sections/FinalCtaSection.astro';
 
-const description = "Finally, breathing room. Storehouse shows you one number \u2014 what's truly safe to spend after your priorities are handled. Built on biblical financial principles.";
+const description = "One number tells you what's truly safe to spend — after giving, saving, and bills are already handled. Built on biblical financial principles. Designed for breathing room.";
 ---
 
-<PageLayout title="Finally, Breathing Room | Storehouse" description={description}>
+<PageLayout title="Store Today. Thrive Tomorrow. | Storehouse" description={description}>
   <Header slot="header" transparent />
   <MobileNav />
 
-  <!-- Section 1: Hero -->
+  <!-- Section 1: Hero — Split layout, tagline-forward -->
   <HeroSection />
 
-  <!-- Section 2: Problem (Empathy) -->
+  <!-- Section 2: Problem — Dark editorial empathy section -->
   <ProblemSection />
 
-  <!-- Section 3: The Hierarchy -->
+  <!-- Section 3: The Money Hierarchy — THE key visual -->
   <SolutionSection />
 
-  <!-- Section 4: How It Works -->
+  <!-- Section 4: How It Works — Editorial numbered steps -->
   <HowItWorksSection />
 
-  <!-- Section 5: Final CTA -->
+  <!-- Section 5: Principles — Biblical grounding, quote + values -->
+  <PrinciplesSection />
+
+  <!-- Section 6: Final CTA — Warm waitlist -->
   <FinalCtaSection />
 
   <Footer slot="footer" />
@@ -39,16 +43,43 @@ const description = "Finally, breathing room. Storehouse shows you one number \u
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
-      const targetId = this.getAttribute('href');
+      const targetId = (this as HTMLAnchorElement).getAttribute('href');
       if (targetId && targetId !== '#') {
         const target = document.querySelector(targetId);
         if (target) {
           target.scrollIntoView({
             behavior: 'smooth',
-            block: 'start'
+            block: 'start',
           });
         }
       }
     });
   });
+
+  // Scroll-triggered reveal animations
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
 </script>

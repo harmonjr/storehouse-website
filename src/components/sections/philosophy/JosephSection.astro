@@ -1,64 +1,70 @@
 ---
+const lifeEvents = [
+  'A job loss that comes without warning',
+  'Medical expenses that don\'t wait for permission',
+  'A car repair on the worst possible Tuesday',
+  'An economic downturn that affects everyone',
+];
 ---
 
-<section class="py-16 md:py-24 bg-gradient-to-br from-storehouse-50 via-emerald-50 to-white">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <article class="max-w-2xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-12">
-        Store in plenty. Draw in lean.
+<section class="py-24 md:py-36 bg-warm-stone grain-overlay">
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+    <!-- Section header -->
+    <div class="max-w-2xl reveal">
+      <p class="text-storehouse-400 font-semibold text-sm tracking-widest uppercase">
+        The second principle
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white leading-[1.05]">
+        Store in plenty.<br />
+        <em class="not-italic text-storehouse-400">Draw in lean.</em>
       </h2>
+    </div>
 
-      <div class="space-y-6 text-lg text-slate-600 leading-relaxed">
+    <!-- Content grid -->
+    <div class="mt-16 grid lg:grid-cols-12 gap-12 lg:gap-8">
+      <div class="lg:col-span-6 space-y-6 text-lg text-warm-white/70 leading-relaxed reveal reveal-delay-1">
         <p>
-          In Genesis 41, God revealed to Joseph that seven years of abundance would be followed by seven years of famine. Joseph's response? Store during plenty so you can survive the lean. The wisdom wasn't Joseph's -- it was God's.
+          In Genesis 41, God revealed to Joseph that seven years of abundance would be followed by seven years of famine. Joseph's response? Store during plenty so you can survive the lean. The wisdom wasn't Joseph's &mdash; it was God's.
         </p>
-
         <p>
           It's a simple principle, and it's the foundation of Storehouse. Building margin during seasons of abundance prepares you for whatever comes next &mdash; not just slow income months, but anything life puts in your path.
         </p>
       </div>
 
-      <div class="mt-10 p-6 bg-white rounded-xl border border-storehouse-200 shadow-sm">
-        <h3 class="font-display text-xl font-semibold text-storehouse-700 mb-4">
-          The Joseph Principle builds margin for the unexpected:
-        </h3>
-        <ul class="space-y-3">
-          <li class="flex items-start gap-3">
-            <svg class="h-5 w-5 text-storehouse-500 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-            <span class="text-slate-700">A job loss that comes without warning</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="h-5 w-5 text-storehouse-500 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-            <span class="text-slate-700">Medical expenses that don't wait for permission</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="h-5 w-5 text-storehouse-500 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-            <span class="text-slate-700">A car repair on the worst possible Tuesday</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="h-5 w-5 text-storehouse-500 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-            <span class="text-slate-700">An economic downturn that affects everyone</span>
-          </li>
-        </ul>
+      <div class="lg:col-span-5 lg:col-start-8 reveal reveal-delay-2">
+        <div class="p-8 rounded-2xl bg-warm-white/5 border border-warm-white/10">
+          <h3 class="font-display text-xl text-storehouse-400 mb-6">
+            The Joseph Principle builds margin for:
+          </h3>
+          <ul class="space-y-4">
+            {lifeEvents.map((event) => (
+              <li class="flex items-start gap-4">
+                <span class="w-1.5 h-1.5 rounded-full bg-storehouse-400 flex-shrink-0 mt-2.5"></span>
+                <span class="text-warm-white/80">{event}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
+    </div>
 
-      <p class="mt-8 text-lg text-slate-600 leading-relaxed">
+    <!-- Variable income note -->
+    <div class="mt-16 max-w-2xl reveal">
+      <p class="text-lg text-warm-white/70 leading-relaxed">
         And for those with income that changes &mdash; commission, freelance, seasonal work &mdash; the Joseph Principle is woven into how Storehouse works from the ground up. The highs and lows are handled seamlessly.
       </p>
+    </div>
 
-      <blockquote class="mt-10 border-l-4 border-storehouse-500 pl-6 py-2 bg-white rounded-r-lg">
-        <p class="text-xl font-display text-storehouse-700 italic">
-          "Think in seasons, not just months."
-        </p>
-      </blockquote>
-    </article>
+    <!-- Closing quote -->
+    <div class="mt-16 reveal">
+      <div class="flex justify-center">
+        <div class="w-16 h-px bg-warm-white/20"></div>
+      </div>
+      <p class="mt-10 font-quote text-2xl sm:text-3xl text-warm-white/80 text-center italic leading-snug max-w-2xl mx-auto">
+        "Think in seasons, not just months."
+      </p>
+    </div>
+
   </div>
 </section>

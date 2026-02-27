@@ -29,13 +29,18 @@ const description = "Articles on financial peace, biblical stewardship, and buil
   <MobileNav />
 
   <!-- Hero Section -->
-  <section class="pt-24 pb-12 bg-gradient-to-b from-storehouse-50 to-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="relative pt-32 pb-12 md:pt-40 md:pb-16 bg-warm-cream overflow-hidden">
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-storehouse-200/20 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto">
-        <h1 class="font-display text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          Blog
+        </p>
+        <h1 class="mt-4 font-display text-4xl sm:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
           Ideas about money, margin, and meaning.
         </h1>
-        <p class="text-xl text-slate-600">
+        <p class="mt-6 text-xl text-text-body reveal reveal-delay-2">
           {description}
         </p>
       </div>
@@ -43,11 +48,11 @@ const description = "Articles on financial peace, biblical stewardship, and buil
   </section>
 
   <!-- Foundations Cross-Link -->
-  <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 mb-8">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 mb-8 reveal">
     <div class="rounded-2xl bg-storehouse-50 px-6 py-4 text-center">
-      <p class="text-slate-600">
+      <p class="text-text-body">
         Looking for our core articles on biblical stewardship?
-        <a href="/foundations" class="font-medium text-storehouse-600 hover:text-storehouse-700 ml-1">
+        <a href="/foundations" class="font-medium text-storehouse-600 hover:text-storehouse-700 transition-colors duration-150 ml-1">
           Visit Foundations &rarr;
         </a>
       </p>
@@ -55,7 +60,7 @@ const description = "Articles on financial peace, biblical stewardship, and buil
   </div>
 
   <!-- Category Filter -->
-  <section class="py-6 bg-white border-b border-slate-100">
+  <section class="py-6 bg-warm-white border-b border-text-faint/10">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-wrap justify-center gap-2" id="category-filters">
         {categories.map((cat) => (
@@ -63,10 +68,10 @@ const description = "Articles on financial peace, biblical stewardship, and buil
             type="button"
             data-category={cat.value}
             class:list={[
-              'px-4 py-2 rounded-full text-sm font-medium transition-colors',
+              'px-4 py-2 rounded-full text-sm font-medium transition-colors duration-150',
               cat.value === 'all'
-                ? 'bg-storehouse-500 text-white'
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200',
+                ? 'bg-storehouse-500 text-warm-white'
+                : 'bg-warm-gray-50 text-text-muted hover:bg-storehouse-50 hover:text-storehouse-600',
             ]}
           >
             {cat.label}
@@ -77,11 +82,11 @@ const description = "Articles on financial peace, biblical stewardship, and buil
   </section>
 
   <!-- Blog Grid -->
-  <section class="py-12 bg-gray-50">
+  <section class="py-16 md:py-20 bg-warm-cream">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="blog-grid">
         {sortedPosts.map((post) => (
-          <div data-category={post.data.category}>
+          <div data-category={post.data.category} class="reveal">
             <BlogCard
               title={post.data.title}
               description={post.data.description}
@@ -95,23 +100,29 @@ const description = "Articles on financial peace, biblical stewardship, and buil
       </div>
 
       {sortedPosts.length === 0 && (
-        <p class="text-center text-slate-500 py-12">
-          No articles yet. Check back soon!
-        </p>
+        <div class="text-center py-16">
+          <p class="font-display text-xl text-text-muted">No articles yet.</p>
+          <p class="mt-2 text-text-faint">Check back soon for fresh ideas about money and margin.</p>
+        </div>
       )}
     </div>
   </section>
 
   <!-- Newsletter Section -->
-  <section class="py-16 bg-white">
+  <section class="py-24 md:py-32 bg-warm-white">
     <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="font-display text-3xl font-bold text-slate-900 mb-4">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+        Stay connected
+      </p>
+      <h2 class="mt-4 font-display text-3xl text-text-deep reveal reveal-delay-1">
         Get articles in your inbox
       </h2>
-      <p class="text-lg text-slate-600 mb-8">
+      <p class="mt-4 text-lg text-text-body mb-8 reveal reveal-delay-2">
         New ideas about money, margin, and meaning. No spam, ever.
       </p>
-      <WaitlistForm />
+      <div class="reveal reveal-delay-3">
+        <WaitlistForm />
+      </div>
     </div>
   </section>
 
@@ -127,15 +138,13 @@ const description = "Articles on financial peace, biblical stewardship, and buil
       button.addEventListener('click', () => {
         const category = button.getAttribute('data-category');
 
-        // Update button styles
         filterButtons.forEach((btn) => {
-          btn.classList.remove('bg-storehouse-500', 'text-white');
-          btn.classList.add('bg-slate-100', 'text-slate-600');
+          btn.classList.remove('bg-storehouse-500', 'text-warm-white');
+          btn.classList.add('bg-warm-gray-50', 'text-text-muted');
         });
-        button.classList.remove('bg-slate-100', 'text-slate-600');
-        button.classList.add('bg-storehouse-500', 'text-white');
+        button.classList.remove('bg-warm-gray-50', 'text-text-muted');
+        button.classList.add('bg-storehouse-500', 'text-warm-white');
 
-        // Filter cards
         blogCards.forEach((card) => {
           const cardCategory = card.getAttribute('data-category');
           if (category === 'all' || cardCategory === category) {
@@ -150,4 +159,31 @@ const description = "Articles on financial peace, biblical stewardship, and buil
 
   initFilters();
   document.addEventListener('astro:after-swap', initFilters);
+
+  // Scroll-triggered reveal animations
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
 </script>

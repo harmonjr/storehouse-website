@@ -1,87 +1,144 @@
 ---
 const hierarchySteps = [
-  { label: 'Income', icon: '\u{1F4B0}', color: 'bg-slate-700 text-white' },
-  { label: 'Give First', sublabel: 'tithe, generosity', icon: '\u{1F49B}', color: 'bg-giving text-white' },
-  { label: 'Save Second', sublabel: 'retirement, emergency fund', icon: '\u{1F331}', color: 'bg-saving text-white' },
-  { label: 'Pay Bills', sublabel: 'mortgage, utilities, insurance', icon: '\u{1F4CB}', color: 'bg-slate-500 text-white' },
-  { label: 'Safe to Spend', sublabel: 'your one number', icon: '\u2728', color: 'bg-storehouse-600 text-white ring-2 ring-storehouse-300' },
+  {
+    label: 'Give First',
+    sublabel: 'Tithe and generosity',
+    percentage: '12%',
+    color: 'bg-giving',
+    borderColor: 'border-giving/20',
+    textColor: 'text-giving',
+    lightBg: 'bg-giving/5',
+  },
+  {
+    label: 'Save Second',
+    sublabel: 'Retirement and emergency fund',
+    percentage: '15%',
+    color: 'bg-saving',
+    borderColor: 'border-saving/20',
+    textColor: 'text-saving',
+    lightBg: 'bg-saving/5',
+  },
+  {
+    label: 'Pay Bills',
+    sublabel: 'Fixed expenses and subscriptions',
+    percentage: '45%',
+    color: 'bg-warm-stone-light',
+    borderColor: 'border-warm-stone-light/10',
+    textColor: 'text-warm-stone-light',
+    lightBg: 'bg-warm-stone-light/5',
+  },
 ];
 ---
 
-<section class="py-16 md:py-24 bg-slate-50">
+<section class="py-24 md:py-40 bg-warm-white">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center max-w-3xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-        One number. Total clarity.
-      </h2>
-      <p class="mt-4 text-lg text-slate-600">
-        Most apps work backwards &mdash; spend first, save what's left, give if there's anything remaining. Storehouse flips the order. Your priorities are handled before you see your number. What's left is truly yours to spend, freely.
-      </p>
-    </div>
 
-    <!-- Hierarchy Visual -->
-    <div class="mt-12 max-w-md mx-auto">
-      <div class="space-y-0">
-        {hierarchySteps.map((step, index) => (
-          <div class="hierarchy-step" style={`--step-index: ${index}`}>
-            <div class="flex items-center gap-4">
-              <!-- Connector line -->
-              {index > 0 && (
-                <div class="absolute left-7 -top-4 w-0.5 h-4 bg-slate-300"></div>
-              )}
-              <!-- Step pill -->
-              <div class:list={[
-                'relative flex items-center gap-3 w-full rounded-xl px-5 py-4 shadow-sm',
-                step.color,
-                index === hierarchySteps.length - 1 ? 'shadow-lg scale-105' : '',
-              ]}>
-                <span class="text-2xl flex-shrink-0">{step.icon}</span>
+    <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+
+      <!-- Left: Explanation -->
+      <div class="lg:sticky lg:top-32">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          The money hierarchy
+        </p>
+        <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+          Priorities first.<br />
+          Freedom second.
+        </h2>
+        <p class="mt-6 text-lg text-text-body leading-relaxed reveal reveal-delay-2">
+          Most apps work backwards &mdash; spend first, save what's left, give if there's anything remaining.
+        </p>
+        <p class="mt-4 text-lg text-text-body leading-relaxed reveal reveal-delay-3">
+          Storehouse flips the order. Your priorities are handled
+          <em>before</em> you see your number. What's left is truly yours to spend &mdash; freely, without guilt.
+        </p>
+
+        <!-- Key insight callout -->
+        <div class="mt-10 p-6 rounded-2xl bg-storehouse-50 border border-storehouse-200/60 reveal reveal-delay-4">
+          <p class="font-display text-lg text-storehouse-800">
+            "The borrower is slave to the lender."
+          </p>
+          <p class="mt-2 text-sm text-storehouse-600">
+            Proverbs 22:7 &mdash; Storehouse builds on this wisdom
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: The Hierarchy Visual -->
+      <div class="reveal reveal-delay-2">
+        <!-- Income arrives -->
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center gap-3 bg-warm-gray-50 rounded-full px-6 py-3 border border-text-faint/15">
+            <span class="text-lg">Income arrives</span>
+            <span class="font-display text-xl text-text-deep">$5,200</span>
+          </div>
+        </div>
+
+        <!-- Flow arrow -->
+        <div class="flex justify-center mb-6">
+          <div class="w-px h-10 bg-gradient-to-b from-text-faint/30 to-text-faint/10"></div>
+        </div>
+
+        <!-- Priority tiers -->
+        <div class="space-y-4">
+          {hierarchySteps.map((step) => (
+            <div class:list={[
+              'rounded-2xl border p-5 sm:p-6 transition-all duration-200 hover:shadow-xs',
+              step.borderColor,
+              step.lightBg,
+            ]}>
+              <div class="flex items-center justify-between">
                 <div>
-                  <span class="font-display font-semibold text-lg">{step.label}</span>
-                  {step.sublabel && (
-                    <span class="block text-sm opacity-80">{step.sublabel}</span>
-                  )}
+                  <h3 class:list={['font-display text-xl', step.textColor]}>
+                    {step.label}
+                  </h3>
+                  <p class="text-sm text-text-muted mt-0.5">
+                    {step.sublabel}
+                  </p>
                 </div>
-                {index === hierarchySteps.length - 1 && (
-                  <span class="ml-auto text-sm font-medium opacity-90">&larr; your one number</span>
-                )}
+                <span class:list={[
+                  'font-display text-lg tabular-nums',
+                  step.textColor,
+                ]}>
+                  {step.percentage}
+                </span>
               </div>
             </div>
-            <!-- Arrow between steps -->
-            {index < hierarchySteps.length - 1 && (
-              <div class="flex justify-center py-1">
-                <svg class="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-                </svg>
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
+          ))}
+        </div>
 
-    <p class="mt-12 text-center text-xl text-slate-700 font-medium">
-      One number. No guilt. That's the whole idea.
-    </p>
+        <!-- Wider flow arrow -->
+        <div class="flex justify-center my-6">
+          <div class="flex flex-col items-center gap-1">
+            <div class="w-px h-6 bg-gradient-to-b from-text-faint/20 to-storehouse-400/40"></div>
+            <svg class="w-4 h-4 text-storehouse-500" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- SAFE TO SPEND: the hero moment -->
+        <div class="relative">
+          <div class="absolute inset-0 bg-storehouse-400/10 rounded-3xl blur-xl"></div>
+          <div class="relative rounded-3xl bg-gradient-to-br from-storehouse-600 to-storehouse-700 p-6 sm:p-8 text-center shadow-[0_16px_48px_-12px_rgba(22,101,52,0.3)]">
+            <p class="text-storehouse-200 text-sm font-medium tracking-wide uppercase">
+              Safe to Spend
+            </p>
+            <p class="mt-2 font-display text-4xl sm:text-5xl text-warm-white">
+              $847.23
+            </p>
+            <p class="mt-2 text-storehouse-200/80 text-sm">
+              Yours to spend freely. No guilt attached.
+            </p>
+            <!-- Green dot indicator -->
+            <div class="mt-4 inline-flex items-center gap-2 bg-warm-white/10 rounded-full px-4 py-1.5">
+              <span class="w-2 h-2 rounded-full bg-storehouse-300 animate-pulse"></span>
+              <span class="text-storehouse-100 text-xs font-medium">Looking good</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
   </div>
 </section>
-
-<style>
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .hierarchy-step {
-    animation: fadeInUp 0.4s ease-out forwards;
-    animation-delay: calc(var(--step-index, 0) * 0.15s);
-    opacity: 0;
-    position: relative;
-  }
-</style>

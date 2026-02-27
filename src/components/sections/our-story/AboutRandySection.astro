@@ -1,52 +1,76 @@
 ---
-import Button from '../../Button.astro'
+import Button from '../../Button.astro';
 ---
 
-<section class="py-16 md:py-24 bg-slate-50">
-  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-    <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center">
-      Who's building Storehouse.
-    </h2>
+<section class="py-24 md:py-36 bg-warm-cream">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-    <div class="mt-12 max-w-2xl mx-auto">
-      <div class="space-y-6 text-lg text-slate-600 leading-relaxed">
-        <p>
-          I've spent 20+ years in real estate -- as an agent, a sales manager, and a broker. I watched Bob's lesson play out hundreds of times. Families who left margin thrived. Families who maxed out every dollar struggled the moment anything shifted.
-        </p>
+    <div class="max-w-4xl mx-auto">
 
-        <p>
-          That pattern stuck with me because I'm living it too. I'm a husband and a dad, and our family runs on the same hierarchy Storehouse is built around: give first, save second, spend what remains. It's not a formula I invented. It's what the Bible teaches about money, and it works.
-        </p>
-
-        <p>
-          Storehouse is one expression of that conviction. I'm also building
-          <span class="text-slate-700 font-medium">The Candid Agent</span>
-          <span class="text-slate-400"> -- honest real estate guidance</span> -- and
-          <span class="text-slate-700 font-medium">Good News Garden</span>
-          <span class="text-slate-400"> -- faith, family, and flourishing</span>.
-          Different projects, same root: margin over maximum. Stewardship over consumption.
+      <!-- Header -->
+      <div class="text-center reveal">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase">
+          Who's behind Storehouse
         </p>
       </div>
+
+      <!-- Divider -->
+      <div class="my-10 flex justify-center reveal">
+        <div class="w-16 h-px bg-text-faint/30"></div>
+      </div>
+
+      <!-- Bio prose -->
+      <div class="space-y-6 text-lg text-text-body leading-relaxed reveal reveal-delay-1">
+        <p>
+          I've spent 20+ years in real estate &mdash; as an agent, a sales
+          manager, and a broker. I watched Bob's lesson play out hundreds of
+          times. Families who left margin thrived. Families who maxed out
+          every dollar struggled the moment anything shifted.
+        </p>
+        <p>
+          That pattern stuck with me because I'm living it too. I'm a husband
+          and a dad, and our family runs on the same hierarchy Storehouse is
+          built around: give first, save second, spend what remains. It's not
+          a formula I invented. It's what the Bible teaches about money, and
+          it works.
+        </p>
+        <p>
+          Storehouse is one expression of that conviction. I'm also building
+          <span class="font-semibold text-text-deep">The Candid Agent</span>
+          <span class="text-text-muted"> &mdash; honest real estate guidance</span> &mdash; and
+          <span class="font-semibold text-text-deep">Good News Garden</span>
+          <span class="text-text-muted"> &mdash; faith, family, and flourishing</span>.
+          Different projects, same root: margin over maximum. Stewardship
+          over consumption.
+        </p>
+      </div>
+
+      <!-- Sign off -->
+      <div class="mt-12 reveal reveal-delay-2">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-px bg-text-faint/40"></div>
+          <div>
+            <p class="font-quote text-xl text-text-deep italic">
+              Thanks for being here.
+            </p>
+            <p class="mt-1 text-lg text-text-muted">
+              &mdash; JR
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="mt-16 flex flex-col sm:flex-row gap-4 justify-center reveal reveal-delay-3">
+        <Button href="/waitlist" variant="primary" size="lg">
+          Join the Waitlist
+        </Button>
+        <Button href="/philosophy" variant="secondary" size="lg">
+          Read My Philosophy
+        </Button>
+      </div>
+
     </div>
 
-    <!-- Sign off -->
-    <div class="mt-12 text-center">
-      <p class="text-xl text-slate-700 italic">
-        Thanks for being here.
-      </p>
-      <p class="mt-2 text-lg text-slate-600">
-        — JR
-      </p>
-    </div>
-
-    <!-- CTAs -->
-    <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
-      <Button href="/waitlist" variant="primary" size="lg">
-        Join the Waitlist
-      </Button>
-      <Button href="/philosophy" variant="secondary" size="lg">
-        Read My Philosophy
-      </Button>
-    </div>
   </div>
 </section>

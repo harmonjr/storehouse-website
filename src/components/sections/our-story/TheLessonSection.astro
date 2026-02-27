@@ -1,72 +1,72 @@
 ---
+const marginMeans = [
+  { number: '01', label: 'Job loss', detail: 'You can weather the storm without losing your home.' },
+  { number: '02', label: 'Medical bills', detail: 'The unexpected doesn\'t have to become catastrophic.' },
+  { number: '03', label: 'Opportunity', detail: 'You can say yes when the right moment appears.' },
+  { number: '04', label: 'Breathing', detail: 'You stop living paycheck to paycheck in your mind.' },
+];
 ---
 
-<section class="py-16 md:py-24 bg-gradient-to-br from-storehouse-50 to-emerald-50">
-  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-    <!-- Timeline marker -->
-    <div class="flex items-center gap-4 mb-8">
-      <div class="flex-shrink-0 w-16 h-16 rounded-full bg-storehouse-200 flex items-center justify-center">
-        <svg class="w-8 h-8 text-storehouse-700" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-        </svg>
-      </div>
-      <div class="h-px flex-1 bg-storehouse-200"></div>
+<section class="py-24 md:py-36 bg-warm-cream">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+    <!-- Section header -->
+    <div class="max-w-3xl">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+        The lesson
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+        Margin beats maximization.
+      </h2>
     </div>
 
-    <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-      Margin beats maximization.
-    </h2>
-
-    <div class="mt-8 space-y-6 text-lg text-slate-600 leading-relaxed">
-      <p>
-        Bob understood something most people miss: <span class="font-semibold text-slate-900">The goal isn't to get the most. It's to have enough — with room to spare.</span>
+    <!-- Core insight -->
+    <div class="mt-12 max-w-2xl reveal reveal-delay-2">
+      <p class="text-lg text-text-body leading-relaxed">
+        Bob understood something most people miss:
+        <span class="font-semibold text-text-deep">The goal isn't to get
+        the most. It's to have enough &mdash; with room to spare.</span>
       </p>
+    </div>
 
-      <!-- What margin provides -->
-      <div class="my-10 p-8 bg-white rounded-xl shadow-sm">
-        <h3 class="text-lg font-semibold text-slate-900 mb-4">Margin means room for:</h3>
-        <ul class="space-y-3">
-          <li class="flex items-start gap-3">
-            <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-storehouse-500"></span>
-            <span>Job loss</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-storehouse-500"></span>
-            <span>Medical bills</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-storehouse-500"></span>
-            <span>Opportunity</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-storehouse-500"></span>
-            <span>Breathing</span>
-          </li>
-        </ul>
-      </div>
+    <!-- Margin provides: editorial numbered list -->
+    <div class="mt-16 grid gap-0 divide-y divide-text-faint/20">
+      {marginMeans.map((item) => (
+        <div class="grid md:grid-cols-12 md:gap-8 py-8 first:pt-0 last:pb-0 reveal">
+          <div class="md:col-span-1">
+            <span class="font-display text-xl text-storehouse-500/60">
+              {item.number}
+            </span>
+          </div>
+          <div class="md:col-span-3 mt-1 md:mt-0">
+            <h3 class="font-display text-xl text-text-deep">
+              {item.label}
+            </h3>
+          </div>
+          <div class="md:col-span-8 mt-2 md:mt-0">
+            <p class="text-lg text-text-muted leading-relaxed">
+              {item.detail}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
 
-      <p>
-        That lesson shaped everything since:
+    <!-- Pull quote transition -->
+    <div class="mt-20 flex justify-center reveal">
+      <div class="w-16 h-px bg-text-faint/30"></div>
+    </div>
+
+    <div class="mt-12 max-w-3xl mx-auto text-center reveal">
+      <p class="font-quote text-2xl sm:text-3xl text-text-deep italic leading-snug">
+        "That lesson shaped everything since &mdash; twenty years in real estate,
+        teaching buyers to leave margin. Then building The Candid Agent.
+        And now, Storehouse."
       </p>
-
-      <ul class="space-y-3 ml-6">
-        <li class="flex items-start gap-3">
-          <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-amber-500"></span>
-          <span>Twenty years in real estate, teaching buyers to leave margin</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-amber-500"></span>
-          <span>Building The Candid Agent</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <span class="flex-shrink-0 mt-1.5 w-2 h-2 rounded-full bg-amber-500"></span>
-          <span>Now, Storehouse</span>
-        </li>
-      </ul>
-
-      <p class="text-xl font-medium text-slate-800 mt-8">
+      <p class="mt-6 font-display text-xl text-storehouse-600">
         It's the Bob principle, applied to every dollar.
       </p>
     </div>
+
   </div>
 </section>

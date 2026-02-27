@@ -1,20 +1,20 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro'
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer.astro'
-import MobileNav from '../components/MobileNav.astro'
-import StoryHeroSection from '../components/sections/our-story/HeroSection.astro'
-import TheSetupSection from '../components/sections/our-story/TheSetupSection.astro'
-import TheAdviceSection from '../components/sections/our-story/TheAdviceSection.astro'
-import TheCrashSection from '../components/sections/our-story/TheCrashSection.astro'
-import TheLessonSection from '../components/sections/our-story/TheLessonSection.astro'
-import WhyNowSection from '../components/sections/our-story/WhyNowSection.astro'
-import AboutRandySection from '../components/sections/our-story/AboutRandySection.astro'
-import TestimonialsSection from '../components/sections/TestimonialsSection.astro'
+import PageLayout from '../layouts/PageLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileNav from '../components/MobileNav.astro';
+import StoryHeroSection from '../components/sections/our-story/HeroSection.astro';
+import TheSetupSection from '../components/sections/our-story/TheSetupSection.astro';
+import TheAdviceSection from '../components/sections/our-story/TheAdviceSection.astro';
+import TheCrashSection from '../components/sections/our-story/TheCrashSection.astro';
+import TheLessonSection from '../components/sections/our-story/TheLessonSection.astro';
+import WhyNowSection from '../components/sections/our-story/WhyNowSection.astro';
+import AboutRandySection from '../components/sections/our-story/AboutRandySection.astro';
+import TestimonialsSection from '../components/sections/TestimonialsSection.astro';
 ---
 
 <PageLayout
-  title="My Story | Storehouse"
+  title="Our Story | Storehouse"
   description="The true story behind Storehouse — how a real estate agent named Bob changed my life and why margin matters more than maximization."
 >
   <Header slot="header" />
@@ -31,3 +31,32 @@ import TestimonialsSection from '../components/sections/TestimonialsSection.astr
 
   <Footer slot="footer" />
 </PageLayout>
+
+<script>
+  // Scroll-triggered reveal animations
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
+</script>

@@ -2,24 +2,30 @@
 import { PILLARS, PILLAR_ORDER } from '../../../lib/pillars';
 
 const pillarBadgeColors: Record<string, { bg: string; text: string }> = {
-  clarity: { bg: 'bg-blue-50', text: 'text-blue-700' },
-  order: { bg: 'bg-purple-50', text: 'text-purple-700' },
-  margin: { bg: 'bg-storehouse-50', text: 'text-storehouse-700' },
-  peace: { bg: 'bg-cyan-50', text: 'text-cyan-700' },
+  clarity: { bg: 'bg-pillar-clarity-light', text: 'text-pillar-clarity' },
+  order: { bg: 'bg-pillar-order-light', text: 'text-pillar-order' },
+  margin: { bg: 'bg-pillar-margin-light', text: 'text-pillar-margin' },
+  peace: { bg: 'bg-pillar-peace-light', text: 'text-pillar-peace' },
 };
 ---
 
-<section class="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-storehouse-50 to-white">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="relative pt-32 pb-16 md:pt-40 md:pb-24 bg-warm-cream overflow-hidden">
+  <div class="absolute top-0 right-0 w-[50%] h-full bg-storehouse-50/40 rounded-bl-[120px] -z-0"></div>
+  <div class="absolute -top-32 -right-32 w-96 h-96 bg-storehouse-200/20 rounded-full blur-3xl"></div>
+
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+        Foundations
+      </p>
+      <h1 class="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl text-text-deep leading-[0.95] reveal reveal-delay-1">
         Everything we believe about money.
       </h1>
-      <p class="mt-6 text-xl sm:text-2xl text-slate-600 leading-relaxed">
+      <p class="mt-8 text-xl sm:text-2xl text-text-body leading-relaxed reveal reveal-delay-2">
         In twelve articles organized around four pillars &mdash; Margin, Clarity, Order, and Peace.
       </p>
 
-      <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <div class="mt-8 flex flex-wrap justify-center gap-3 reveal reveal-delay-3">
         {PILLAR_ORDER.map((key) => {
           const pillar = PILLARS[key];
           const colors = pillarBadgeColors[key];

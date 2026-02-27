@@ -1,19 +1,81 @@
 ---
+import Button from '../../Button.astro';
 ---
 
-<section class="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-storehouse-50 via-storehouse-100 to-emerald-50">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto text-center">
-      <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
-        Budgeting that actually makes sense.
-      </h1>
-      <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto">
-        Storehouse uses a simple formula: handle your priorities first, then show you what's left. Here's exactly how it works.
-      </p>
+<section class="relative min-h-[70vh] pt-24 pb-12 md:pt-32 md:pb-20 flex items-center overflow-hidden bg-warm-cream">
+  <!-- Organic background shapes matching homepage hero -->
+  <div class="absolute top-0 right-0 w-[55%] h-full bg-storehouse-50/50 rounded-bl-[120px] -z-0"></div>
+  <div class="absolute -top-24 -right-24 w-80 h-80 bg-storehouse-200/25 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-0 left-[15%] w-64 h-64 bg-storehouse-100/20 rounded-full blur-3xl"></div>
+
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
+    <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+      <!-- Left column: Copy -->
+      <div class="lg:col-span-6 xl:col-span-5">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          How it works
+        </p>
+
+        <h1 class="mt-6 font-display text-4xl sm:text-5xl lg:text-[3.75rem] text-text-deep leading-[0.95] reveal reveal-delay-1">
+          Budgeting that actually<br />
+          <span class="text-storehouse-600">makes sense.</span>
+        </h1>
+
+        <p class="mt-8 text-lg sm:text-xl text-text-body leading-relaxed max-w-lg reveal reveal-delay-2">
+          Storehouse uses a simple formula: handle your priorities first, then show you what's left. Here's exactly how it works.
+        </p>
+
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 reveal reveal-delay-3">
+          <Button href="#formula" variant="primary" size="lg">
+            See the formula
+          </Button>
+          <Button href="/waitlist" variant="ghost" size="lg">
+            Join the Waitlist
+          </Button>
+        </div>
+      </div>
+
+      <!-- Right column: Formula preview card -->
+      <div class="lg:col-span-6 xl:col-span-7 flex justify-center lg:justify-end reveal reveal-delay-3">
+        <div class="relative max-w-sm w-full">
+          <!-- Glow behind card -->
+          <div class="absolute inset-4 bg-storehouse-400/10 rounded-3xl blur-2xl"></div>
+
+          <div class="relative rounded-2xl bg-warm-white shadow-[0_32px_64px_-16px_rgba(22,101,52,0.15)] border border-storehouse-200/30 p-8">
+            <p class="text-sm text-text-muted font-medium tracking-wide uppercase">The formula</p>
+            <div class="mt-6 space-y-3 font-display text-xl text-text-deep">
+              <div>Your Income</div>
+              <div class="flex items-center gap-3 text-giving">
+                <span class="text-text-faint">&minus;</span>
+                <span>Giving</span>
+                <span class="text-sm font-sans text-text-faint">(first)</span>
+              </div>
+              <div class="flex items-center gap-3 text-saving">
+                <span class="text-text-faint">&minus;</span>
+                <span>Saving</span>
+                <span class="text-sm font-sans text-text-faint">(second)</span>
+              </div>
+              <div class="flex items-center gap-3 text-text-body">
+                <span class="text-text-faint">&minus;</span>
+                <span>Bills</span>
+                <span class="text-sm font-sans text-text-faint">(third)</span>
+              </div>
+              <div class="border-t border-text-faint/15 pt-3 mt-1">
+                <span class="text-storehouse-600">=&nbsp;</span>
+                <span class="text-storehouse-600">Safe to Spend</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating badge -->
+          <div class="absolute -bottom-4 -right-4 sm:-right-6 bg-warm-white rounded-2xl px-5 py-3 shadow-[0_8px_32px_-8px_rgba(0,0,0,0.1)] border border-storehouse-100">
+            <p class="text-xs text-text-muted font-medium">Your number</p>
+            <p class="font-display text-2xl text-storehouse-700">$847.23</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-
-  <!-- Decorative elements -->
-  <div class="absolute -z-10 top-20 right-10 w-64 h-64 bg-storehouse-200 rounded-full blur-3xl opacity-30"></div>
-  <div class="absolute -z-10 bottom-10 left-10 w-48 h-48 bg-emerald-200 rounded-full blur-3xl opacity-20"></div>
 </section>

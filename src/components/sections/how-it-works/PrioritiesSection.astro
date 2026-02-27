@@ -1,53 +1,68 @@
 ---
-import Card from '../../Card.astro'
-
 const priorities = [
   {
-    emoji: '🙏',
+    number: '01',
+    emoji: '\u{1F64F}',
     title: 'Giving',
     description:
-      "Whether it's tithing, charitable donations, or supporting causes you care about — set your giving goals and Storehouse tracks them automatically. You decide the amount. We just make sure it's accounted for first.",
+      "Whether it's tithing, charitable donations, or supporting causes you care about \u2014 set your giving goals and Storehouse tracks them automatically. You decide the amount. We just make sure it's accounted for first.",
   },
   {
-    emoji: '💰',
+    number: '02',
+    emoji: '\u{1F4B0}',
     title: 'Saving',
     description:
       "Build your emergency fund. Create a margin reserve for lean months. Save for specific goals. Storehouse helps you store today so you can thrive tomorrow. Your savings aren't leftovers. They're priorities.",
   },
   {
-    emoji: '📋',
+    number: '03',
+    emoji: '\u{1F4CB}',
     title: 'Bills',
     description:
-      "Rent. Utilities. Insurance. Subscriptions. The non-negotiables that happen every month. Storehouse tracks what's due and what's paid. No more wondering if you can afford that coffee — your bills are already covered.",
+      "Rent. Utilities. Insurance. Subscriptions. The non-negotiables that happen every month. Storehouse tracks what's due and what's paid. No more wondering if you can afford that coffee \u2014 your bills are already covered.",
   },
-]
+];
 ---
 
-<section class="py-16 md:py-24 bg-slate-50">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center">
-        <p class="text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
-          Step 1
-        </p>
-        <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold text-slate-900">
-          Tell us what matters.
-        </h2>
-      </div>
+<section class="py-24 md:py-36 bg-warm-stone grain-overlay">
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-      <div class="mt-12 grid md:grid-cols-3 gap-6 lg:gap-8">
-        {priorities.map((priority) => (
-          <Card class="text-center">
-            <div class="text-4xl mb-4">{priority.emoji}</div>
-            <h3 class="font-display text-xl font-semibold text-slate-900 mb-3">
-              {priority.title}
-            </h3>
-            <p class="text-slate-600 text-sm leading-relaxed">
-              {priority.description}
-            </p>
-          </Card>
-        ))}
-      </div>
+    <!-- Section header: left-aligned editorial -->
+    <div class="max-w-2xl">
+      <p class="text-storehouse-400 font-semibold text-sm tracking-widest uppercase reveal">
+        Step 1
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white leading-[1.05] reveal reveal-delay-1">
+        Tell us what <em class="not-italic text-storehouse-400">matters.</em>
+      </h2>
+      <p class="mt-4 text-lg text-warm-white/70 leading-relaxed reveal reveal-delay-2">
+        Your priorities come off the top, not from whatever's left over. Set them once and adjust anytime.
+      </p>
     </div>
+
+    <!-- Priorities as editorial numbered list -->
+    <div class="mt-16 grid gap-12 md:gap-0 md:divide-y md:divide-warm-white/10">
+      {priorities.map((item) => (
+        <div class="md:grid md:grid-cols-12 md:gap-8 md:py-10 first:md:pt-0 last:md:pb-0 reveal">
+          <div class="md:col-span-1">
+            <span class="font-display text-2xl text-storehouse-500/60">
+              {item.number}
+            </span>
+          </div>
+          <div class="md:col-span-3 mt-2 md:mt-0">
+            <h3 class="font-display text-xl sm:text-2xl text-warm-white flex items-center gap-3">
+              <span class="text-2xl">{item.emoji}</span>
+              {item.title}
+            </h3>
+          </div>
+          <div class="md:col-span-8 mt-3 md:mt-0">
+            <p class="text-lg text-warm-white/70 leading-relaxed max-w-xl">
+              {item.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
   </div>
 </section>

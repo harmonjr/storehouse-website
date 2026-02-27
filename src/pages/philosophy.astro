@@ -17,13 +17,13 @@ const description = "Storehouse is built on a different way of thinking about mo
 ---
 
 <PageLayout title="Philosophy | Storehouse" description={description}>
-  <Header slot="header" />
+  <Header slot="header" transparent />
   <MobileNav />
 
-  <!-- Section 1: Hero -->
+  <!-- Section 1: Hero — Left-aligned editorial -->
   <HeroSection />
 
-  <!-- Section 2: The Problem with Optimization -->
+  <!-- Section 2: The Problem with Optimization (dark) -->
   <OptimizationSection />
 
   <!-- Section 3: What is Margin? -->
@@ -32,7 +32,7 @@ const description = "Storehouse is built on a different way of thinking about mo
   <!-- Section 4: Give-First Principle -->
   <GiveFirstSection />
 
-  <!-- Section 5: The Joseph Principle -->
+  <!-- Section 5: The Joseph Principle (dark) -->
   <JosephSection />
 
   <!-- Section 6: Margin as Worship -->
@@ -41,7 +41,7 @@ const description = "Storehouse is built on a different way of thinking about mo
   <!-- Section 7: The Storehouse Metaphor -->
   <MetaphorSection />
 
-  <!-- Section 8: Not Prosperity Gospel -->
+  <!-- Section 8: Not Prosperity Gospel (dark) -->
   <NotProsperitySection />
 
   <!-- Section 9: The Invitation -->
@@ -49,3 +49,32 @@ const description = "Storehouse is built on a different way of thinking about mo
 
   <Footer slot="footer" />
 </PageLayout>
+
+<script>
+  // Scroll-triggered reveal animations
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!prefersReducedMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => {
+      el.classList.add('visible');
+    });
+  }
+</script>

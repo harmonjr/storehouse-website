@@ -1,29 +1,66 @@
 ---
-import Card from '../Card.astro';
+const painPoints = [
+  {
+    number: '01',
+    headline: 'The guilt loop',
+    body: 'Every purchase triggers the same whisper: "Should I be spending this?" You earn enough, but you never feel like it.',
+  },
+  {
+    number: '02',
+    headline: 'Budget fatigue',
+    body: 'You have tried apps, spreadsheets, envelopes. They work for a month. Then life happens, and you are back to guessing.',
+  },
+  {
+    number: '03',
+    headline: 'Backwards priorities',
+    body: 'Most systems say: spend first, save what is left, give if there is anything remaining. Deep down, you know the order is wrong.',
+  },
+];
 ---
 
-<section class="py-16 md:py-24 bg-white">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center max-w-3xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-        You don't need another budget. You need clarity.
+<section class="py-24 md:py-36 bg-warm-stone grain-overlay">
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+    <!-- Section header: left-aligned for editorial feel -->
+    <div class="max-w-2xl">
+      <p class="text-storehouse-400 font-semibold text-sm tracking-widest uppercase reveal">
+        The real problem
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white leading-[1.05] reveal reveal-delay-1">
+        You don't need another budget.<br />
+        You need <em class="not-italic text-storehouse-400">clarity.</em>
       </h2>
     </div>
 
-    <div class="mt-12 flex justify-center">
-      <Card class="text-center max-w-md">
-        <div class="text-4xl mb-4">{'\u{1F61F}'}</div>
-        <h3 class="font-display text-xl font-semibold text-slate-900 mb-2">
-          Every purchase comes with guilt
-        </h3>
-        <p class="text-slate-600">
-          Without a clear number, every coffee, every dinner out carries a whisper: "should I be spending this?"
-        </p>
-      </Card>
+    <!-- Pain points as editorial numbered list -->
+    <div class="mt-16 grid gap-12 md:gap-0 md:divide-y md:divide-warm-white/10">
+      {painPoints.map((point) => (
+        <div class="md:grid md:grid-cols-12 md:gap-8 md:py-10 first:md:pt-0 last:md:pb-0 reveal">
+          <div class="md:col-span-1">
+            <span class="font-display text-2xl text-storehouse-500/60">
+              {point.number}
+            </span>
+          </div>
+          <div class="md:col-span-3 mt-2 md:mt-0">
+            <h3 class="font-display text-xl sm:text-2xl text-warm-white">
+              {point.headline}
+            </h3>
+          </div>
+          <div class="md:col-span-8 mt-3 md:mt-0">
+            <p class="text-lg text-warm-white/70 leading-relaxed max-w-xl">
+              {point.body}
+            </p>
+          </div>
+        </div>
+      ))}
     </div>
 
-    <p class="mt-12 text-center text-lg text-slate-600 italic">
-      What if there was a simpler way?
-    </p>
+    <!-- Transition line -->
+    <div class="mt-20 reveal">
+      <p class="font-quote text-2xl sm:text-3xl text-warm-white/80 text-center italic leading-snug max-w-2xl mx-auto">
+        "What if one number could replace all that noise?"
+      </p>
+    </div>
+
   </div>
 </section>

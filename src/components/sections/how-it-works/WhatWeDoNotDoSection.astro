@@ -1,64 +1,86 @@
 ---
 const exclusions = [
   {
+    number: '01',
     title: 'No envelope budgeting',
     description:
       "You won't allocate $47.50 to 'dining out' and feel guilty when you hit $48.",
   },
   {
+    number: '02',
     title: 'No category budgets',
     description:
-      "We auto-categorize your spending for awareness — but we'll never tell you that you've spent too much on coffee. If it's within your Safe to Spend, it's your call.",
+      "We auto-categorize your spending for awareness \u2014 but we'll never tell you that you've spent too much on coffee. If it's within your Safe to Spend, it's your call.",
   },
   {
+    number: '03',
     title: 'No investment advice',
     description:
       "We're not trying to optimize your portfolio. We're trying to give you peace about daily spending.",
   },
   {
+    number: '04',
     title: 'No cryptocurrency',
     description:
       'No NFTs. No meme coins. Just simple, clear money management.',
   },
-]
+];
 ---
 
-<section class="py-16 md:py-24 bg-white">
+<section class="py-24 md:py-36 bg-warm-white">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 text-center">
-        What Storehouse doesn't do.
-      </h2>
 
-      <p class="mt-6 text-lg text-slate-600 text-center max-w-2xl mx-auto">
+    <div class="max-w-2xl">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+        What we leave out
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+        What Storehouse<br />doesn't do.
+      </h2>
+      <p class="mt-4 text-lg text-text-muted leading-relaxed reveal reveal-delay-2">
         We believe in doing one thing well. Here's what we intentionally leave out:
       </p>
-
-      <div class="mt-12 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-        {exclusions.map((item) => (
-          <div class="p-6 bg-slate-50 rounded-xl border border-slate-200">
-            <div class="flex items-start gap-3">
-              <svg
-                class="h-6 w-6 text-slate-400 flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-              <div>
-                <h3 class="font-semibold text-slate-900">{item.title}</h3>
-                <p class="mt-2 text-sm text-slate-600">{item.description}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <p class="mt-12 text-xl text-center text-slate-900 font-medium max-w-2xl mx-auto">
-        Storehouse is not everything. It's the one thing that matters most: knowing what's safe to spend.
-      </p>
     </div>
+
+    <!-- Exclusions as editorial numbered list -->
+    <div class="mt-16 grid gap-0 divide-y divide-text-faint/15">
+      {exclusions.map((item) => (
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 py-10 md:py-12 reveal">
+          <!-- X icon + number -->
+          <div class="md:col-span-1 flex items-start gap-3">
+            <svg class="w-5 h-5 text-text-faint flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </div>
+
+          <!-- Title -->
+          <div class="md:col-span-3">
+            <h3 class="font-display text-xl sm:text-2xl text-text-deep leading-tight">
+              {item.title}
+            </h3>
+          </div>
+
+          <!-- Description -->
+          <div class="md:col-span-8">
+            <p class="text-lg text-text-body leading-relaxed">
+              {item.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Closing statement -->
+    <div class="mt-12 rounded-2xl bg-storehouse-50 border border-storehouse-200/60 p-8 sm:p-10 reveal">
+      <div class="max-w-3xl">
+        <p class="font-display text-xl sm:text-2xl text-text-deep leading-snug">
+          Storehouse is not everything.
+        </p>
+        <p class="mt-2 text-lg text-text-body">
+          It's the one thing that matters most: knowing what's safe to spend.
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>

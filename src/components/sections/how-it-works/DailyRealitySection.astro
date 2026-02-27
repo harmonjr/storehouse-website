@@ -1,66 +1,116 @@
 ---
 const statusColors = [
   {
-    color: 'bg-storehouse-500',
+    dotColor: 'bg-storehouse-500',
     label: 'Looking good',
     description: 'Spend freely within your number',
   },
   {
-    color: 'bg-gold-500',
+    dotColor: 'bg-gold-500',
     label: 'Heads up',
     description: "You're getting close to your limit",
   },
   {
-    color: 'bg-warning',
+    dotColor: 'bg-warning',
     label: 'Pause',
     description: 'Time to slow down until next income',
   },
-]
+];
 ---
 
-<section class="py-16 md:py-24 bg-slate-50">
+<section class="py-24 md:py-36 bg-warm-cream">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center">
-        <p class="text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
-          Step 3
-        </p>
-        <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold text-slate-900">
-          Live your life.
-        </h2>
+
+    <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+      <!-- Left column: Status card visual -->
+      <div class="lg:col-span-5 reveal">
+        <div class="relative max-w-sm mx-auto lg:mx-0">
+          <!-- Glow -->
+          <div class="absolute inset-4 bg-storehouse-400/8 rounded-3xl blur-2xl"></div>
+
+          <!-- Phone-like card -->
+          <div class="relative rounded-3xl bg-warm-white border border-text-faint/10 shadow-[0_24px_48px_-12px_rgba(0,0,0,0.08)] p-8 sm:p-10">
+            <p class="text-xs text-text-muted font-medium tracking-wide uppercase">
+              Today
+            </p>
+            <p class="mt-4 font-display text-5xl sm:text-6xl text-storehouse-700">
+              $847
+            </p>
+            <p class="text-text-muted font-display text-lg">.23</p>
+            <p class="mt-2 text-sm text-text-muted">
+              Safe to Spend
+            </p>
+
+            <!-- Status indicator -->
+            <div class="mt-6 inline-flex items-center gap-2 bg-storehouse-50 rounded-full px-4 py-2 border border-storehouse-200/40">
+              <span class="w-2.5 h-2.5 rounded-full bg-storehouse-500 animate-pulse"></span>
+              <span class="text-storehouse-700 text-sm font-medium">Looking good</span>
+            </div>
+
+            <!-- Mini category bars -->
+            <div class="mt-8 space-y-3">
+              <div class="flex items-center justify-between text-sm">
+                <span class="text-text-muted">Groceries</span>
+                <span class="text-text-body tabular-nums">$234.50</span>
+              </div>
+              <div class="flex items-center justify-between text-sm">
+                <span class="text-text-muted">Dining</span>
+                <span class="text-text-body tabular-nums">$89.00</span>
+              </div>
+              <div class="flex items-center justify-between text-sm">
+                <span class="text-text-muted">Transport</span>
+                <span class="text-text-body tabular-nums">$67.30</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="mt-10 max-w-2xl mx-auto">
-        <p class="text-lg text-slate-600 text-center">
-          Once you're set up, your daily experience is simple:
+      <!-- Right column: Explanation -->
+      <div class="lg:col-span-7">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase reveal">
+          Step 3
+        </p>
+        <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05] reveal reveal-delay-1">
+          Live your life.
+        </h2>
+        <p class="mt-6 text-lg text-text-body leading-relaxed reveal reveal-delay-2">
+          Once you're set up, your daily experience is simple: open the app, see your number.
+        </p>
+        <p class="mt-4 text-lg text-text-body leading-relaxed reveal reveal-delay-2">
+          That's your <span class="font-semibold text-text-deep">Safe to Spend</span> &mdash; what's actually available after your priorities are handled.
         </p>
 
-        <div class="mt-8 text-center">
-          <p class="text-2xl font-semibold text-slate-900">
-            Open the app. See your number.
-          </p>
-          <p class="mt-4 text-lg text-slate-600">
-            That's your <span class="font-semibold text-storehouse-600">Safe to Spend</span> — what's actually available after your priorities are handled.
-          </p>
-        </div>
-
-        <!-- Status Colors -->
-        <div class="mt-12 space-y-4">
+        <!-- Status colors as editorial list -->
+        <div class="mt-10 space-y-4 reveal reveal-delay-3">
           {statusColors.map((status) => (
-            <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-200">
-              <div class={`w-4 h-4 rounded-full flex-shrink-0 ${status.color}`}></div>
+            <div class="flex items-center gap-4 p-4 rounded-xl bg-warm-white border border-text-faint/10 transition-shadow duration-200 hover:shadow-xs">
+              <div class:list={['w-4 h-4 rounded-full flex-shrink-0', status.dotColor]}></div>
               <div>
-                <span class="font-semibold text-slate-900">{status.label}</span>
-                <span class="text-slate-600 ml-2">— {status.description}</span>
+                <span class="font-semibold text-text-deep">{status.label}</span>
+                <span class="text-text-body ml-2">&mdash; {status.description}</span>
               </div>
             </div>
           ))}
         </div>
 
-        <p class="mt-10 text-xl text-center text-slate-900 font-medium">
+        <p class="mt-10 font-display text-xl text-text-deep reveal reveal-delay-4">
           No categories to check. No receipts to enter. No guilt.
         </p>
+
+        <!-- Auto-categorization note -->
+        <div class="mt-6 p-5 rounded-2xl bg-warm-gray-50 border border-text-faint/10 reveal reveal-delay-4">
+          <p class="text-text-body leading-relaxed">
+            Storehouse auto-categorizes your spending so you can see where your money went &mdash;
+            but it never limits where it can go.
+          </p>
+          <p class="mt-2 text-sm text-text-muted">
+            Categories are the rearview mirror, not the steering wheel.
+          </p>
+        </div>
       </div>
+
     </div>
   </div>
 </section>

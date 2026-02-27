@@ -30,9 +30,18 @@
   --color-gold-400: #fbbf24;
   --color-gold-500: #f59e0b;
 
-  /* Warm colors */
+  /* Warm surface colors */
   --color-warm-white: #FAFAF9;
   --color-warm-gray-50: #F5F5F4;
+  --color-warm-cream: #FAF8F5;
+  --color-warm-stone: #292524;
+  --color-warm-stone-light: #44403C;
+
+  /* Text tokens */
+  --color-text-deep: #1C1917;
+  --color-text-body: #44403C;
+  --color-text-muted: #78716C;
+  --color-text-faint: #A8A29E;
 
   /* Pillar colors */
   --color-pillar-clarity: #2563eb;
@@ -76,4 +85,31 @@ body {
 
 .font-quote {
   font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+/* Scroll-triggered fade-in animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

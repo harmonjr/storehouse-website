@@ -1,0 +1,53 @@
+---
+const principles = [
+  {
+    principle: 'First fruits, not leftovers',
+    explanation: 'Giving comes first because generosity shapes everything after it.',
+  },
+  {
+    principle: 'Margin over maximum',
+    explanation: 'Breathing room is not wasted money. It is the foundation of peace.',
+  },
+  {
+    principle: 'Stewardship, not restriction',
+    explanation: 'A budget says no. A priority system says: these things matter most.',
+  },
+];
+---
+
+<section class="py-24 md:py-36 bg-warm-cream">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-4xl mx-auto">
+      <!-- Opening quote -->
+      <div class="text-center reveal">
+        <p class="font-quote text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.2] italic">
+          "Bring the whole tithe into the storehouse, that there may be food in my house."
+        </p>
+        <p class="mt-6 text-sm text-text-muted tracking-wide uppercase font-semibold">
+          Malachi 3:10
+        </p>
+      </div>
+
+      <!-- Divider -->
+      <div class="my-16 flex justify-center reveal">
+        <div class="w-16 h-px bg-text-faint/30"></div>
+      </div>
+
+      <!-- Principles list -->
+      <div class="space-y-10">
+        {principles.map((item) => (
+          <div class="grid md:grid-cols-2 gap-4 md:gap-12 items-baseline reveal">
+            <h3 class="font-display text-xl sm:text-2xl text-text-deep md:text-right">
+              {item.principle}
+            </h3>
+            <p class="text-lg text-text-muted leading-relaxed">
+              {item.explanation}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,59 +1,84 @@
 ---
 const steps = [
   {
-    icon: '\u{1F3AF}',
+    number: '01',
     title: 'Set your priorities',
-    description: "Giving, saving, bills. These come off the top, not from leftovers.",
+    description: 'Tell Storehouse what matters most. Giving, saving, bills \u2014 these come off the top, not from leftovers. Set them once and adjust anytime.',
+    detail: 'Takes about 5 minutes.',
   },
   {
-    icon: '\u{1F4C4}',
+    number: '02',
     title: 'Import your transactions',
-    description: "One file from your bank, once a week. Two minutes. Your data stays in your hands.",
+    description: 'One file from your bank, once a week. Two minutes. Your data stays in your hands \u2014 we never connect to your bank directly.',
+    detail: 'Works with any bank that exports CSV.',
   },
   {
-    icon: '\u2705',
+    number: '03',
     title: 'See your number',
-    description: "Safe-to-Spend updates. Green means go. Spend freely within it.",
+    description: 'Safe-to-Spend updates instantly. Green means go. Spend freely within it. Categories show you where money went, but they never limit where it can go.',
+    detail: 'One number. Total clarity.',
   },
 ];
 ---
 
-<section id="how-it-works" class="py-16 md:py-24 bg-white scroll-mt-16">
+<section id="how-it-works" class="py-24 md:py-36 bg-warm-gray-50 scroll-mt-16">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center max-w-3xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
+
+    <div class="max-w-2xl reveal">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase">
+        How it works
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05]">
         Simple by design.
       </h2>
+      <p class="mt-4 text-lg text-text-muted">
+        Three steps. Five minutes to set up. A lifetime of breathing room.
+      </p>
     </div>
 
-    <div class="mt-12 grid md:grid-cols-3 gap-8 lg:gap-12">
-      {steps.map((step, index) => (
-        <div class="text-center">
-          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-storehouse-100 text-3xl mb-6">
-            {step.icon}
-          </div>
-          <div class="flex items-center justify-center gap-2 mb-3">
-            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-storehouse-500 text-white text-sm font-semibold flex items-center justify-center">
-              {index + 1}
+    <!-- Steps as vertical editorial list -->
+    <div class="mt-16 space-y-0 divide-y divide-text-faint/15">
+      {steps.map((step) => (
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 py-10 md:py-14 reveal">
+          <!-- Step number -->
+          <div class="md:col-span-2 lg:col-span-1">
+            <span class="font-display text-4xl sm:text-5xl text-storehouse-300">
+              {step.number}
             </span>
-            <h3 class="font-display text-xl font-semibold text-slate-900">
+          </div>
+
+          <!-- Step title -->
+          <div class="md:col-span-4 lg:col-span-3">
+            <h3 class="font-display text-2xl sm:text-3xl text-text-deep leading-tight">
               {step.title}
             </h3>
           </div>
-          <p class="text-slate-600">
-            {step.description}
-          </p>
+
+          <!-- Step description -->
+          <div class="md:col-span-6 lg:col-span-8">
+            <p class="text-lg text-text-body leading-relaxed">
+              {step.description}
+            </p>
+            <p class="mt-3 text-sm text-text-muted font-medium">
+              {step.detail}
+            </p>
+          </div>
         </div>
       ))}
     </div>
 
-    <div class="mt-12 max-w-2xl mx-auto p-6 bg-storehouse-50 rounded-xl border border-storehouse-200">
-      <p class="text-center text-lg text-slate-700 font-medium">
-        Storehouse auto-categorizes your spending so you can see where your money went &mdash; but it never limits where it can go.
-      </p>
-      <p class="mt-2 text-center text-slate-600">
-        One number determines what you can spend. Categories are the rearview mirror, not the steering wheel.
-      </p>
+    <!-- Callout box -->
+    <div class="mt-12 rounded-2xl bg-warm-white border border-text-faint/10 p-8 sm:p-10 reveal">
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg sm:text-xl text-text-deep font-medium leading-relaxed">
+          Storehouse auto-categorizes your spending so you can see where your money went &mdash;
+          but it never limits where it can go.
+        </p>
+        <p class="mt-3 text-text-muted">
+          One number determines what you can spend. Categories are the rearview mirror, not the steering wheel.
+        </p>
+      </div>
     </div>
+
   </div>
 </section>

@@ -27,20 +27,23 @@ const sections = [
   <Header slot="header" />
   <MobileNav />
 
-  <article class="pt-24 pb-16 lg:pt-32 lg:pb-24">
+  <article class="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-warm-cream">
     <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
       <header class="mb-12">
-        <h1 class="font-display text-4xl lg:text-5xl text-slate-900 mb-4">
+        <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase">
+          Legal
+        </p>
+        <h1 class="mt-4 font-display text-4xl lg:text-5xl text-text-deep leading-[1.05]">
           Privacy Policy
         </h1>
-        <p class="text-slate-600">
+        <p class="mt-4 text-text-muted">
           {effectiveDate}
         </p>
       </header>
 
       <!-- Table of Contents -->
-      <nav class="mb-12 p-6 bg-slate-50 rounded-xl" aria-label="Table of contents">
-        <h2 class="text-sm font-semibold text-slate-900 uppercase tracking-wider mb-4">
+      <nav class="mb-12 p-6 bg-warm-white rounded-xl border border-storehouse-100/40" aria-label="Table of contents">
+        <h2 class="text-sm font-semibold text-text-deep uppercase tracking-wider mb-4">
           Contents
         </h2>
         <ol class="space-y-2">
@@ -48,7 +51,7 @@ const sections = [
             <li>
               <a
                 href={`#${section.id}`}
-                class="text-storehouse-600 hover:text-storehouse-700 transition-colors"
+                class="text-storehouse-600 hover:text-storehouse-700 transition-colors duration-150"
               >
                 {index + 1}. {section.title}
               </a>
@@ -58,87 +61,41 @@ const sections = [
       </nav>
 
       <!-- Content -->
-      <div class="prose prose-slate max-w-none">
+      <div class="prose prose-stone max-w-none prose-headings:font-display prose-headings:text-text-deep prose-p:text-text-body prose-li:text-text-body prose-strong:text-text-deep prose-a:text-storehouse-600 hover:prose-a:text-storehouse-700">
         <section id="introduction" class="scroll-mt-24">
           <h2>1. Introduction</h2>
-          <p>
-            Welcome to Storehouse. We take your privacy seriously and are committed to
-            protecting your personal information. This Privacy Policy explains how we
-            collect, use, disclose, and safeguard your information when you use our
-            personal finance application.
-          </p>
-          <p>
-            By using Storehouse, you agree to the collection and use of information
-            in accordance with this policy. If you do not agree with our policies,
-            please do not use our service.
-          </p>
+          <p>Welcome to Storehouse. We take your privacy seriously and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our personal finance application.</p>
+          <p>By using Storehouse, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies, please do not use our service.</p>
         </section>
 
         <section id="information-we-collect" class="scroll-mt-24 mt-12">
           <h2>2. Information We Collect</h2>
           <p>We collect several types of information to provide and improve our service:</p>
-
           <h3>Account Information</h3>
-          <p>
-            When you create an account, we collect your email address and any profile
-            information you choose to provide.
-          </p>
-
+          <p>When you create an account, we collect your email address and any profile information you choose to provide.</p>
           <h3>Financial Data</h3>
-          <p>
-            When you import your financial data (via CSV, OFX, QFX export from your
-            bank, or YNAB data import), we process your transaction history and account
-            balances. We never store your bank login credentials — because we never
-            ask for them.
-          </p>
-
+          <p>When you import your financial data (via CSV, OFX, QFX export from your bank, or YNAB data import), we process your transaction history and account balances. We never store your bank login credentials — because we never ask for them.</p>
           <h3>Usage Data</h3>
-          <p>
-            We automatically collect information about how you interact with Storehouse,
-            including pages visited, features used, and time spent in the app. This helps
-            us improve the user experience.
-          </p>
-
+          <p>We automatically collect information about how you interact with Storehouse, including pages visited, features used, and time spent in the app. This helps us improve the user experience.</p>
           <h3>Device Information</h3>
-          <p>
-            We may collect information about the device you use to access Storehouse,
-            including device type, operating system, and browser type.
-          </p>
+          <p>We may collect information about the device you use to access Storehouse, including device type, operating system, and browser type.</p>
         </section>
 
         <section id="how-we-use" class="scroll-mt-24 mt-12">
           <h2>3. How We Use Your Information</h2>
           <p>We use your information for the following purposes:</p>
           <ul>
-            <li>
-              <strong>To provide our service:</strong> Calculate your "safe to spend"
-              amount, track priorities, and display your financial overview.
-            </li>
-            <li>
-              <strong>To improve Storehouse:</strong> Analyze usage patterns to enhance
-              features and fix issues.
-            </li>
-            <li>
-              <strong>To communicate with you:</strong> Send important updates about
-              your account, respond to support requests, and notify you of changes
-              to our service.
-            </li>
-            <li>
-              <strong>To ensure security:</strong> Detect and prevent fraud,
-              unauthorized access, and other security issues.
-            </li>
+            <li><strong>To provide our service:</strong> Calculate your "safe to spend" amount, track priorities, and display your financial overview.</li>
+            <li><strong>To improve Storehouse:</strong> Analyze usage patterns to enhance features and fix issues.</li>
+            <li><strong>To communicate with you:</strong> Send important updates about your account, respond to support requests, and notify you of changes to our service.</li>
+            <li><strong>To ensure security:</strong> Detect and prevent fraud, unauthorized access, and other security issues.</li>
           </ul>
-          <p>
-            We will never sell your personal or financial data to third parties for
-            marketing purposes.
-          </p>
+          <p>We will never sell your personal or financial data to third parties for marketing purposes.</p>
         </section>
 
         <section id="how-we-protect" class="scroll-mt-24 mt-12">
           <h2>4. How We Protect Your Information</h2>
-          <p>
-            We implement industry-standard security measures to protect your information:
-          </p>
+          <p>We implement industry-standard security measures to protect your information:</p>
           <ul>
             <li>All data is encrypted in transit using TLS 1.2 or higher</li>
             <li>Sensitive data is encrypted at rest using AES-256 encryption</li>
@@ -147,137 +104,68 @@ const sections = [
             <li>Regular security audits and vulnerability assessments</li>
             <li>Access to user data is strictly limited to authorized personnel</li>
           </ul>
-          <p>
-            While we strive to protect your information, no method of transmission or
-            storage is 100% secure. We cannot guarantee absolute security but are
-            committed to maintaining the highest practical standards.
-          </p>
+          <p>While we strive to protect your information, no method of transmission or storage is 100% secure. We cannot guarantee absolute security but are committed to maintaining the highest practical standards.</p>
         </section>
 
         <section id="third-party-services" class="scroll-mt-24 mt-12">
           <h2>5. Third-Party Services</h2>
-
           <h3>Data Import Processing</h3>
-          <p>
-            Storehouse processes financial data from files you upload — CSV, OFX,
-            or QFX exports from your bank, or YNAB data exports. We do not connect
-            to any third-party financial data providers. Your imported files are
-            processed to extract transaction and balance data, then the original
-            files are not retained.
-          </p>
-
+          <p>Storehouse processes financial data from files you upload — CSV, OFX, or QFX exports from your bank, or YNAB data exports. We do not connect to any third-party financial data providers. Your imported files are processed to extract transaction and balance data, then the original files are not retained.</p>
           <h3>Analytics</h3>
-          <p>
-            We may use third-party analytics services to understand how users interact
-            with Storehouse. These services may collect anonymized usage data to help
-            us improve our product.
-          </p>
-
+          <p>We may use third-party analytics services to understand how users interact with Storehouse. These services may collect anonymized usage data to help us improve our product.</p>
           <h3>Infrastructure Providers</h3>
-          <p>
-            We use cloud infrastructure providers to host our service. These providers
-            maintain strict security and compliance standards.
-          </p>
+          <p>We use cloud infrastructure providers to host our service. These providers maintain strict security and compliance standards.</p>
         </section>
 
         <section id="your-rights" class="scroll-mt-24 mt-12">
           <h2>6. Your Rights</h2>
           <p>You have the following rights regarding your personal information:</p>
           <ul>
-            <li>
-              <strong>Access:</strong> Request a copy of the personal information
-              we hold about you.
-            </li>
-            <li>
-              <strong>Correction:</strong> Request correction of inaccurate or
-              incomplete information.
-            </li>
-            <li>
-              <strong>Deletion:</strong> Request deletion of your account and
-              associated data.
-            </li>
-            <li>
-              <strong>Data Portability:</strong> Request your data in a machine-readable
-              format.
-            </li>
-            <li>
-              <strong>Remove Imported Data:</strong> Delete imported transaction
-              history for any account at any time.
-            </li>
+            <li><strong>Access:</strong> Request a copy of the personal information we hold about you.</li>
+            <li><strong>Correction:</strong> Request correction of inaccurate or incomplete information.</li>
+            <li><strong>Deletion:</strong> Request deletion of your account and associated data.</li>
+            <li><strong>Data Portability:</strong> Request your data in a machine-readable format.</li>
+            <li><strong>Remove Imported Data:</strong> Delete imported transaction history for any account at any time.</li>
           </ul>
-          <p>
-            To exercise any of these rights, please contact us using the information
-            in the Contact Us section below.
-          </p>
+          <p>To exercise any of these rights, please contact us using the information in the Contact Us section below.</p>
         </section>
 
         <section id="cookies" class="scroll-mt-24 mt-12">
           <h2>7. Cookies</h2>
-          <p>
-            Storehouse uses cookies and similar technologies to provide and improve
-            our service:
-          </p>
+          <p>Storehouse uses cookies and similar technologies to provide and improve our service:</p>
           <ul>
-            <li>
-              <strong>Essential Cookies:</strong> Required for the service to function,
-              including authentication and security.
-            </li>
-            <li>
-              <strong>Functional Cookies:</strong> Remember your preferences and
-              settings.
-            </li>
-            <li>
-              <strong>Analytics Cookies:</strong> Help us understand how users
-              interact with our service.
-            </li>
+            <li><strong>Essential Cookies:</strong> Required for the service to function, including authentication and security.</li>
+            <li><strong>Functional Cookies:</strong> Remember your preferences and settings.</li>
+            <li><strong>Analytics Cookies:</strong> Help us understand how users interact with our service.</li>
           </ul>
-          <p>
-            You can control cookies through your browser settings. Note that disabling
-            certain cookies may affect the functionality of Storehouse.
-          </p>
+          <p>You can control cookies through your browser settings. Note that disabling certain cookies may affect the functionality of Storehouse.</p>
         </section>
 
         <section id="changes" class="scroll-mt-24 mt-12">
           <h2>8. Changes to This Policy</h2>
-          <p>
-            We may update this Privacy Policy from time to time to reflect changes
-            in our practices or for legal, operational, or regulatory reasons.
-          </p>
-          <p>
-            When we make material changes, we will:
-          </p>
+          <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons.</p>
+          <p>When we make material changes, we will:</p>
           <ul>
             <li>Update the "Effective Date" at the top of this policy</li>
             <li>Notify you via email or a prominent notice within the app</li>
             <li>Give you an opportunity to review the changes before they take effect</li>
           </ul>
-          <p>
-            Your continued use of Storehouse after changes take effect constitutes
-            acceptance of the updated policy.
-          </p>
+          <p>Your continued use of Storehouse after changes take effect constitutes acceptance of the updated policy.</p>
         </section>
 
         <section id="contact" class="scroll-mt-24 mt-12">
           <h2>9. Contact Us</h2>
-          <p>
-            If you have questions about this Privacy Policy, want to exercise your
-            rights, or have concerns about how we handle your information, please
-            contact us:
-          </p>
-          <p>
-            <strong>Email:</strong> {contactEmail}
-          </p>
-          <p>
-            We aim to respond to all privacy-related inquiries within 30 days.
-          </p>
+          <p>If you have questions about this Privacy Policy, want to exercise your rights, or have concerns about how we handle your information, please contact us:</p>
+          <p><strong>Email:</strong> {contactEmail}</p>
+          <p>We aim to respond to all privacy-related inquiries within 30 days.</p>
         </section>
       </div>
 
       <!-- Back to top -->
-      <div class="mt-12 pt-8 border-t border-slate-200">
+      <div class="mt-12 pt-8 border-t border-text-faint/20">
         <a
           href="#"
-          class="text-storehouse-600 hover:text-storehouse-700 transition-colors text-sm"
+          class="text-storehouse-600 hover:text-storehouse-700 transition-colors duration-150 text-sm font-medium"
         >
           Back to top
         </a>

@@ -2,19 +2,21 @@
 import WaitlistForm from '../../WaitlistForm.astro';
 ---
 
-<section class="py-16 md:py-24 bg-gradient-to-br from-storehouse-500 via-storehouse-600 to-emerald-600">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="py-24 md:py-36 bg-warm-stone grain-overlay">
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto text-center">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-white">
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl text-warm-white leading-[1.05] reveal">
         Start with one article. See where it leads.
       </h2>
 
-      <p class="mt-6 text-lg text-storehouse-100">
+      <p class="mt-6 text-lg text-warm-white/70 leading-relaxed reveal reveal-delay-1">
         These articles are the foundation of everything Storehouse believes about money. Read one today.
       </p>
 
-      <div class="mt-10 bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8">
-        <WaitlistForm class="[&_input]:bg-white [&_select]:bg-white [&_button]:bg-white [&_button]:text-storehouse-600 [&_button:hover]:bg-storehouse-50 [&_p]:text-storehouse-100" />
+      <div class="mt-12 rounded-2xl bg-warm-white/[0.07] backdrop-blur-sm border border-warm-white/10 p-6 sm:p-8 reveal reveal-delay-2">
+        <WaitlistForm
+          class="[&_input]:bg-warm-white [&_input]:border-warm-white/20 [&_select]:bg-warm-white [&_select]:border-warm-white/20 [&_button]:bg-storehouse-500 [&_button]:text-warm-white [&_button:hover]:bg-storehouse-600 [&_p]:text-warm-white/60"
+        />
       </div>
     </div>
   </div>

@@ -23,21 +23,21 @@ const pillarIcons: Record<PillarKey, string> = {
 };
 
 const accentColors: Record<PillarKey, { icon: string; border: string; hover: string; quote: string }> = {
-  clarity: { icon: 'text-blue-600', border: 'border-blue-500', hover: 'group-hover:text-blue-600', quote: 'text-slate-500' },
-  order: { icon: 'text-purple-600', border: 'border-purple-500', hover: 'group-hover:text-purple-600', quote: 'text-slate-500' },
-  margin: { icon: 'text-storehouse-600', border: 'border-storehouse-500', hover: 'group-hover:text-storehouse-600', quote: 'text-slate-500' },
-  peace: { icon: 'text-cyan-600', border: 'border-cyan-500', hover: 'group-hover:text-cyan-600', quote: 'text-slate-500' },
+  clarity: { icon: 'text-pillar-clarity', border: 'border-pillar-clarity-border', hover: 'group-hover:text-pillar-clarity', quote: 'text-text-muted' },
+  order: { icon: 'text-pillar-order', border: 'border-pillar-order-border', hover: 'group-hover:text-pillar-order', quote: 'text-text-muted' },
+  margin: { icon: 'text-pillar-margin', border: 'border-pillar-margin-border', hover: 'group-hover:text-pillar-margin', quote: 'text-text-muted' },
+  peace: { icon: 'text-pillar-peace', border: 'border-pillar-peace-border', hover: 'group-hover:text-pillar-peace', quote: 'text-text-muted' },
 };
 
 const colors = accentColors[pillar];
-const bgClass = alternate ? 'bg-slate-50' : 'bg-white';
+const bgClass = alternate ? 'bg-warm-cream' : 'bg-warm-white';
 ---
 
 <section class:list={['py-16 md:py-20', bgClass]}>
   <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-    <div class="mb-2 flex items-center gap-3">
+    <div class="mb-2 flex items-center gap-3 reveal">
       <span class:list={['w-6 h-6', colors.icon]} set:html={pillarIcons[pillar]} />
-      <h2 class="font-display text-2xl sm:text-3xl font-semibold text-slate-900">
+      <h2 class="font-display text-2xl sm:text-3xl text-text-deep">
         {config.name}
       </h2>
     </div>
@@ -50,32 +50,32 @@ const bgClass = alternate ? 'bg-slate-50' : 'bg-white';
       &ldquo;{config.quote}&rdquo;
     </blockquote>
 
-    <ul class="list-none p-0">
+    <ul class="list-none p-0 reveal reveal-delay-1">
       {articles.map((article) => {
         const isPublished = article.data.status === 'published';
         return (
           <li class:list={[
             'border-t last:border-b',
-            isPublished ? 'border-slate-200' : 'border-dashed border-slate-200',
+            isPublished ? 'border-text-faint/20' : 'border-dashed border-text-faint/20',
           ]}>
             {isPublished ? (
               <a
                 href={`/foundations/${article.id}`}
                 class="group flex items-center justify-between py-5 transition-all duration-200 hover:pl-2"
               >
-                <span class:list={['text-base text-slate-800 transition-colors', colors.hover]}>
+                <span class:list={['text-base text-text-body transition-colors duration-150', colors.hover]}>
                   {article.data.title}
                 </span>
-                <span class="ml-4 text-slate-400 transition-transform duration-200 group-hover:translate-x-1">
+                <span class="ml-4 text-text-faint transition-transform duration-200 group-hover:translate-x-1">
                   &rarr;
                 </span>
               </a>
             ) : (
               <div class="flex items-center justify-between py-5">
-                <span class="text-base text-slate-400">
+                <span class="text-base text-text-faint">
                   {article.data.title}
                 </span>
-                <span class="ml-4 text-xs text-slate-400 bg-slate-100 rounded-full px-2 py-0.5">
+                <span class="ml-4 text-xs text-text-faint bg-warm-gray-50 rounded-full px-2 py-0.5">
                   Coming soon
                 </span>
               </div>

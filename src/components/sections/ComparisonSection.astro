@@ -8,20 +8,24 @@ const comparisons = [
 ];
 ---
 
-<section class="py-16 md:py-24 bg-white">
+<section class="py-24 md:py-36 bg-warm-cream">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center max-w-3xl mx-auto">
-      <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900">
-        This isn't another budget app.
+
+    <div class="max-w-2xl reveal">
+      <p class="text-storehouse-600 font-semibold text-sm tracking-widest uppercase">
+        The difference
+      </p>
+      <h2 class="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl text-text-deep leading-[1.05]">
+        This isn't another<br />budget app.
       </h2>
     </div>
 
-    <div class="mt-12 max-w-3xl mx-auto">
-      <div class="overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
+    <div class="mt-16 max-w-4xl">
+      <div class="overflow-hidden rounded-2xl border border-text-faint/15 shadow-xs bg-warm-white reveal reveal-delay-1">
         <table class="w-full">
           <thead>
-            <tr class="bg-slate-50">
-              <th class="px-6 py-4 text-left text-sm font-semibold text-slate-500 uppercase tracking-wider">
+            <tr class="bg-warm-gray-50">
+              <th class="px-6 py-4 text-left text-sm font-semibold text-text-muted uppercase tracking-wider">
                 Other Apps
               </th>
               <th class="px-6 py-4 text-left text-sm font-semibold text-storehouse-600 uppercase tracking-wider">
@@ -29,18 +33,18 @@ const comparisons = [
               </th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-slate-100">
-            {comparisons.map((row, index) => (
-              <tr class="bg-white hover:bg-slate-50 transition-colors comparison-row" style={`--row-index: ${index}`}>
-                <td class="px-6 py-4 text-slate-500">
+          <tbody class="divide-y divide-text-faint/10">
+            {comparisons.map((row) => (
+              <tr class="transition-colors duration-200 hover:bg-warm-gray-50/50 reveal">
+                <td class="px-6 py-4 text-text-muted">
                   <span class="flex items-center gap-2">
-                    <svg class="w-4 h-4 text-slate-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <svg class="w-4 h-4 text-text-faint flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     {row.other}
                   </span>
                 </td>
-                <td class="px-6 py-4 text-slate-900 font-medium">
+                <td class="px-6 py-4 text-text-deep font-medium">
                   <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-storehouse-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -55,27 +59,9 @@ const comparisons = [
       </div>
     </div>
 
-    <p class="mt-10 text-center text-lg text-slate-600 max-w-2xl mx-auto">
+    <p class="mt-12 text-lg text-text-muted max-w-xl reveal reveal-delay-2">
       We're not here to optimize every dollar. We're here to give you peace.
     </p>
+
   </div>
 </section>
-
-<style>
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .comparison-row {
-    animation: fadeInUp 0.4s ease-out forwards;
-    animation-delay: calc(var(--row-index, 0) * 0.1s);
-    opacity: 0;
-  }
-</style>
