@@ -22,7 +22,7 @@ Children don't learn from lectures. If you've tried the "when I was your age" sp
 
 Kids learn from watching.
 
-They learn from what you do on Sunday morning when you sit down with the laptop and the coffee. They learn from the conversation you have with your spouse about where the giving goes this month. They learn from the tone of your voice when an unexpected bill arrives -- whether it's panic or "let's check the buffer." They learn from the absence of the fight that used to happen after a dinner out.
+They learn from what you do on Saturday morning when you sit down with the laptop and the coffee. They learn from the conversation you have with your spouse about where the giving goes this month. They learn from the tone of your voice when an unexpected bill arrives -- whether it's panic or "let's check the buffer." They learn from the absence of the fight that used to happen after a dinner out.
 
 The most powerful financial education isn't something you teach. It's something they absorb. Not from a lesson plan, but from a household that practices what it believes.
 
@@ -62,7 +62,7 @@ Not every age needs the same depth. The principle stays the same -- make it visi
 
 ## The Weekly Review as a Family Practice
 
-If you're doing the weekly import ritual -- the ten minutes on Sunday morning with the coffee and the transactions -- consider letting your kids see part of it. Not the stressful part. The normal part. The matter-of-fact practice of a household that looks at its money regularly and knows where things stand.
+If you're doing the weekly import ritual -- the ten minutes on Saturday morning with the coffee and the transactions -- consider letting your kids see part of it. Not the stressful part. The normal part. The matter-of-fact practice of a household that looks at its money regularly and knows where things stand.
 
 Kids who grow up seeing their parents calmly review the finances absorb something profound: money is manageable. It's not something adults whisper about behind closed doors. It's something you look at, understand, and make decisions about -- together, regularly, without drama.
 
@@ -80,7 +80,7 @@ And they're learning that stewardship isn't about being rich or poor. It's about
 
 Your kids are going to grow up. They're going to get their first paycheck. They're going to face the same cultural default you faced -- spend first, save if there's extra, give if you feel generous. The pressure to consume hasn't eased. If anything, it's louder now.
 
-But your kids will have something you didn't. Not a lecture. A memory. The chart on the fridge. The Sunday morning review. The jars on the shelf. The calm tone when an unexpected expense appeared. The answer to "can we afford this?" that didn't start a fight.
+But your kids will have something you didn't. Not a lecture. A memory. The chart on the fridge. The Saturday morning review. The jars on the shelf. The calm tone when an unexpected expense appeared. The answer to "can we afford this?" that didn't start a fight.
 
 They'll remember that money wasn't a source of anxiety in their home. That giving came first -- not because the family was wealthy, but because they believed what they had was entrusted to them, and the first portion belonged somewhere other than their own pockets.
 
@@ -96,6 +96,6 @@ Tonight at dinner, or this weekend when things are quiet, tell your kids one thi
 
 Let it sit. If they ask why, tell them: because we believe everything we have comes from God, and giving first is how we say thank you. If they don't ask, that's fine. They heard it.
 
-The most powerful money lesson you can give your kids isn't a book or a course or an app. It's a household where the hierarchy is practiced, visible, and calm. Where the kids can see -- on the fridge, in the jars, in the Sunday morning ritual -- that money has an order, and the order starts with what matters most.
+The most powerful money lesson you can give your kids isn't a book or a course or an app. It's a household where the hierarchy is practiced, visible, and calm. Where the kids can see -- on the fridge, in the jars, in the Saturday morning ritual -- that money has an order, and the order starts with what matters most.
 
 You didn't learn this growing up. But your kids can grow up inside it. And that changes the story -- not just for your household, but for the ones that come after.

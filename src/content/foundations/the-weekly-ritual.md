@@ -10,7 +10,7 @@ featured: false
 status: "published"
 ---
 
-There's a moment every Sunday morning in our house -- right after breakfast, before the day gets away from us -- when we sit down with a cup of coffee and open Storehouse. We download last week's transactions from the bank, import them, and take ten minutes to look at where the money went.
+There's a moment every Saturday morning in our house -- right after breakfast, before the day gets away from us -- when we sit down with a cup of coffee and open Storehouse. We download last week's transactions from the bank, import them, and take ten minutes to look at where the money went.
 
 It's not dramatic. It's not stressful. It's ten minutes.
 
@@ -88,11 +88,11 @@ You checked. You know. You're good.
 
 That ten-minute window buys you a week of peace. A week where "can we afford this?" has a simple answer. A week where your Safe-to-Spend number is current and trustworthy and yours.
 
-There's a rhythm to it, like any good practice. The first few weeks feel like effort. By the fourth or fifth week, it feels like maintenance. By the eighth or ninth, it just feels like Sunday morning. Coffee, transactions, peace. Ten minutes.
+There's a rhythm to it, like any good practice. The first few weeks feel like effort. By the fourth or fifth week, it feels like maintenance. By the eighth or ninth, it just feels like Saturday morning. Coffee, transactions, peace. Ten minutes.
 
 ## One Step You Can Take Today
 
-Pick a day and time. That's the whole step. Sunday morning, Wednesday evening, Saturday after lunch -- it doesn't matter when. What matters is that it's consistent. Block ten minutes on your calendar if that helps. Tell your spouse or partner, "This is our money check-in time."
+Pick a day and time. That's the whole step. Saturday morning, Wednesday evening, Sunday after lunch -- it doesn't matter when. What matters is that it's consistent. Block ten minutes on your calendar if that helps. Tell your spouse or partner, "This is our money check-in time."
 
 The ritual isn't complicated. It's not painful. It's ten minutes of attention that replaces a week of uncertainty. The first one might feel like a chore. The third one will feel like a habit. The tenth one will feel like part of your week you wouldn't skip.
 

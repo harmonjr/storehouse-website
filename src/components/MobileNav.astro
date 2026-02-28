@@ -26,23 +26,23 @@ const navLinks = [
   <!-- Backdrop -->
   <div
     id="mobile-nav-backdrop"
-    class="absolute inset-0 bg-slate-900/50 backdrop-blur-sm transition-opacity duration-300"
+    class="absolute inset-0 bg-text-deep/50 backdrop-blur-sm transition-opacity duration-300"
     aria-hidden="true"
   ></div>
 
   <!-- Panel -->
   <div
-    class="absolute inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl transform transition-transform duration-300 ease-out"
+    class="absolute inset-y-0 right-0 w-full max-w-sm bg-warm-white shadow-xl transform transition-transform duration-300 ease-out"
   >
     <!-- Header -->
-    <div class="flex items-center justify-between px-4 h-16 border-b border-slate-200">
-      <a href="/" class="font-display text-2xl text-slate-900">
+    <div class="flex items-center justify-between px-4 h-16 border-b border-text-faint/15">
+      <a href="/" class="font-display text-2xl text-text-deep">
         Storehouse
       </a>
       <button
         id="mobile-nav-close"
         type="button"
-        class="inline-flex items-center justify-center rounded-lg p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors"
+        class="inline-flex items-center justify-center rounded-lg p-2 text-text-muted hover:bg-warm-gray-50 hover:text-text-deep transition-colors"
         aria-label="Close menu"
       >
         <svg
@@ -65,7 +65,7 @@ const navLinks = [
           <li>
             <a
               href={link.href}
-              class="block rounded-lg px-4 py-3 text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors duration-200"
+              class="block rounded-lg px-4 py-3 text-base font-medium text-text-muted hover:bg-warm-gray-50 hover:text-text-deep transition-colors duration-200"
             >
               {link.label}
             </a>
@@ -77,7 +77,7 @@ const navLinks = [
       <div class="mt-6 px-4">
         <a
           href="/waitlist"
-          class="flex w-full items-center justify-center rounded-full bg-storehouse-500 px-6 py-3 text-base font-semibold text-white hover:bg-storehouse-600 transition-colors duration-200"
+          class="flex w-full items-center justify-center rounded-full bg-storehouse-500 px-6 py-3 text-base font-semibold text-warm-white hover:bg-storehouse-600 transition-colors duration-200"
         >
           Join Waitlist
         </a>

@@ -64,7 +64,7 @@ The mechanics are straightforward. Both partners can see the Safe-to-Spend numbe
 
 Some couples keep it simple: one number, both people spend from it. Others divide it -- "you take half, I take half" -- which gives each person autonomy within a shared framework. Either way works. The key is that both people trust the number because both people understand what went into it.
 
-The weekly import ritual becomes a couples practice. Ten minutes on a Sunday morning, looking at the same transactions, seeing the same Safe-to-Spend. That shared visibility is what builds trust over time. Not promises. Not arguments. Shared information, consistently reviewed.
+The weekly import ritual becomes a couples practice. Ten minutes on a Saturday morning, looking at the same transactions, seeing the same Safe-to-Spend. That shared visibility is what builds trust over time. Not promises. Not arguments. Shared information, consistently reviewed.
 
 When both partners know the hierarchy is handled -- when they can see that giving happened, saving happened, and bills are covered -- the remaining number carries no anxiety. It's the answer to every spending question for the rest of the week. And it's the same answer for both of them.
 

@@ -62,7 +62,7 @@ Manual import sounds harder than it is. Here's what it actually looks like:
 
 **If you're coming from a zero-based budgeting app:** You already know how to export. The format Storehouse reads is the same kind of file you've been working with. The transition is straightforward.
 
-**The weekly rhythm:** Most Storehouse users pick a day -- Sunday morning, Wednesday evening, whatever works -- and the import becomes part of their week. Download, upload, review, done. Ten minutes. [The Weekly Ritual](/foundations/the-weekly-ritual) walks through the whole process.
+**The weekly rhythm:** Most Storehouse users pick a day -- Saturday morning, Wednesday evening, whatever works -- and the import becomes part of their week. Download, upload, review, done. Ten minutes. [The Weekly Ritual](/foundations/the-weekly-ritual) walks through the whole process.
 
 The two-minute download is the only part that's different from an auto-connected app. Everything after that -- the review, the Safe-to-Spend check, the sense of where you stand -- happens either way. The question is whether you actually do the review. Manual import makes sure you do.
 
